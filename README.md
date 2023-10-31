@@ -7,7 +7,7 @@ Everytime I start a new project, I will create a new branch for that project in 
 
 After I'm done with a project. I will mark it as "final" and hopefully never touch it again. I will bury it into the repository as remainder for the later me to check on it for nostalgia or how I've changed or whatever. 
 
-If for whatever reason I want continue from where I left off in a project that I've concluded as final I will just start a new project with that as a base.
+If for whatever reason I want continue from where I left off in a project, that I've concluded as final, I will just start a new project with that as a base.
 
 Hopefully, this way I will have all my personal unity prototypes in one place and repo, rather than have dozens, maybe hundreds of project repositories in github, flooding the page, I will also add very brief descriptions of the different branches here, so I/people can just select the whatever branch they want to checkout.
 ## Very big disclaimer here: These are not complete projects, they are most likely unfinished prototypes/projects!
