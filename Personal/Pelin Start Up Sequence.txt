@@ -1,0 +1,19 @@
+1. Musta Ruutu scene. 
+
+	- Ei mitään. Täysin musta, kaikki Start Up Scenet alkaa mustasta ruudusta. Kestää 2-5 sekuntia, Unity kerkee ladata kaikki start up jutut, jotta ei stutteraa muitten scenejen avaaminen? 
+	- Transition seuraavaan sceneen. Tämä scene ei saa näkyä, paras tilanne on se, että pelaaja ei edes tiedä, että tää scene on olemas.
+
+2. Made By Rykmentti scene.
+
+	- Mustasta, fade In, oma paska paintpiirros(älä vaa käytä sitä oikeeta kuvaa, lakimiehet tulee juttelemaan) versio tosta UEF logosta, joka on mun avatar image, jonka alla lukee Made By Rykmentti, jollakin hienolla fontilla? 
+	- Fade out mustaan, transition seuraavaan sceneen.
+
+3. Pelin Start Up Scene.
+
+	- Mustasta Fade in, pölli joku hieno kuva, joka sopii hyvin backgroundiks. 
+	- Backgroundin päällä on PPP (P P P) isoin (valkoisin?) kirjaimin, yläpuolella ruutua, (kirjainten koko puolet ruudusta? tai 1/3?) Kirjainten alla lukee pienemmällä fontilla Personal Prototype Project.
+	- Jossakin alhaalla lukee "Made By Rykmentti 2022(? Saatko muka tän projektin valmiiks tänä vuonna vai loppuuko motivaatio?"
+	- Buttonit:
+		- Start Game, vie PlayerStart sceneen, peli alkaa. Fade out mustaan. (Ehkä difficulty vielä, mut ei helvetti ole iso prioriteetti)
+		- Exit Game, sammuttaa pelin.
+		- (Load Game? Save Game? Options? Ei mitään merkitystä, mutta olis hyvä opettelun vuoks tehdä.)

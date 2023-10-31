@@ -1,0 +1,4416 @@
+fileFormatVersion: 2
+guid: c5af92a29f4661748a726e7bbbe6aaaf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -917124106311521332
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_0
+  - first:
+      213: 6505560469509541824
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_1
+  - first:
+      213: -1315714530860989251
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_2
+  - first:
+      213: -2696418900427095299
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_3
+  - first:
+      213: -3163686113761427372
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_4
+  - first:
+      213: -9222326606208694586
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_5
+  - first:
+      213: -1929726831345749788
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_6
+  - first:
+      213: 1851940860719532778
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_7
+  - first:
+      213: -8466367222983758577
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_8
+  - first:
+      213: 6660722201101956465
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_9
+  - first:
+      213: -5878029962418084034
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_10
+  - first:
+      213: 6897292745610977512
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_11
+  - first:
+      213: 6478838541444160592
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_12
+  - first:
+      213: -9181345139160396727
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_13
+  - first:
+      213: 3322052375113936074
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_14
+  - first:
+      213: 7225900971689784463
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_15
+  - first:
+      213: -3147496964255203112
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_16
+  - first:
+      213: -8157063580495961355
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_17
+  - first:
+      213: 8673339438746412396
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_18
+  - first:
+      213: 4180769636644565801
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_19
+  - first:
+      213: -4422688063753446990
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_20
+  - first:
+      213: -7313662625045573762
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_21
+  - first:
+      213: -5868235693042147082
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_22
+  - first:
+      213: -1376248375585171760
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_23
+  - first:
+      213: -7094431200672493678
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_24
+  - first:
+      213: -6709441706160071936
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_25
+  - first:
+      213: -1978484354547324209
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_26
+  - first:
+      213: -6768088796130600201
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_27
+  - first:
+      213: 7227548479766782264
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_28
+  - first:
+      213: -9132067624488046908
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_29
+  - first:
+      213: -6540756664191534400
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_30
+  - first:
+      213: 2826587988372038393
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_31
+  - first:
+      213: 3457758644069616263
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_32
+  - first:
+      213: 966471327502352589
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_33
+  - first:
+      213: -5411279954924150175
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_34
+  - first:
+      213: 7810701800985616176
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_35
+  - first:
+      213: 7182836187769889453
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_36
+  - first:
+      213: 3799445548255671060
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_37
+  - first:
+      213: 4525635364694580798
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_38
+  - first:
+      213: 8207801427223420688
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_39
+  - first:
+      213: -8144728949200743145
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_40
+  - first:
+      213: -6630259255213526240
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_41
+  - first:
+      213: 7258852659588968410
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_42
+  - first:
+      213: 674281640340345178
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_43
+  - first:
+      213: -4975697770415913125
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_44
+  - first:
+      213: -4247290805705716533
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_45
+  - first:
+      213: 3850704476418187884
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_46
+  - first:
+      213: 4307747781858922844
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_47
+  - first:
+      213: -2239324339474619634
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_48
+  - first:
+      213: 8992903903878882535
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_49
+  - first:
+      213: 1419055198788713239
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_50
+  - first:
+      213: 935072672375360608
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_51
+  - first:
+      213: -7427618349196377283
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_52
+  - first:
+      213: 3446631854414628041
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_53
+  - first:
+      213: 401394602177500748
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_54
+  - first:
+      213: -4170170121073819581
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_55
+  - first:
+      213: -2672581161369602213
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_56
+  - first:
+      213: -7343513043967766537
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_57
+  - first:
+      213: -2660158307991805835
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_58
+  - first:
+      213: -6543276075658465541
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_59
+  - first:
+      213: 5953159860448928306
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_60
+  - first:
+      213: 1261899703544802508
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_61
+  - first:
+      213: 7454464326742499738
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_62
+  - first:
+      213: 4053282245354864472
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_63
+  - first:
+      213: 3816314540145165059
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_64
+  - first:
+      213: 8969782540365513664
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_65
+  - first:
+      213: -3401511019301958726
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_66
+  - first:
+      213: 7453643996799263492
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_67
+  - first:
+      213: 6214272452521975405
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_68
+  - first:
+      213: -8612731221334441595
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_69
+  - first:
+      213: -5965058032875835165
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_70
+  - first:
+      213: -7100261656166534647
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_71
+  - first:
+      213: 4093417424254360633
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_72
+  - first:
+      213: -6180973664068938747
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_73
+  - first:
+      213: 5485320669129374247
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_74
+  - first:
+      213: 807439564121905870
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_75
+  - first:
+      213: -4062111727954450283
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_76
+  - first:
+      213: -1585553760225881013
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_77
+  - first:
+      213: 14188326889084401
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_78
+  - first:
+      213: 8154278347127330838
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_79
+  - first:
+      213: -7339248014705710136
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_80
+  - first:
+      213: -2901066227336468493
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_81
+  - first:
+      213: -7057268574131378578
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_82
+  - first:
+      213: -3378488871128020075
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_83
+  - first:
+      213: -5208182461341074588
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_84
+  - first:
+      213: -2690934442535411537
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_85
+  - first:
+      213: -7245239177955837206
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_86
+  - first:
+      213: -9057922651637523232
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_87
+  - first:
+      213: -1886069795802475775
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_88
+  - first:
+      213: 4925783392629061901
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_89
+  - first:
+      213: 4173864201385187609
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_90
+  - first:
+      213: -5201948606756403392
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_91
+  - first:
+      213: 4060028430193305203
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_92
+  - first:
+      213: -4217063733142205372
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_93
+  - first:
+      213: 6658222425511857323
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_94
+  - first:
+      213: 8890483782299977567
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_95
+  - first:
+      213: 1832629801682440789
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_96
+  - first:
+      213: 6294939108007311646
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_97
+  - first:
+      213: 1093295085251170245
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_98
+  - first:
+      213: 8731798865223300376
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_99
+  - first:
+      213: -942411549607647388
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_100
+  - first:
+      213: -5498519700193927452
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_101
+  - first:
+      213: 2404000983172903893
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_102
+  - first:
+      213: 6142856299892560174
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_103
+  - first:
+      213: 3142886222844605969
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_104
+  - first:
+      213: -7556575700331862169
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_105
+  - first:
+      213: 2163556825487368702
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_106
+  - first:
+      213: -627053399508858497
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_107
+  - first:
+      213: -3207711406989858232
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_108
+  - first:
+      213: -7499475409080744405
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_109
+  - first:
+      213: 167377979346766640
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_110
+  - first:
+      213: -3375825414369022787
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_111
+  - first:
+      213: 5328637361937141710
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_112
+  - first:
+      213: 1439405068150489745
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_113
+  - first:
+      213: -6578045652499575401
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_114
+  - first:
+      213: 5427710999271286378
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_115
+  - first:
+      213: -4383626082926238147
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_116
+  - first:
+      213: -823409075298072265
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_117
+  - first:
+      213: 7484348657332695813
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_118
+  - first:
+      213: 8004932897510384855
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_119
+  - first:
+      213: -3512388856088748272
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_120
+  - first:
+      213: 1687157350881366299
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_121
+  - first:
+      213: 1995213592721273555
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_122
+  - first:
+      213: 1824367511400038759
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_123
+  - first:
+      213: 8264581219518491825
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_124
+  - first:
+      213: 1764197952157097724
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_125
+  - first:
+      213: -4189630911077159995
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_126
+  - first:
+      213: -1156519282168421961
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_127
+  - first:
+      213: -1273792389565874477
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_128
+  - first:
+      213: 3896574825572212576
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_129
+  - first:
+      213: -1352566217925036518
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_130
+  - first:
+      213: 7525557177466699625
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_131
+  - first:
+      213: 3526818641011696850
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_132
+  - first:
+      213: 7641756867092359709
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_133
+  - first:
+      213: -6687637026197978513
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_134
+  - first:
+      213: 5118095196864487647
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_135
+  - first:
+      213: 5069756464899502184
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_136
+  - first:
+      213: 3325346984363701321
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_137
+  - first:
+      213: 2701590408108146050
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_138
+  - first:
+      213: 6760190907741897980
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_139
+  - first:
+      213: 4821260917265284318
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_140
+  - first:
+      213: -1287282807535932619
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_141
+  - first:
+      213: 1344733858144954018
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_142
+  - first:
+      213: -9057179476049346776
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_143
+  - first:
+      213: 2618407220599091095
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_144
+  - first:
+      213: 548025948311383253
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_145
+  - first:
+      213: 3658758632970660524
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_146
+  - first:
+      213: 2392339981233572698
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_147
+  - first:
+      213: -931499337035449611
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_148
+  - first:
+      213: 7720735225731191199
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_149
+  - first:
+      213: 8351745185256001024
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_150
+  - first:
+      213: -4568096418750198751
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_151
+  - first:
+      213: 4778938890102402880
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_152
+  - first:
+      213: -1007136514526552623
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_153
+  - first:
+      213: 5076193723000807422
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_154
+  - first:
+      213: -8365965607499442147
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_155
+  - first:
+      213: 328482041580868377
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_156
+  - first:
+      213: 8950531879016464036
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_157
+  - first:
+      213: 6598785126986107761
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_158
+  - first:
+      213: 5337891558935053819
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_159
+  - first:
+      213: -788187275601871897
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_160
+  - first:
+      213: 5438184440556971781
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_161
+  - first:
+      213: -7992962623167203339
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_162
+  - first:
+      213: -5778986682355831817
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_163
+  - first:
+      213: 5962668705635360499
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_164
+  - first:
+      213: 6006193766066350496
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_165
+  - first:
+      213: -4579561759627295245
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_166
+  - first:
+      213: -2183294097241638036
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_167
+  - first:
+      213: 960203565524709753
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_168
+  - first:
+      213: 8010739253113283146
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_169
+  - first:
+      213: 8060337898737629031
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_170
+  - first:
+      213: -1381167988663254127
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_171
+  - first:
+      213: -1254875769846773513
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_172
+  - first:
+      213: -1170020575687701762
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_173
+  - first:
+      213: 1067764729736122323
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_174
+  - first:
+      213: 685228227635930410
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_175
+  - first:
+      213: -6729348041079061181
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_176
+  - first:
+      213: -819386678735099640
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_177
+  - first:
+      213: -1410052165974286910
+    second: EnemyMeleeSpriteSheetFlippedHorizontally_178
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_0
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1282
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbaa540c78b543f0800000000000000
+      internalID: -917124106311521332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_1
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1282
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf80f177c4684a50800000000000000
+      internalID: 6505560469509541824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_2
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1282
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4063aea94adbde0800000000000000
+      internalID: -1315714530860989251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_3
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1282
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2c46adb45649ad0800000000000000
+      internalID: -2696418900427095299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_4
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1282
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4500a60dd345814d0800000000000000
+      internalID: -3163686113761427372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_5
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1282
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c60c4a40d6b30080800000000000000
+      internalID: -9222326606208694586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_6
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1282
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0b818cbab3835e0800000000000000
+      internalID: -1929726831345749788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1218
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea083c966a63b910800000000000000
+      internalID: 1851940860719532778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_8
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1218
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dea001edb618a80800000000000000
+      internalID: -8466367222983758577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_9
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1218
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1757d384d83af6c50800000000000000
+      internalID: 6660722201101956465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_10
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1218
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37a7fe64ea0d6ea0800000000000000
+      internalID: -5878029962418084034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_11
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1218
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0650e653b18bf50800000000000000
+      internalID: 6897292745610977512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_12
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1218
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c93ebb35579e950800000000000000
+      internalID: 6478838541444160592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_13
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1218
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cc514ad3f459080800000000000000
+      internalID: -9181345139160396727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_14
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1154
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acca8efb80d4a1e20800000000000000
+      internalID: 3322052375113936074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_15
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1154
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8438b736ae874460800000000000000
+      internalID: 7225900971689784463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_16
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1154
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0c2f9ef28d154d0800000000000000
+      internalID: -3147496964255203112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_17
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1154
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2234a34e94cce80800000000000000
+      internalID: -8157063580495961355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_18
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1154
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65add62444ed5870800000000000000
+      internalID: 8673339438746412396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_19
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1154
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92330f775d3150a30800000000000000
+      internalID: 4180769636644565801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_20
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1154
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b99d9f63a47f92c0800000000000000
+      internalID: -4422688063753446990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_21
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1090
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f8b1b8796a08a90800000000000000
+      internalID: -7313662625045573762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_22
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1090
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f064f97ab6df8ea0800000000000000
+      internalID: -5868235693042147082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_23
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1090
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d69982e46596ece0800000000000000
+      internalID: -1376248375585171760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_24
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1090
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fc77039648b8d90800000000000000
+      internalID: -7094431200672493678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_25
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1090
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b532ff05643e2a0800000000000000
+      internalID: -6709441706160071936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_26
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1090
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcae98546f20b84e0800000000000000
+      internalID: -1978484354547324209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_27
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1090
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa955a491be212a0800000000000000
+      internalID: -6768088796130600201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_28
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1024
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831e9659c096d4460800000000000000
+      internalID: 7227548479766782264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_29
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1024
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce6b8911e0644180800000000000000
+      internalID: -9132067624488046908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_30
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1024
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca3894e7709a35a0800000000000000
+      internalID: -6540756664191534400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_31
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1024
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f22d4dacce0a3720800000000000000
+      internalID: 2826587988372038393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_32
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1024
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a4ec2ba2d6cff20800000000000000
+      internalID: 3457758644069616263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_33
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1024
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0c0614d88996d00800000000000000
+      internalID: 966471327502352589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_34
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1024
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162ed8a1d8547e4b0800000000000000
+      internalID: -5411279954924150175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_35
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1026
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f5046b7ef256c60800000000000000
+      internalID: 7810701800985616176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_36
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 962
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da268dbd47f8ea360800000000000000
+      internalID: 7182836187769889453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_37
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 962
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413f73788975ab430800000000000000
+      internalID: 3799445548255671060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_38
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 962
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ed097e2694ece30800000000000000
+      internalID: 4525635364694580798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_39
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 962
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f989849e7f7e170800000000000000
+      internalID: 8207801427223420688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_40
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 962
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7159c0f5c2c18fe80800000000000000
+      internalID: -8144728949200743145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_41
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 962
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023704406569cf3a0800000000000000
+      internalID: -6630259255213526240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_42
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 962
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf23bbe800acb460800000000000000
+      internalID: 7258852659588968410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_43
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 962
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51dd0354978b5900800000000000000
+      internalID: 674281640340345178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_44
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 899
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5708ac7d35c2fab0800000000000000
+      internalID: -4975697770415913125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_45
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 899
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccc02ce3879e05c0800000000000000
+      internalID: -4247290805705716533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_46
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 899
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62a9e3c153707530800000000000000
+      internalID: 3850704476418187884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_47
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 899
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c519dafb8c138cb30800000000000000
+      internalID: 4307747781858922844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_48
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 899
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03aab0b0625ce0e0800000000000000
+      internalID: -2239324339474619634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_49
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 899
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4ace144763dcc70800000000000000
+      internalID: 8992903903878882535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_50
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 899
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bf8705f2f71b310800000000000000
+      internalID: 1419055198788713239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_51
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 898
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ccb1c24ab0afc00800000000000000
+      internalID: 935072672375360608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_52
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 834
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d330af0f67ccbe890800000000000000
+      internalID: -7427618349196377283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_53
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 834
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c40ee91965e4df20800000000000000
+      internalID: 3446631854414628041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_54
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 834
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c469c85934a029500800000000000000
+      internalID: 401394602177500748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_55
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 834
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34082709e549026c0800000000000000
+      internalID: -4170170121073819581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_56
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 834
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57f92bf79519ead0800000000000000
+      internalID: -2672581161369602213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_57
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 834
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff8ada4bc9961a90800000000000000
+      internalID: -7343513043967766537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_58
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 834
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57028ddec18351bd0800000000000000
+      internalID: -2660158307991805835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_59
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 834
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfea013b31d9135a0800000000000000
+      internalID: -6543276075658465541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_60
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 770
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2322c251a5fdd9250800000000000000
+      internalID: 5953159860448928306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_61
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 769
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc65f3381b238110800000000000000
+      internalID: 1261899703544802508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_62
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 770
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91ee4a4fc3937760800000000000000
+      internalID: 7454464326742499738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_63
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 771
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f36c81ab6204830800000000000000
+      internalID: 4053282245354864472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_64
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 770
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303c284cad546f430800000000000000
+      internalID: 3816314540145165059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_65
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 769
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3ccfe42b11b7c70800000000000000
+      internalID: 8969782540365513664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_66
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 770
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb0eeaffb76bc0d0800000000000000
+      internalID: -3401511019301958726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_67
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 771
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403617759b9a07760800000000000000
+      internalID: 7453643996799263492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_68
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 770
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e5116fed78d3650800000000000000
+      internalID: 6214272452521975405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_69
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 706
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581c17e169e697880800000000000000
+      internalID: -8612731221334441595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_70
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 706
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e078d5c25bd73da0800000000000000
+      internalID: -5965058032875835165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_71
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 706
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902fddb74adc67d90800000000000000
+      internalID: -7100261656166534647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_72
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 706
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c5312a57dbec830800000000000000
+      internalID: 4093417424254360633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_73
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 706
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50450236335c83aa0800000000000000
+      internalID: -6180973664068938747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_74
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 707
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a709a0616cf1c40800000000000000
+      internalID: 5485320669129374247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_75
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 707
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca151d610a943b00800000000000000
+      internalID: 807439564121905870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_76
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 706
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598a359c7ea70a7c0800000000000000
+      internalID: -4062111727954450283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_77
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 706
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b449375714bfef9e0800000000000000
+      internalID: -1585553760225881013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_78
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 641
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f55e284538623000800000000000000
+      internalID: 14188326889084401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_79
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 641
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6181f2814f0d92170800000000000000
+      internalID: 8154278347127330838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_80
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 641
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cba9fcc0d0c52a90800000000000000
+      internalID: -7339248014705710136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_81
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 642
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f72ab103a75db7d0800000000000000
+      internalID: -2901066227336468493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_82
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 641
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e662f527f9b8f0e90800000000000000
+      internalID: -7057268574131378578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_83
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 641
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bcdce85423d11d0800000000000000
+      internalID: -3378488871128020075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_84
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 641
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b785245a1d8b7b0800000000000000
+      internalID: -5208182461341074588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_85
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 642
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa020d6b161e7aad0800000000000000
+      internalID: -2690934442535411537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_86
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 642
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaf235ca5db37b90800000000000000
+      internalID: -7245239177955837206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_87
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 578
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec5e2ad65bcb4280800000000000000
+      internalID: -9057922651637523232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_88
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 578
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1039997738553d5e0800000000000000
+      internalID: -1886069795802475775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_89
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 578
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d097c2ec5e5eb5440800000000000000
+      internalID: 4925783392629061901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_90
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 578
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9199848806b8ce930800000000000000
+      internalID: 4173864201385187609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_91
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 578
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0474272ad47fec7b0800000000000000
+      internalID: -5201948606756403392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_92
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 579
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376a8a7a85e185830800000000000000
+      internalID: 4060028430193305203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_93
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 579
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c40eea0eaf975c0800000000000000
+      internalID: -4217063733142205372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_94
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 578
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac8c2ce402c66c50800000000000000
+      internalID: 6658222425511857323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_95
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 578
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f578c5d65e7516b70800000000000000
+      internalID: 8890483782299977567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_96
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 522
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552931e481fce6910800000000000000
+      internalID: 1832629801682440789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_97
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 513
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e197d7744cd1c5750800000000000000
+      internalID: 6294939108007311646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_98
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 513
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf8317661a2c2f00800000000000000
+      internalID: 1093295085251170245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_99
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 513
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8153bcb0ec49d2970800000000000000
+      internalID: 8731798865223300376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_100
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 513
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467296150b1ebe2f0800000000000000
+      internalID: -942411549607647388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_101
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 513
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee147f077551b3b0800000000000000
+      internalID: -5498519700193927452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_102
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 514
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3f5b1482abc5120800000000000000
+      internalID: 2404000983172903893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_103
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 450
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21dd5d224fcf3550800000000000000
+      internalID: 6142856299892560174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_104
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 450
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1163f123e56cd9b20800000000000000
+      internalID: 3142886222844605969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_105
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 450
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767ee5fdf66a12790800000000000000
+      internalID: -7556575700331862169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_106
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 450
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1eb82487f760e10800000000000000
+      internalID: 2163556825487368702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_107
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 450
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79c21361424c47f0800000000000000
+      internalID: -627053399508858497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_108
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 450
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84aa664787beb73d0800000000000000
+      internalID: -3207711406989858232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_109
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 386
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2607ff69d28ce790800000000000000
+      internalID: -7499475409080744405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_110
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 386
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bcf2aa265a25200800000000000000
+      internalID: 167377979346766640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_111
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 386
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc6cc8eba8a621d0800000000000000
+      internalID: -3375825414369022787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_112
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 386
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf4327c27f13f940800000000000000
+      internalID: 5328637361937141710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_113
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 386
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192c10f784bc9f310800000000000000
+      internalID: 1439405068150489745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_114
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 386
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dc57eb45616b4a0800000000000000
+      internalID: -6578045652499575401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_115
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 322
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66ab07856a135b40800000000000000
+      internalID: 5427710999271286378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_116
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 322
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d366b039d4b3a23c0800000000000000
+      internalID: -4383626082926238147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_117
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 322
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73986020fc9a294f0800000000000000
+      internalID: -823409075298072265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_118
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 322
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503bc77337fbdd760800000000000000
+      internalID: 7484348657332695813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_119
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 322
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4e1feee0c371f60800000000000000
+      internalID: 8004932897510384855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_120
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 322
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f1acfd1fc714fc0800000000000000
+      internalID: -3512388856088748272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_121
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 256
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b111973fbacf96710800000000000000
+      internalID: 1687157350881366299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_122
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 256
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2be25013c60bb10800000000000000
+      internalID: 1995213592721273555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_123
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 256
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76143c0f594715910800000000000000
+      internalID: 1824367511400038759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_124
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 256
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bca3ced4d0b1b270800000000000000
+      internalID: 8264581219518491825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_125
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 256
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe9bcbb0b0bb7810800000000000000
+      internalID: 1764197952157097724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_126
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 256
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbef3d42e07bd5c0800000000000000
+      internalID: -4189630911077159995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_127
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 256
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1267227d733ffe0800000000000000
+      internalID: -1156519282168421961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_128
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 256
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de745e0294925ee0800000000000000
+      internalID: -1273792389565874477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_129
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 256
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f16fea82a631630800000000000000
+      internalID: 3896574825572212576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_130
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 256
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a167265e038ba3de0800000000000000
+      internalID: -1352566217925036518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_131
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 256
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f3bcb7166207860800000000000000
+      internalID: 7525557177466699625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_132
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 256
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d46abc3ed6c1f030800000000000000
+      internalID: 3526818641011696850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_133
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 258
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a21f20269fc0a60800000000000000
+      internalID: 7641756867092359709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_134
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 194
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6248baae8db033a0800000000000000
+      internalID: -6687637026197978513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_135
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 194
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0adb7f670270740800000000000000
+      internalID: 5118095196864487647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_136
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 194
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8603314e4a46b5640800000000000000
+      internalID: 5069756464899502184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_137
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 194
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9443aedb671062e20800000000000000
+      internalID: 3325346984363701321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_138
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 194
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d73eb992afd7520800000000000000
+      internalID: 2701590408108146050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_139
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 194
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf408c540d501dd50800000000000000
+      internalID: 6760190907741897980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_140
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 194
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc3217924f88e240800000000000000
+      internalID: 4821260917265284318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_141
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 194
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b6a5b5b17a22ee0800000000000000
+      internalID: -1287282807535932619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_142
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 194
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6ab2cb15479a210800000000000000
+      internalID: 1344733858144954018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_143
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 194
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fbe17e04f6e4280800000000000000
+      internalID: -9057179476049346776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_144
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 194
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f60258e73765420800000000000000
+      internalID: 2618407220599091095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_145
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 194
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcebc842bafa9700800000000000000
+      internalID: 548025948311383253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_146
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 194
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa2c1d779586c230800000000000000
+      internalID: 3658758632970660524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_147
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 130
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b446ba98c433120800000000000000
+      internalID: 2392339981233572698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_148
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 130
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa7d7bc946a213f0800000000000000
+      internalID: -931499337035449611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_149
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 130
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f919d8618cf852b60800000000000000
+      internalID: 7720735225731191199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_150
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 130
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e43cd1ffb57e370800000000000000
+      internalID: 8351745185256001024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_151
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 130
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c09ac828cda90c0800000000000000
+      internalID: -4568096418750198751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_152
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 130
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f6ad3c993325240800000000000000
+      internalID: 4778938890102402880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_153
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 130
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddd1531daee502f0800000000000000
+      internalID: -1007136514526552623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_154
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 130
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effd786db43427640800000000000000
+      internalID: 5076193723000807422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_155
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 130
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d185cd1da9e16eb80800000000000000
+      internalID: -8365965607499442147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_156
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 130
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913d58b2da00f8400800000000000000
+      internalID: 328482041580868377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_157
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 131
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aef59f625da63c70800000000000000
+      internalID: 8950531879016464036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_158
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 131
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b43237c18939b50800000000000000
+      internalID: 6598785126986107761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_159
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 130
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf541eb6710041a40800000000000000
+      internalID: 5337891558935053819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_160
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 66
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb744d49dbcf05f0800000000000000
+      internalID: -788187275601871897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_161
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 66
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507647a9fef487b40800000000000000
+      internalID: 5438184440556971781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_162
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 66
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7f42fb7da431190800000000000000
+      internalID: -7992962623167203339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_163
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 66
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fba7741b3aeccfa0800000000000000
+      internalID: -5778986682355831817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_164
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 66
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fedbb0a897afb250800000000000000
+      internalID: 5962668705635360499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_165
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 66
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9ec8678694a5350800000000000000
+      internalID: 6006193766066350496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_166
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 66
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5c37ad7d02270c0800000000000000
+      internalID: -4579561759627295245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_167
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 66
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b74bd069163b1e0800000000000000
+      internalID: -2183294097241638036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_168
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 66
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971f9233e04535d00800000000000000
+      internalID: 960203565524709753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_169
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 66
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42681278ecdb2f60800000000000000
+      internalID: 8010739253113283146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_170
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 66
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767ffd70d921cdf60800000000000000
+      internalID: 8060337898737629031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_171
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 66
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1930694380b15dce0800000000000000
+      internalID: -1381167988663254127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_172
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 66
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8c90dc229c59ee0800000000000000
+      internalID: -1254875769846773513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_173
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa8c364c7043cfe0800000000000000
+      internalID: -1170020575687701762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_174
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 3
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfcc9b4d5671de00800000000000000
+      internalID: 1067764729736122323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_175
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 3
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a256f4a417b628900800000000000000
+      internalID: 685228227635930410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_176
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 2
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34503893c9d8c92a0800000000000000
+      internalID: -6729348041079061181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_177
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 2
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809ae403824f0a4f0800000000000000
+      internalID: -819386678735099640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMeleeSpriteSheetFlippedHorizontally_178
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd155c960d7e6ce0800000000000000
+      internalID: -1410052165974286910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

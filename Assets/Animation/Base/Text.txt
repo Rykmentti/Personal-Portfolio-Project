@@ -1,0 +1,6 @@
+Copy paste this with CTRL+D anywhere you want and then add sprites and animations to their respected animations. Use these only as base, ie. this folders animation files for humanoid animations.
+
+Do NOT copy paste outside editor, because GUID associated with the files is brought with copies made outside of editor and Unity throws a fit.
+
+Use CTRL+D to make a clone of files and then move them to their respected places/folders and then rename them whatever you want, those files will have nothing to do with the original files.
+

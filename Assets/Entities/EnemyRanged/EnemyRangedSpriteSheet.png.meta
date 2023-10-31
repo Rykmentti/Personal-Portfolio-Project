@@ -1,0 +1,4926 @@
+fileFormatVersion: 2
+guid: 9f3b243bb7b67754186415ad63d4caaa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4514627419575379247
+    second: EnemyRanged_0
+  - first:
+      213: 2623777865390102314
+    second: EnemyRanged_1
+  - first:
+      213: 9192133573389748717
+    second: EnemyRanged_2
+  - first:
+      213: -1657525071022766404
+    second: EnemyRanged_3
+  - first:
+      213: -5925371824000985883
+    second: EnemyRanged_4
+  - first:
+      213: -4841879732232932877
+    second: EnemyRanged_5
+  - first:
+      213: -8758163551263518336
+    second: EnemyRanged_6
+  - first:
+      213: -668922439352251153
+    second: EnemyRanged_7
+  - first:
+      213: -6579486816737223187
+    second: EnemyRanged_8
+  - first:
+      213: -7354730171563172020
+    second: EnemyRanged_9
+  - first:
+      213: -7394336804633452594
+    second: EnemyRanged_10
+  - first:
+      213: -3203460871683237866
+    second: EnemyRanged_11
+  - first:
+      213: 3700358057142860783
+    second: EnemyRanged_12
+  - first:
+      213: -9026053768285788489
+    second: EnemyRanged_13
+  - first:
+      213: 412079594492149173
+    second: EnemyRanged_14
+  - first:
+      213: 422073910296878803
+    second: EnemyRanged_15
+  - first:
+      213: -7949565014029142586
+    second: EnemyRanged_16
+  - first:
+      213: -8166272069829236322
+    second: EnemyRanged_17
+  - first:
+      213: 3602062795032403624
+    second: EnemyRanged_18
+  - first:
+      213: -1233486980010020111
+    second: EnemyRanged_19
+  - first:
+      213: 9198113299363479244
+    second: EnemyRanged_20
+  - first:
+      213: 7085680813227088094
+    second: EnemyRanged_21
+  - first:
+      213: 7993200695155149515
+    second: EnemyRanged_22
+  - first:
+      213: 4136759953754212045
+    second: EnemyRanged_23
+  - first:
+      213: 962951915656101401
+    second: EnemyRanged_24
+  - first:
+      213: -2208796126949623348
+    second: EnemyRanged_25
+  - first:
+      213: -1581099858475806220
+    second: EnemyRanged_26
+  - first:
+      213: -1492154120334700797
+    second: EnemyRanged_27
+  - first:
+      213: 5583688749250778385
+    second: EnemyRanged_28
+  - first:
+      213: -7617012806488002800
+    second: EnemyRanged_29
+  - first:
+      213: 5071804376762517407
+    second: EnemyRanged_30
+  - first:
+      213: 6901308795866222538
+    second: EnemyRanged_31
+  - first:
+      213: -1116684453242274684
+    second: EnemyRanged_32
+  - first:
+      213: -4834996128965927537
+    second: EnemyRanged_33
+  - first:
+      213: -4747170067471590841
+    second: EnemyRanged_34
+  - first:
+      213: 5540538822656065544
+    second: EnemyRanged_35
+  - first:
+      213: -2602896981749505882
+    second: EnemyRanged_36
+  - first:
+      213: 5051567573030900702
+    second: EnemyRanged_37
+  - first:
+      213: -2642973481845625556
+    second: EnemyRanged_38
+  - first:
+      213: 6983095260995620808
+    second: EnemyRanged_39
+  - first:
+      213: 5965017451561906853
+    second: EnemyRanged_40
+  - first:
+      213: -2858084891020580495
+    second: EnemyRanged_41
+  - first:
+      213: -668161331188923006
+    second: EnemyRanged_42
+  - first:
+      213: -4485847054185106466
+    second: EnemyRanged_43
+  - first:
+      213: 3025989873186379623
+    second: EnemyRanged_44
+  - first:
+      213: 6626552131289095783
+    second: EnemyRanged_45
+  - first:
+      213: 778424913900218621
+    second: EnemyRanged_46
+  - first:
+      213: 7694758906911008831
+    second: EnemyRanged_47
+  - first:
+      213: 5356112817078627265
+    second: EnemyRanged_48
+  - first:
+      213: 975567244655033533
+    second: EnemyRanged_49
+  - first:
+      213: 834694553018158813
+    second: EnemyRanged_50
+  - first:
+      213: -5954295850815119563
+    second: EnemyRanged_51
+  - first:
+      213: 905207399535938592
+    second: EnemyRanged_52
+  - first:
+      213: -6545570488348192840
+    second: EnemyRanged_53
+  - first:
+      213: 3476142608635625591
+    second: EnemyRanged_54
+  - first:
+      213: 2445624341691710538
+    second: EnemyRanged_55
+  - first:
+      213: 1246911892361411062
+    second: EnemyRanged_56
+  - first:
+      213: -8673174111259936612
+    second: EnemyRanged_57
+  - first:
+      213: 6911217832500208302
+    second: EnemyRanged_58
+  - first:
+      213: -269688364478406429
+    second: EnemyRanged_59
+  - first:
+      213: 8352763925369025897
+    second: EnemyRanged_60
+  - first:
+      213: 5150249630651480370
+    second: EnemyRanged_61
+  - first:
+      213: 2413734676621304893
+    second: EnemyRanged_62
+  - first:
+      213: 5670373519756149867
+    second: EnemyRanged_63
+  - first:
+      213: -4459064136405741698
+    second: EnemyRanged_64
+  - first:
+      213: 2425044374113598213
+    second: EnemyRanged_65
+  - first:
+      213: 5642414892996819907
+    second: EnemyRanged_66
+  - first:
+      213: -2913092880856032070
+    second: EnemyRanged_67
+  - first:
+      213: -6307796534602982842
+    second: EnemyRanged_68
+  - first:
+      213: 8510461624467060119
+    second: EnemyRanged_69
+  - first:
+      213: -7928952229329878252
+    second: EnemyRanged_70
+  - first:
+      213: -7139142377905369923
+    second: EnemyRanged_71
+  - first:
+      213: 7323931129007996977
+    second: EnemyRanged_72
+  - first:
+      213: -4812462220612650155
+    second: EnemyRanged_73
+  - first:
+      213: 6466671292431146473
+    second: EnemyRanged_74
+  - first:
+      213: -1349347247631505053
+    second: EnemyRanged_75
+  - first:
+      213: -5197383104341988659
+    second: EnemyRanged_76
+  - first:
+      213: 502731073591902828
+    second: EnemyRanged_77
+  - first:
+      213: -3642579417998360986
+    second: EnemyRanged_78
+  - first:
+      213: -1300984587215391876
+    second: EnemyRanged_79
+  - first:
+      213: -1123516959071405329
+    second: EnemyRanged_80
+  - first:
+      213: 8204069457242456073
+    second: EnemyRanged_81
+  - first:
+      213: -3821492864219017210
+    second: EnemyRanged_82
+  - first:
+      213: -3706950192199986630
+    second: EnemyRanged_83
+  - first:
+      213: 812246823228211791
+    second: EnemyRanged_84
+  - first:
+      213: -4830687656458271704
+    second: EnemyRanged_85
+  - first:
+      213: -2013151230879189286
+    second: EnemyRanged_86
+  - first:
+      213: 8908134848650528654
+    second: EnemyRanged_87
+  - first:
+      213: -161207127947979274
+    second: EnemyRanged_88
+  - first:
+      213: 4449708712421870397
+    second: EnemyRanged_89
+  - first:
+      213: 235449362315619891
+    second: EnemyRanged_90
+  - first:
+      213: 2691360945372678956
+    second: EnemyRanged_91
+  - first:
+      213: 5276218401269457379
+    second: EnemyRanged_92
+  - first:
+      213: -1131728321480817047
+    second: EnemyRanged_93
+  - first:
+      213: 348524387220425434
+    second: EnemyRanged_94
+  - first:
+      213: -972367284336493998
+    second: EnemyRanged_95
+  - first:
+      213: -2920660796018277655
+    second: EnemyRanged_96
+  - first:
+      213: 9095472998736229851
+    second: EnemyRanged_97
+  - first:
+      213: 7639184382170137353
+    second: EnemyRanged_98
+  - first:
+      213: 571221285555616201
+    second: EnemyRanged_99
+  - first:
+      213: -4202619642342988196
+    second: EnemyRanged_100
+  - first:
+      213: 7101763175605513507
+    second: EnemyRanged_101
+  - first:
+      213: -4354351824853968687
+    second: EnemyRanged_102
+  - first:
+      213: 4761271013140837985
+    second: EnemyRanged_103
+  - first:
+      213: -129224655720164923
+    second: EnemyRanged_104
+  - first:
+      213: -2055162648751026093
+    second: EnemyRanged_105
+  - first:
+      213: 7914560394809213088
+    second: EnemyRanged_106
+  - first:
+      213: -2849936704829155850
+    second: EnemyRanged_107
+  - first:
+      213: 1783129041904926256
+    second: EnemyRanged_108
+  - first:
+      213: -302101260557847310
+    second: EnemyRanged_109
+  - first:
+      213: 8251454652469540639
+    second: EnemyRanged_110
+  - first:
+      213: 2138389381718197564
+    second: EnemyRanged_111
+  - first:
+      213: -8037052389017056121
+    second: EnemyRanged_112
+  - first:
+      213: 319770128957184055
+    second: EnemyRanged_113
+  - first:
+      213: 1950431744054082868
+    second: EnemyRanged_114
+  - first:
+      213: -3342963897751286568
+    second: EnemyRanged_115
+  - first:
+      213: 5739209707340813036
+    second: EnemyRanged_116
+  - first:
+      213: -5680897723694571342
+    second: EnemyRanged_117
+  - first:
+      213: -2628625152915437112
+    second: EnemyRanged_118
+  - first:
+      213: 1401302292108210046
+    second: EnemyRanged_119
+  - first:
+      213: 4444054740254142741
+    second: EnemyRanged_120
+  - first:
+      213: -4411583840414407239
+    second: EnemyRanged_121
+  - first:
+      213: -8902156759767148606
+    second: EnemyRanged_122
+  - first:
+      213: 8426547376790522642
+    second: EnemyRanged_123
+  - first:
+      213: 5775583691749155746
+    second: EnemyRanged_124
+  - first:
+      213: 7481033149014282580
+    second: EnemyRanged_125
+  - first:
+      213: -4347582548482475450
+    second: EnemyRanged_126
+  - first:
+      213: -9116106854300627777
+    second: EnemyRanged_127
+  - first:
+      213: -6672109298716854778
+    second: EnemyRanged_128
+  - first:
+      213: 1801188894983861407
+    second: EnemyRanged_129
+  - first:
+      213: 913427789441795372
+    second: EnemyRanged_130
+  - first:
+      213: 6733271634562294739
+    second: EnemyRanged_131
+  - first:
+      213: 7417929376850123495
+    second: EnemyRanged_132
+  - first:
+      213: 4959009041806137489
+    second: EnemyRanged_133
+  - first:
+      213: 7734327482729735363
+    second: EnemyRanged_134
+  - first:
+      213: -8461124498955044528
+    second: EnemyRanged_135
+  - first:
+      213: -5044352771660854755
+    second: EnemyRanged_136
+  - first:
+      213: -352039617019246814
+    second: EnemyRanged_137
+  - first:
+      213: 1321569232817684851
+    second: EnemyRanged_138
+  - first:
+      213: -819548671019722279
+    second: EnemyRanged_139
+  - first:
+      213: -9049807944167403759
+    second: EnemyRanged_140
+  - first:
+      213: -3737079019239998303
+    second: EnemyRanged_141
+  - first:
+      213: 6001006002061064638
+    second: EnemyRanged_142
+  - first:
+      213: -3876205845956810109
+    second: EnemyRanged_143
+  - first:
+      213: -4222069410928609275
+    second: EnemyRanged_144
+  - first:
+      213: 6039433528237431311
+    second: EnemyRanged_145
+  - first:
+      213: 1749655166514439283
+    second: EnemyRanged_146
+  - first:
+      213: -8311753191062974175
+    second: EnemyRanged_147
+  - first:
+      213: -6410564343266337545
+    second: EnemyRanged_148
+  - first:
+      213: -270434988082557499
+    second: EnemyRanged_149
+  - first:
+      213: -7539275106654233704
+    second: EnemyRanged_150
+  - first:
+      213: -4236477245479398053
+    second: EnemyRanged_151
+  - first:
+      213: 329305262831592290
+    second: EnemyRanged_152
+  - first:
+      213: 8088385124038660303
+    second: EnemyRanged_153
+  - first:
+      213: 6135600294174193520
+    second: EnemyRanged_154
+  - first:
+      213: 4629240898612680417
+    second: EnemyRanged_155
+  - first:
+      213: -4129227882766101684
+    second: EnemyRanged_156
+  - first:
+      213: 6322042991061455336
+    second: EnemyRanged_157
+  - first:
+      213: -4176507665689618495
+    second: EnemyRanged_158
+  - first:
+      213: -7172409034552218118
+    second: EnemyRanged_159
+  - first:
+      213: 5741391902237572242
+    second: EnemyRanged_160
+  - first:
+      213: 1151337655280679963
+    second: EnemyRanged_161
+  - first:
+      213: -8817102789797567327
+    second: EnemyRanged_162
+  - first:
+      213: 788906439230378128
+    second: EnemyRanged_163
+  - first:
+      213: 1376416671605360902
+    second: EnemyRanged_164
+  - first:
+      213: -5638537123464911235
+    second: EnemyRanged_165
+  - first:
+      213: 5526753486598575824
+    second: EnemyRanged_166
+  - first:
+      213: -3580947219319644158
+    second: EnemyRanged_167
+  - first:
+      213: -3791538721626136011
+    second: EnemyRanged_168
+  - first:
+      213: -1744871885414270203
+    second: EnemyRanged_169
+  - first:
+      213: -3359214464341571218
+    second: EnemyRanged_170
+  - first:
+      213: 3767420870194919474
+    second: EnemyRanged_171
+  - first:
+      213: 7272928684227653902
+    second: EnemyRanged_172
+  - first:
+      213: -3317583905130581443
+    second: EnemyRanged_173
+  - first:
+      213: -2271082988035967861
+    second: EnemyRanged_174
+  - first:
+      213: 5356105276482651894
+    second: EnemyRanged_175
+  - first:
+      213: -7091192740128340285
+    second: EnemyRanged_176
+  - first:
+      213: 4882430754339437017
+    second: EnemyRanged_177
+  - first:
+      213: -4007463344097192674
+    second: EnemyRangedSpriteSheet_0
+  - first:
+      213: 4975773076143119924
+    second: EnemyRangedSpriteSheet_1
+  - first:
+      213: -4626422691527014187
+    second: EnemyRangedSpriteSheet_2
+  - first:
+      213: 1741103095090272352
+    second: EnemyRangedSpriteSheet_3
+  - first:
+      213: 8572418023697573326
+    second: EnemyRangedSpriteSheet_4
+  - first:
+      213: -7065856977790578631
+    second: EnemyRangedSpriteSheet_5
+  - first:
+      213: -4766270159449436398
+    second: EnemyRangedSpriteSheet_6
+  - first:
+      213: 8635796696244752384
+    second: EnemyRangedSpriteSheet_7
+  - first:
+      213: 6392293460508783788
+    second: EnemyRangedSpriteSheet_8
+  - first:
+      213: -1512924441346974161
+    second: EnemyRangedSpriteSheet_9
+  - first:
+      213: -906046523675884329
+    second: EnemyRangedSpriteSheet_10
+  - first:
+      213: -4373157349303146896
+    second: EnemyRangedSpriteSheet_11
+  - first:
+      213: 3914620425119353118
+    second: EnemyRangedSpriteSheet_12
+  - first:
+      213: 4850925623279834910
+    second: EnemyRangedSpriteSheet_13
+  - first:
+      213: -2152170116186952983
+    second: EnemyRangedSpriteSheet_14
+  - first:
+      213: 4815333351224790736
+    second: EnemyRangedSpriteSheet_15
+  - first:
+      213: 9202197475535315014
+    second: EnemyRangedSpriteSheet_16
+  - first:
+      213: -3174750122886831354
+    second: EnemyRangedSpriteSheet_17
+  - first:
+      213: -1825814314216615173
+    second: EnemyRangedSpriteSheet_18
+  - first:
+      213: -5629259460186796282
+    second: EnemyRangedSpriteSheet_19
+  - first:
+      213: -3963601124460326713
+    second: EnemyRangedSpriteSheet_20
+  - first:
+      213: -3772577379685973950
+    second: EnemyRangedSpriteSheet_21
+  - first:
+      213: 4568039929557193664
+    second: EnemyRangedSpriteSheet_22
+  - first:
+      213: -8775117873787658303
+    second: EnemyRangedSpriteSheet_23
+  - first:
+      213: 1111394478407293103
+    second: EnemyRangedSpriteSheet_24
+  - first:
+      213: -6038404614393855098
+    second: EnemyRangedSpriteSheet_25
+  - first:
+      213: 8951203492253133014
+    second: EnemyRangedSpriteSheet_26
+  - first:
+      213: 8400768520188607322
+    second: EnemyRangedSpriteSheet_27
+  - first:
+      213: 6473142508966689888
+    second: EnemyRangedSpriteSheet_28
+  - first:
+      213: -1439176159259255889
+    second: EnemyRangedSpriteSheet_29
+  - first:
+      213: -6455198041279219863
+    second: EnemyRangedSpriteSheet_30
+  - first:
+      213: -2257540914148483808
+    second: EnemyRangedSpriteSheet_31
+  - first:
+      213: -3266898070437356118
+    second: EnemyRangedSpriteSheet_32
+  - first:
+      213: -4075400468840117940
+    second: EnemyRangedSpriteSheet_33
+  - first:
+      213: -3381528422699592354
+    second: EnemyRangedSpriteSheet_34
+  - first:
+      213: -359242616677382353
+    second: EnemyRangedSpriteSheet_35
+  - first:
+      213: -6251036613393476680
+    second: EnemyRangedSpriteSheet_36
+  - first:
+      213: -6479693086171174280
+    second: EnemyRangedSpriteSheet_37
+  - first:
+      213: 7963711916689924760
+    second: EnemyRangedSpriteSheet_38
+  - first:
+      213: 6158447123520213146
+    second: EnemyRangedSpriteSheet_39
+  - first:
+      213: -133495834752586192
+    second: EnemyRangedSpriteSheet_40
+  - first:
+      213: 1890094173109586187
+    second: EnemyRangedSpriteSheet_41
+  - first:
+      213: -5627688606333249459
+    second: EnemyRangedSpriteSheet_42
+  - first:
+      213: 4689927604826367438
+    second: EnemyRangedSpriteSheet_43
+  - first:
+      213: -4374608866435671265
+    second: EnemyRangedSpriteSheet_44
+  - first:
+      213: 118638422802755103
+    second: EnemyRangedSpriteSheet_45
+  - first:
+      213: -4870444352079518677
+    second: EnemyRangedSpriteSheet_46
+  - first:
+      213: 7881884312981316757
+    second: EnemyRangedSpriteSheet_47
+  - first:
+      213: 9175449603760882800
+    second: EnemyRangedSpriteSheet_48
+  - first:
+      213: -5275563906185944552
+    second: EnemyRangedSpriteSheet_49
+  - first:
+      213: -2362677180215381391
+    second: EnemyRangedSpriteSheet_50
+  - first:
+      213: 6359321347399610103
+    second: EnemyRangedSpriteSheet_51
+  - first:
+      213: -8146641314635522933
+    second: EnemyRangedSpriteSheet_52
+  - first:
+      213: 2552824501406984442
+    second: EnemyRangedSpriteSheet_53
+  - first:
+      213: 8251162673461175207
+    second: EnemyRangedSpriteSheet_54
+  - first:
+      213: 7717912601871741330
+    second: EnemyRangedSpriteSheet_55
+  - first:
+      213: -8262647427503466743
+    second: EnemyRangedSpriteSheet_56
+  - first:
+      213: 512748494964361408
+    second: EnemyRangedSpriteSheet_57
+  - first:
+      213: -2332086080698022780
+    second: EnemyRangedSpriteSheet_58
+  - first:
+      213: 6633231137222144029
+    second: EnemyRangedSpriteSheet_59
+  - first:
+      213: -5981937110308743479
+    second: EnemyRangedSpriteSheet_60
+  - first:
+      213: 4812844983301036977
+    second: EnemyRangedSpriteSheet_61
+  - first:
+      213: -3917193935193831400
+    second: EnemyRangedSpriteSheet_62
+  - first:
+      213: -7750612315090649737
+    second: EnemyRangedSpriteSheet_63
+  - first:
+      213: 4873634018354278781
+    second: EnemyRangedSpriteSheet_64
+  - first:
+      213: -7911985366037540374
+    second: EnemyRangedSpriteSheet_65
+  - first:
+      213: -1956170720091993368
+    second: EnemyRangedSpriteSheet_66
+  - first:
+      213: 2835061584435413952
+    second: EnemyRangedSpriteSheet_67
+  - first:
+      213: 3772789520425897276
+    second: EnemyRangedSpriteSheet_68
+  - first:
+      213: -4068501164931123783
+    second: EnemyRangedSpriteSheet_69
+  - first:
+      213: 3814292237334716631
+    second: EnemyRangedSpriteSheet_70
+  - first:
+      213: 2057532898304640721
+    second: EnemyRangedSpriteSheet_71
+  - first:
+      213: -1827896481618700769
+    second: EnemyRangedSpriteSheet_72
+  - first:
+      213: 7003038814082101367
+    second: EnemyRangedSpriteSheet_73
+  - first:
+      213: 8188321156695255509
+    second: EnemyRangedSpriteSheet_74
+  - first:
+      213: 6536227767249155252
+    second: EnemyRangedSpriteSheet_75
+  - first:
+      213: -1210511456446961903
+    second: EnemyRangedSpriteSheet_76
+  - first:
+      213: 487455096942598528
+    second: EnemyRangedSpriteSheet_77
+  - first:
+      213: 3760497593354005947
+    second: EnemyRangedSpriteSheet_78
+  - first:
+      213: -4407981799401377473
+    second: EnemyRangedSpriteSheet_79
+  - first:
+      213: 6279077039062448439
+    second: EnemyRangedSpriteSheet_80
+  - first:
+      213: 5515959020206367039
+    second: EnemyRangedSpriteSheet_81
+  - first:
+      213: 7418356303512730127
+    second: EnemyRangedSpriteSheet_82
+  - first:
+      213: -7825413877049109634
+    second: EnemyRangedSpriteSheet_83
+  - first:
+      213: -5066548562832380432
+    second: EnemyRangedSpriteSheet_84
+  - first:
+      213: -15170805507229913
+    second: EnemyRangedSpriteSheet_85
+  - first:
+      213: -4847957866557850482
+    second: EnemyRangedSpriteSheet_86
+  - first:
+      213: -1327687242058968937
+    second: EnemyRangedSpriteSheet_87
+  - first:
+      213: -319928272904316308
+    second: EnemyRangedSpriteSheet_88
+  - first:
+      213: 1566654522328862782
+    second: EnemyRangedSpriteSheet_89
+  - first:
+      213: -4988217238618088746
+    second: EnemyRangedSpriteSheet_90
+  - first:
+      213: 8094119311155692395
+    second: EnemyRangedSpriteSheet_91
+  - first:
+      213: -2932950843375677371
+    second: EnemyRangedSpriteSheet_92
+  - first:
+      213: 2444709001027651305
+    second: EnemyRangedSpriteSheet_93
+  - first:
+      213: 2548560180562620610
+    second: EnemyRangedSpriteSheet_94
+  - first:
+      213: 5220509506490671870
+    second: EnemyRangedSpriteSheet_95
+  - first:
+      213: -3925964792093633446
+    second: EnemyRangedSpriteSheet_96
+  - first:
+      213: 2452067076889266223
+    second: EnemyRangedSpriteSheet_97
+  - first:
+      213: -8307091250483124238
+    second: EnemyRangedSpriteSheet_98
+  - first:
+      213: 5888744108604222319
+    second: EnemyRangedSpriteSheet_99
+  - first:
+      213: 3209023262157880609
+    second: EnemyRangedSpriteSheet_100
+  - first:
+      213: 3110836502626758217
+    second: EnemyRangedSpriteSheet_101
+  - first:
+      213: 8454524045683127440
+    second: EnemyRangedSpriteSheet_102
+  - first:
+      213: 4432826401643031685
+    second: EnemyRangedSpriteSheet_103
+  - first:
+      213: -8872443980538909568
+    second: EnemyRangedSpriteSheet_104
+  - first:
+      213: 1039915707325057144
+    second: EnemyRangedSpriteSheet_105
+  - first:
+      213: 2628486428320147041
+    second: EnemyRangedSpriteSheet_106
+  - first:
+      213: 132352016927902705
+    second: EnemyRangedSpriteSheet_107
+  - first:
+      213: -1821571948412819159
+    second: EnemyRangedSpriteSheet_108
+  - first:
+      213: 3457025603535349290
+    second: EnemyRangedSpriteSheet_109
+  - first:
+      213: 1074588194312183436
+    second: EnemyRangedSpriteSheet_110
+  - first:
+      213: 693632597811019264
+    second: EnemyRangedSpriteSheet_111
+  - first:
+      213: 7562090619007368476
+    second: EnemyRangedSpriteSheet_112
+  - first:
+      213: 7538140323137785904
+    second: EnemyRangedSpriteSheet_113
+  - first:
+      213: -9001358764731797074
+    second: EnemyRangedSpriteSheet_114
+  - first:
+      213: 3616936280113554484
+    second: EnemyRangedSpriteSheet_115
+  - first:
+      213: -361419322439643499
+    second: EnemyRangedSpriteSheet_116
+  - first:
+      213: -5477823873757136435
+    second: EnemyRangedSpriteSheet_117
+  - first:
+      213: -1477973259698751853
+    second: EnemyRangedSpriteSheet_118
+  - first:
+      213: 3948311233828181459
+    second: EnemyRangedSpriteSheet_119
+  - first:
+      213: -782965147302950336
+    second: EnemyRangedSpriteSheet_120
+  - first:
+      213: -6580394277381619495
+    second: EnemyRangedSpriteSheet_121
+  - first:
+      213: -5832093725086239339
+    second: EnemyRangedSpriteSheet_122
+  - first:
+      213: -3203631498216554418
+    second: EnemyRangedSpriteSheet_123
+  - first:
+      213: 6714409474440979528
+    second: EnemyRangedSpriteSheet_124
+  - first:
+      213: 163130937929271320
+    second: EnemyRangedSpriteSheet_125
+  - first:
+      213: 3698842322407884643
+    second: EnemyRangedSpriteSheet_126
+  - first:
+      213: 6282647794474260350
+    second: EnemyRangedSpriteSheet_127
+  - first:
+      213: 4230533981415121515
+    second: EnemyRangedSpriteSheet_128
+  - first:
+      213: -3612322540747192561
+    second: EnemyRangedSpriteSheet_129
+  - first:
+      213: -5215332250546458968
+    second: EnemyRangedSpriteSheet_130
+  - first:
+      213: -1302038792406564878
+    second: EnemyRangedSpriteSheet_131
+  - first:
+      213: 151498791475708913
+    second: EnemyRangedSpriteSheet_132
+  - first:
+      213: 7138910873980877814
+    second: EnemyRangedSpriteSheet_133
+  - first:
+      213: 3789766362548663430
+    second: EnemyRangedSpriteSheet_134
+  - first:
+      213: -6783047375600320047
+    second: EnemyRangedSpriteSheet_135
+  - first:
+      213: 8656554168873345390
+    second: EnemyRangedSpriteSheet_136
+  - first:
+      213: 3497195383690651029
+    second: EnemyRangedSpriteSheet_137
+  - first:
+      213: -6547275121197430652
+    second: EnemyRangedSpriteSheet_138
+  - first:
+      213: 1780503976728520704
+    second: EnemyRangedSpriteSheet_139
+  - first:
+      213: 7655183822095299192
+    second: EnemyRangedSpriteSheet_140
+  - first:
+      213: 4417890714846126342
+    second: EnemyRangedSpriteSheet_141
+  - first:
+      213: -7558302069489837098
+    second: EnemyRangedSpriteSheet_142
+  - first:
+      213: -1206097190771015202
+    second: EnemyRangedSpriteSheet_143
+  - first:
+      213: 6876765484294846385
+    second: EnemyRangedSpriteSheet_144
+  - first:
+      213: 4315392780938045192
+    second: EnemyRangedSpriteSheet_145
+  - first:
+      213: -5853773339765324999
+    second: EnemyRangedSpriteSheet_146
+  - first:
+      213: 5183162762745184488
+    second: EnemyRangedSpriteSheet_147
+  - first:
+      213: 7595700051654188415
+    second: EnemyRangedSpriteSheet_148
+  - first:
+      213: -2569024032431099257
+    second: EnemyRangedSpriteSheet_149
+  - first:
+      213: 7691467193649262940
+    second: EnemyRangedSpriteSheet_150
+  - first:
+      213: -4231548780317516267
+    second: EnemyRangedSpriteSheet_151
+  - first:
+      213: 2691748659623910963
+    second: EnemyRangedSpriteSheet_152
+  - first:
+      213: -1758284033645217448
+    second: EnemyRangedSpriteSheet_153
+  - first:
+      213: 7164182064231526776
+    second: EnemyRangedSpriteSheet_154
+  - first:
+      213: 7116825501629407691
+    second: EnemyRangedSpriteSheet_155
+  - first:
+      213: -4745834222645537908
+    second: EnemyRangedSpriteSheet_156
+  - first:
+      213: 5139288397378922152
+    second: EnemyRangedSpriteSheet_157
+  - first:
+      213: -4243091483560483287
+    second: EnemyRangedSpriteSheet_158
+  - first:
+      213: 1649747621439630269
+    second: EnemyRangedSpriteSheet_159
+  - first:
+      213: -7521503599623184902
+    second: EnemyRangedSpriteSheet_160
+  - first:
+      213: -816871596419083089
+    second: EnemyRangedSpriteSheet_161
+  - first:
+      213: 8506235390806303730
+    second: EnemyRangedSpriteSheet_162
+  - first:
+      213: -8220005704093459804
+    second: EnemyRangedSpriteSheet_163
+  - first:
+      213: -7392413779625387019
+    second: EnemyRangedSpriteSheet_164
+  - first:
+      213: 6100483071336949441
+    second: EnemyRangedSpriteSheet_165
+  - first:
+      213: -2388870266166190259
+    second: EnemyRangedSpriteSheet_166
+  - first:
+      213: 8287833073871695825
+    second: EnemyRangedSpriteSheet_167
+  - first:
+      213: -1687461839642745177
+    second: EnemyRangedSpriteSheet_168
+  - first:
+      213: 5179538261596207962
+    second: EnemyRangedSpriteSheet_169
+  - first:
+      213: 568213934619837925
+    second: EnemyRangedSpriteSheet_170
+  - first:
+      213: 3282954714483285037
+    second: EnemyRangedSpriteSheet_171
+  - first:
+      213: 7805965971558260517
+    second: EnemyRangedSpriteSheet_172
+  - first:
+      213: -1324136008701690755
+    second: EnemyRangedSpriteSheet_173
+  - first:
+      213: -318660575509139488
+    second: EnemyRangedSpriteSheet_174
+  - first:
+      213: -6788739457623621077
+    second: EnemyRangedSpriteSheet_175
+  - first:
+      213: -1745139729387512236
+    second: EnemyRangedSpriteSheet_176
+  - first:
+      213: -2293865101781280359
+    second: EnemyRangedSpriteSheet_177
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1282
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1510bc2251a268c0800000000000000
+      internalID: -4007463344097192674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1282
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e967eff3f7d0540800000000000000
+      internalID: 4975773076143119924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1282
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8c9bae215abcfb0800000000000000
+      internalID: -4626422691527014187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1282
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068503c4a04a92810800000000000000
+      internalID: 1741103095090272352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1282
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec566a026c857f670800000000000000
+      internalID: 8572418023697573326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1282
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930d315e38801fd90800000000000000
+      internalID: -7065856977790578631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1282
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fc872fa8ecaddb0800000000000000
+      internalID: -4766270159449436398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1218
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0001920475388d770800000000000000
+      internalID: 8635796696244752384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1218
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4bda5d80df5b850800000000000000
+      internalID: 6392293460508783788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1218
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ed1858c33010be0800000000000000
+      internalID: -1512924441346974161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1218
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d44256bc731d63f0800000000000000
+      internalID: -906046523675884329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1218
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076a5ef8f8c6f43c0800000000000000
+      internalID: -4373157349303146896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1218
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e194abd3986835630800000000000000
+      internalID: 3914620425119353118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1218
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e175f6f2723f15340800000000000000
+      internalID: 4850925623279834910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1154
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea27789ea4f122e0800000000000000
+      internalID: -2152170116186952983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1154
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de48d29b2083d240800000000000000
+      internalID: 4815333351224790736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1154
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640674249d5c4bf70800000000000000
+      internalID: 9202197475535315014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1154
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603e3b2759501f3d0800000000000000
+      internalID: -3174750122886831354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1154
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf29b470e8769a6e0800000000000000
+      internalID: -1825814314216615173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1154
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f0f07985ad0e1b0800000000000000
+      internalID: -5629259460186796282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1154
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0143107c57ef8c0800000000000000
+      internalID: -3963601124460326713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1090
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240c4247cdc15abc0800000000000000
+      internalID: -3772577379685973950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1090
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c39e090d10f46f30800000000000000
+      internalID: 4568039929557193664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1090
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf94be49c4883680800000000000000
+      internalID: -8775117873787658303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1090
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa81cc2c3677c6f00800000000000000
+      internalID: 1111394478407293103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1090
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68389fcfef6433ca0800000000000000
+      internalID: -6038404614393855098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1090
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8ebf39620193c70800000000000000
+      internalID: 8951203492253133014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1090
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b302eb576859470800000000000000
+      internalID: 8400768520188607322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1026
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cb073d0d835d950800000000000000
+      internalID: 6473142508966689888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1024
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab142288e4070ce0800000000000000
+      internalID: -1439176159259255889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1024
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96731c225978a66a0800000000000000
+      internalID: -6455198041279219863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1024
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dd442ef7a9ba0e0800000000000000
+      internalID: -2257540914148483808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1024
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad1c228385a9a2d0800000000000000
+      internalID: -3266898070437356118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1024
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c490351bdd44177c0800000000000000
+      internalID: -4075400468840117940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1024
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e559a1fc0d56211d0800000000000000
+      internalID: -3381528422699592354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1024
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2743c45eb6b30bf0800000000000000
+      internalID: -359242616677382353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 962
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b398bcc15bdf39a0800000000000000
+      internalID: -6251036613393476680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 962
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a663118718316a0800000000000000
+      internalID: -6479693086171174280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 962
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89229df6bc9c48e60800000000000000
+      internalID: 7963711916689924760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 962
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90d27da703377550800000000000000
+      internalID: 6158447123520213146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 962
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ee39ede3ab52ef0800000000000000
+      internalID: -133495834752586192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 962
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b098b34e2a6fa3a10800000000000000
+      internalID: 1890094173109586187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 962
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d485ef0870f66e1b0800000000000000
+      internalID: -5627688606333249459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 962
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec569fbee48f51140800000000000000
+      internalID: 4689927604826367438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 898
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bd3d4e9644a43c0800000000000000
+      internalID: -4374608866435671265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 899
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1eeed7540d75a100800000000000000
+      internalID: 118638422802755103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 899
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b242eff9aa4b86cb0800000000000000
+      internalID: -4870444352079518677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 899
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594a9fbc504126d60800000000000000
+      internalID: 7881884312981316757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 899
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0748aae0dceb55f70800000000000000
+      internalID: 9175449603760882800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 899
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8122ae5149e69c6b0800000000000000
+      internalID: -5275563906185944552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 899
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17237526f95163fd0800000000000000
+      internalID: -2362677180215381391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 899
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7feef448219d04850800000000000000
+      internalID: 6359321347399610103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 834
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cd0a813e051fe80800000000000000
+      internalID: -8146641314635522933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 834
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8e64ccb547d6320800000000000000
+      internalID: 2552824501406984442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 834
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3ad972cb4028270800000000000000
+      internalID: 8251162673461175207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 834
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2917312ce988b1b60800000000000000
+      internalID: 7717912601871741330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 834
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9075c5b21fd255d80800000000000000
+      internalID: -8262647427503466743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 834
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8877d1a06ad1700800000000000000
+      internalID: 512748494964361408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 834
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4848c56c014c2afd0800000000000000
+      internalID: -2332086080698022780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 834
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10bf2f2398fd0c50800000000000000
+      internalID: 6633231137222144029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 771
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6125f44e3ebfca0800000000000000
+      internalID: -5981937110308743479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 771
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbdda44309aac240800000000000000
+      internalID: 4812844983301036977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 770
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8180570ced453a9c0800000000000000
+      internalID: -3917193935193831400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 769
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77df047f92b407490800000000000000
+      internalID: -7750612315090649737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 770
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71344d6150a2a340800000000000000
+      internalID: 4873634018354278781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 771
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae15e35aa3bf23290800000000000000
+      internalID: -7911985366037540374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 770
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea85e428194ad4e0800000000000000
+      internalID: -1956170720091993368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 769
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c301a08d79285720800000000000000
+      internalID: 2835061584435413952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 770
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d4d496414ab5430800000000000000
+      internalID: 3772789520425897276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 706
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b574001fb7c987c0800000000000000
+      internalID: -4068501164931123783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 706
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0add3b4961fe430800000000000000
+      internalID: 3814292237334716631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 707
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6c02d0543dd8c10800000000000000
+      internalID: 2057532898304640721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 707
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f165ee6a5d102a6e0800000000000000
+      internalID: -1827896481618700769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 706
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770f2ad92bacf2160800000000000000
+      internalID: 7003038814082101367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 706
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9e2ab55b2c2a170800000000000000
+      internalID: 8188321156695255509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 706
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b43eed168855ba50800000000000000
+      internalID: 6536227767249155252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 706
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11720f17e36633fe0800000000000000
+      internalID: -1210511456446961903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 706
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0899739f3d9c3c600800000000000000
+      internalID: 487455096942598528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 642
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbda39e13a8ff2430800000000000000
+      internalID: 3760497593354005947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 642
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f313b4e68e3b3d2c0800000000000000
+      internalID: -4407981799401377473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 641
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739f0ae8c43c32750800000000000000
+      internalID: 6279077039062448439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 641
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31230b018f9c8c40800000000000000
+      internalID: 5515959020206367039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 641
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0af72001cb43f660800000000000000
+      internalID: 7418356303512730127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 642
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7353162a8b866390800000000000000
+      internalID: -7825413877049109634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 641
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd2c130de000b9b0800000000000000
+      internalID: -5066548562832380432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 641
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727f8c69b3a1acff0800000000000000
+      internalID: -15170805507229913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 641
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c32c5810898bcb0800000000000000
+      internalID: -4847957866557850482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 578
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790d14cdc7b139de0800000000000000
+      internalID: -1327687242058968937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 578
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a1feb4ee26f8bf0800000000000000
+      internalID: -319928272904316308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 579
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30db21dcffddb510800000000000000
+      internalID: 1566654522328862782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 579
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da50b5a9da46cab0800000000000000
+      internalID: -4988217238618088746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 578
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63801701a6145070800000000000000
+      internalID: 8094119311155692395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 578
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54019e45fb01c47d0800000000000000
+      internalID: -2932950843375677371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 578
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6047142e95de120800000000000000
+      internalID: 2444709001027651305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 578
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0f32b3bfd4e5320800000000000000
+      internalID: 2548560180562620610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 578
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef22de89cb9f27840800000000000000
+      internalID: 5220509506490671870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 514
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54919e72db2489c0800000000000000
+      internalID: -3925964792093633446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 513
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f284a6bc30e770220800000000000000
+      internalID: 2452067076889266223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 513
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7a232458847bc80800000000000000
+      internalID: -8307091250483124238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 513
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b678e119509b150800000000000000
+      internalID: 5888744108604222319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 513
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12db2e0a7adb88c20800000000000000
+      internalID: 3209023262157880609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 513
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ee2653159eb2b20800000000000000
+      internalID: 3110836502626758217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 450
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094f0f753d0845570800000000000000
+      internalID: 8454524045683127440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 450
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ce7ec4020948d30800000000000000
+      internalID: 4432826401643031685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 450
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cec6a353fbed480800000000000000
+      internalID: -8872443980538909568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 450
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878857b73d58e6e00800000000000000
+      internalID: 1039915707325057144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 450
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16625f0fa724a7420800000000000000
+      internalID: 2628486428320147041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 450
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb4b4a457536d100800000000000000
+      internalID: 132352016927902705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 386
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929a90ac6f978b6e0800000000000000
+      internalID: -1821571948412819159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 386
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26a7266872d9ff20800000000000000
+      internalID: 3457025603535349290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 386
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e5ec1f444b9ee00800000000000000
+      internalID: 1074588194312183436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 386
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e38253c2740a900800000000000000
+      internalID: 693632597811019264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 386
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d7f313a51f1f860800000000000000
+      internalID: 7562090619007368476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 386
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0301da36faadc9860800000000000000
+      internalID: 7538140323137785904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 322
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1ff4c05efb41380800000000000000
+      internalID: -9001358764731797074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 322
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43424672260f13230800000000000000
+      internalID: 3616936280113554484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 322
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ec5078a0bfbfaf0800000000000000
+      internalID: -361419322439643499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 322
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc93d86a53cdaf3b0800000000000000
+      internalID: -5477823873757136435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 322
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3963124a62f2d7be0800000000000000
+      internalID: -1477973259698751853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 322
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5530be5283bc630800000000000000
+      internalID: 3948311233828181459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 258
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a0f7bc8595225f0800000000000000
+      internalID: -782965147302950336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 256
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0c7a6e44ebda4a0800000000000000
+      internalID: -6580394277381619495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 256
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595337328ad301fa0800000000000000
+      internalID: -5832093725086239339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 256
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40cc8d302a6a83d0800000000000000
+      internalID: -3203631498216554418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 256
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8446290b7df5e2d50800000000000000
+      internalID: 6714409474440979528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 256
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818862749be834200800000000000000
+      internalID: 163130937929271320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 256
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3678d43be7de45330800000000000000
+      internalID: 3698842322407884643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 256
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e779786d1e2703750800000000000000
+      internalID: 6282647794474260350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 256
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62a774ed30e5ba30800000000000000
+      internalID: 4230533981415121515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 256
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0780a0c9c37eddc0800000000000000
+      internalID: -3612322540747192561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 256
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae2a8c33fa6f97b0800000000000000
+      internalID: -5215332250546458968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 256
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fff3d6ed9a3eede0800000000000000
+      internalID: -1302038792406564878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 256
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f38fc1295b3a1200800000000000000
+      internalID: 151498791475708913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 194
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbbdc6cd91821360800000000000000
+      internalID: 7138910873980877814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 194
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684ff6d7d64f79430800000000000000
+      internalID: 3789766362548663430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 194
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d182ba9956cdd1a0800000000000000
+      internalID: -6783047375600320047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 194
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e616f96f622422870800000000000000
+      internalID: 8656554168873345390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 194
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595640b2ca8888030800000000000000
+      internalID: 3497195383690651029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 194
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488464a57f76325a0800000000000000
+      internalID: -6547275121197430652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 194
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008e21eeeee95b810800000000000000
+      internalID: 1780503976728520704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 194
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872be46902dac3a60800000000000000
+      internalID: 7655183822095299192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 194
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60166eab2308f4d30800000000000000
+      internalID: 4417890714846126342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 194
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db55fa30548b1790800000000000000
+      internalID: -7558302069489837098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 194
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed14f73cef4134fe0800000000000000
+      internalID: -1206097190771015202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 194
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7bf07f5cd2f6f50800000000000000
+      internalID: 6876765484294846385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 194
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807e81eceda53eb30800000000000000
+      internalID: 4315392780938045192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 130
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933c2af792833cea0800000000000000
+      internalID: -5853773339765324999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 131
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e08576321b4ee740800000000000000
+      internalID: 5183162762745184488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 131
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d934704f8596960800000000000000
+      internalID: 7595700051654188415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 128
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782b087f04ef85cd0800000000000000
+      internalID: -2569024032431099257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 128
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51f80759a49dba60800000000000000
+      internalID: 7691467193649262940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 130
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51edf63ddc48645c0800000000000000
+      internalID: -4231548780317516267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 130
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e5489f4230b5520800000000000000
+      internalID: 2691748659623910963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 130
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859f558bcf15997e0800000000000000
+      internalID: -1758284033645217448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 130
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871beb441a94c6360800000000000000
+      internalID: 7164182064231526776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 128
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1ef01561b04c260800000000000000
+      internalID: 7116825501629407691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 128
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8312544be8632eb0800000000000000
+      internalID: -4745834222645537908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 128
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6ae0c719b625740800000000000000
+      internalID: 5139288397378922152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 128
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92664ecc6c28d15c0800000000000000
+      internalID: -4243091483560483287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 66
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb64f098b415e610800000000000000
+      internalID: 1649747621439630269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 66
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd53a7a3504e9790800000000000000
+      internalID: -7521503599623184902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 66
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4955c6c93e9a4f0800000000000000
+      internalID: -816871596419083089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 66
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3addc15083c0670800000000000000
+      internalID: 8506235390806303730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 66
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa13d31d5caced80800000000000000
+      internalID: -8220005704093459804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 66
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbd9b885ded86990800000000000000
+      internalID: -7392413779625387019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 66
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6a259180549a450800000000000000
+      internalID: 6100483071336949441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 66
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fdba2562709ded0800000000000000
+      internalID: -2388870266166190259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 66
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df2bd5154c440370800000000000000
+      internalID: 8287833073871695825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 66
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6211cb56ee498e0800000000000000
+      internalID: -1687461839642745177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 66
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b7cf64b9a61e740800000000000000
+      internalID: 5179538261596207962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 66
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e541712093b2e700800000000000000
+      internalID: 568213934619837925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 66
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c58724be56f8d20800000000000000
+      internalID: 3282954714483285037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f548f71bc545c60800000000000000
+      internalID: 7805965971558260517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c380fc059bf9de0800000000000000
+      internalID: -1324136008701690755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef2bd815e3e39bf0800000000000000
+      internalID: -318660575509139488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b228aab7e6d89c1a0800000000000000
+      internalID: -6788739457623621077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e9f6a89a408c7e0800000000000000
+      internalID: -1745139729387512236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRangedSpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99959a5e7dd8a20e0800000000000000
+      internalID: -2293865101781280359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,20 @@
+Bossitaistelu Concept
+
+Phase 1 (Ensimmäinen phase. Pelaaja menee bossi huoneeseen, näkee bossin ja bossi näkee hänet ja alkaa lähestyä häntä => alkaa Phase 1)
+ - Melee ja Ranged vihollisen yhdistelmä, tosi helppo.
+ - Valmis
+
+Phase 2 (Kun Phase 1 Bossin HP menee alle 25% tai 0 ensimmäisen kerran) Bossi saa täydet HP:t) 
+ - Bossi saa uusia taitoja. 
+ - Projectile iskut tekee 5(?) projectilen sarjoja ja cooldown pienentyy? 
+ - Bossi tekee välillä itselleen miekan, joka pyörii sen ympärillä. Tämä miekka tuhoaa pelaajan projectileja.
+ - Ehkä ampuu hakeutuvia yksittäisiä ammuksia? Hakeutuminen lähtee pois, kun se menee ohi. Kun kulma pelaajan ja projectilen välille menee yli 45 astetta tai jotakin, niin hakeutuminen pois.
+
+Phase 3 (Viiminen Phase, Phase 3 alkaa kun Phase 2 bossin HP:t on 25% tai 0, taas kerran saa täydet hp:t, vaikein Phase)
+TAI
+	(Kun Phase 1 Boss saa täydet HP:t, Phase 2 Boss saa tupla HP:t ja 50% HP:n paikkeilla alkaa Phase 3)
+
+ - Tavalliset Projectilet forkkaa myös (eli kolme projectilea tulee. Main projectile, ja kaks secondaryä, joissa on offset vasemmalle ja oikealle, jotakin 15-25 astetta?
+ - Hakeutuvat ammukset ovat sarjoja.
+ - Miekka, joka pyörii bossin ympärillä on kaks kertaa isompi, se on melkein pakko blokata. Tai sitten on semmonen sirkkeli miekkoja?
+ - Joku uus mekaniikka? Hullu BulletHell hetki, jossa on mentävä suojan taakse, joka vois tulla vaikka damagezonen tai ison räjähdyksen jälkee.
