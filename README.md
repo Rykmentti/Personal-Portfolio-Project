@@ -23,9 +23,9 @@ Final Commit Date: 19.07.2023
 
 My first "real" Personal Project and its a... 2D Top-Down Action Game? I started coding this project after I had finished Junior Programmer Pathway on Unity, which took me about 3 weeks, and results are what you expect.
 
-Code is full of annotations full of annotiations, that do not make sense to anyone, least of all myself. I'm writing them, as if talking to future myself, who has forgotten everything from the past. Probably not good example of "clean code" But hey, it was my first project, that I actually put lot of effort in. 
+Code is full of annotations, that do not make sense to anyone, least of all myself. I'm writing them, as if talking to future myself, who has forgotten everything from the past. Probably not good example of "clean code" But hey, it was my first project, that I actually put lot of effort in. 
 
-I concluded this project, because it was made with Unity 2020.3.12f1 LTS and the new project is going to using on newest Unity 2022 LTS.
+I concluded this project, because it was made with Unity 2020.3.12f1 LTS, I was accepted into Jyväskylä University of Applied Sciences as a student. I wanted to start new project utilizing newest Unity 2022 LTS.
 ### first-mobile-project
 Project started on 19.07.2023. I am currently Jyväskylä University of Applied Sciences student, specializing in the game development.
 
