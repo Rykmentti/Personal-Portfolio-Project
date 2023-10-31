@@ -27,7 +27,7 @@ Code is full of annotations full of annotiations, that do not make sense to anyo
 
 I concluded this project, because it was made with Unity 2020.3.12f1 LTS and the new project is going to using on newest Unity 2022 LTS.
 ### first-mobile-project
-My first mobile project. I am currently Jyväskylä University of Applied Sciences student, specializing in the game development. This is my personal prototype, which I use to build and test everything.
+My first mobile project. I am currently Jyväskylä University of Applied Sciences student, specializing in the game development.
 
 Why mobile? I wanted to see how mobile development works and since I'm very interested in 2D, doing a mobile project is a good idea to find out how everything works there. I am using tablet as the end platform right.
 
