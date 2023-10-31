@@ -1,0 +1,3096 @@
+fileFormatVersion: 2
+guid: cec72fba3cac6ae47919da8abddce030
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d160fc096ed2240a6b44a4463abb23
+      internalID: -1291706738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53f48c4032e80344bffbb8c78c33dd0
+      internalID: -233329487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62d63bf2e2f60445baeb3206cefe81b
+      internalID: 1465833428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0d20ad4e8d6cb4abc6e519c93e6836
+      internalID: 1384396178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23c4a887d3012c42a5260aa0d6ca834
+      internalID: 1418287262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c7dc24f61cea24eb180ec4acf3a322
+      internalID: -624880004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1555492f109920c468a30e163657bc0a
+      internalID: 1153804033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3436cab79c8e4a24bbef81657849f560
+      internalID: 1639107086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f42f2d265cb73541b1c5fcaeb7654a6
+      internalID: 396086652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f949003ff9c6174391d825cd15a1edb
+      internalID: 1842952208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4d7c7195a162c4b911082ab8087227
+      internalID: -28556348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9567cb8f00e832645b83eccfc0cc5947
+      internalID: -609128216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282a3ed5b8448934fb9e51047d2ba09c
+      internalID: 1212430509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d1f94cfba89e548824f09dbdc2caba
+      internalID: -612974373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c19f7facd8fb543831d20f9b46bc65
+      internalID: 1186060319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdefa12cf64ca542b07ebe2ca859eeb
+      internalID: 833673484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a765970ad1281b740b9f0e5647a72402
+      internalID: 1665474243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb837032a8626d441af2f0a7ecbab710
+      internalID: -1088742470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef70bec3e67e4b4c981176073e7efa1
+      internalID: 694778310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8d5446b4672c54e90246b63ff89c35
+      internalID: -1098926161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824ad7c81ee7b494991908be71c01842
+      internalID: 1654369355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089273e4511615245b1b57815dc18b29
+      internalID: -388015487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faef3d318da76ca4f9aa10d4f040548b
+      internalID: 580161263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0331b3dbf757285428620d56876a9c72
+      internalID: -1956740555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b943a22e7ba9ce043a2e4ed10eddd3d5
+      internalID: -541080305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d847221014399f429172f7d392fc48c
+      internalID: 2055168519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ec35772718b334e9182ce114326338
+      internalID: -665880825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5615d4bccf94f6841abb519f725f6634
+      internalID: 1070325663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879b69d7658844e49b3d971d1d775f2a
+      internalID: 1813110098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447f24a280faaa14686d044ed1e17c52
+      internalID: 92516447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd63c5eb698aede46a0768fa2daa4d8f
+      internalID: 344572182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfbe7bedfd3ddd43a8c147340583a7b
+      internalID: 630760286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758e8e5277298d64abe1dc4c9980dcb9
+      internalID: -1880021817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a96dee74fdc214f87f7421e1340bfc
+      internalID: -1178631829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80971007469fea4ababb263faf77a01
+      internalID: 1094801939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0a5299a2a3d4445ada5fb2be4636c4
+      internalID: -1838765425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea133bbfa1bf7954b8c1ea3d3fdff0d1
+      internalID: 484742040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b50db0d0eb47042950ff61906cf535
+      internalID: 1549690336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe031ced448e814eb0cd50dc7177fae
+      internalID: -1805377290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7c7a5a5aa74574ea7deaff75a821ef
+      internalID: -1241382433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd0e213e9c8fc8468f4636de22af664
+      internalID: -1059232058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b08726f83d47a4fabf8923480872a3
+      internalID: -293088344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f105d21aba2fc2e45bf4c9243bac0d23
+      internalID: -1351582406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8510d50f1c2da0d49b7c8db95b59599e
+      internalID: -1657773799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbfc4d6f366cd449964a703ae6b0a6c
+      internalID: -2070229152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c936067d65b9813468f6afd21cf40113
+      internalID: 1913548197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77528ff6b3f7d8846bc3b6edc52d2bb3
+      internalID: 586831058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3c49b09e3cd224a9f32c4ce49bfaaa
+      internalID: 723820868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54810cf3c15c92a469e1a3942eaad69c
+      internalID: -397964607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3c92ccfba03dd4991159491223246b
+      internalID: 647856169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130933da583d27b43a71f6984907c96a
+      internalID: -1197874581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd7bdc147435174a87eaa2e4a1714cc
+      internalID: 677667310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_145
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8814a7a1784b74989264513b63203b
+      internalID: -935257206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_146
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b486dce64a3e34f921cee7f0aec663
+      internalID: -330031021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c0bb7a7e8eb4c4985efc075f17d17d
+      internalID: -918343188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c6234f233da1a46908100cbf03fa07
+      internalID: -1920262956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_149
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65381709493377459b4bf1d8dd19be3
+      internalID: 2015586953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be90df67457ccb44a8d115c8843aca4
+      internalID: -1426439526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_151
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c962cfe173a62f947bccb83b72333ac6
+      internalID: 1293243695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_152
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40633cfc383ad204aa64a4500ba6a868
+      internalID: 73829597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_153
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ca0136bdac46742a4161ea25089fda
+      internalID: -758155861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_154
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8af18b012731d64f8dbddf5a61547ce
+      internalID: -1269212044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_155
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be83e72490006a4486b480900a4d7ac
+      internalID: -829159944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_156
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5e6d8be019137469e9684f17429303
+      internalID: -1787846477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_157
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecec686006130494ba35dccb4c5fd76b
+      internalID: -1318081419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_158
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea422ad967965143b000f82bad0a30f
+      internalID: 1666881259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_159
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b2181090bb24044befe01a89c60897
+      internalID: 116060788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd81723d3230d3345afccce2d2819f1c
+      internalID: 587720323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d9c4af5e24b2642935499cee7d0387
+      internalID: 824051540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_162
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f701f21573668704eb22e128a30cdf77
+      internalID: 1625969144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_163
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a83aad8a46afcf4bad7ebae56cc0740
+      internalID: -114584835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_164
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834b1bae461ee5545abbf16565501457
+      internalID: -438984253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_165
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3539abeecd5134eb20d84826110340
+      internalID: 483371181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_166
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6b9e98fc42fd6489d234ad714dbf1b
+      internalID: -521096140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_167
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a195f89dec8f02846957a0f0890f3467
+      internalID: -2040530774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_168
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f49572f2ddecd3499529f01d6d151ce
+      internalID: -584668153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_169
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940d71b2629bd104a96823432fb5d99c
+      internalID: 1628773755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_170
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc283c261a7742468b89a49525fabe3
+      internalID: -2077290346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_171
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be17cb0ea6c0de848bbcae814d4316f1
+      internalID: 2111059569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_172
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d0ef42dc746274e878ff5a58ee2443
+      internalID: 1683477803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_173
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8394b07289e29744d971e676ffd50d1b
+      internalID: 1627476038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_174
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd20cadd197e62744b599b2f4406527a
+      internalID: 1766325598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_175
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d03def6d43e6945b761fa5cb9a06f5
+      internalID: -2055329327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_176
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b554dc0c4433b5498a280d3485aae9e
+      internalID: -1145453623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_177
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5dfe4cc3df59f4386eb5f0a6cee124
+      internalID: -965907780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_178
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459473dd3bb3db648aa047f4e457364b
+      internalID: -1959023479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401c6e75b1d1db54aaa61e1a8a3c3d9b
+      internalID: -382896483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0960d4d7b9c78741babda9d1bb76516
+      internalID: 460573920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970ae063f88d7b243870ec827f7c10af
+      internalID: -229680294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f508cd7f5fb8874182d032bc6a009a8
+      internalID: -884725828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d97505017359e4999231349e6158dd
+      internalID: 876759351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_27
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50de43956dfa0fb40b6ed1674d749118
+      internalID: -1499275765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0befcb845404000419ecfe8215b2e277
+      internalID: -1746418959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_29
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826281b312ef68440a44d02906306070
+      internalID: -661809071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_30
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b667d510d96b69489e13f34eeb1b850
+      internalID: 409234675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22af227709fa9c4da7a931dc897a0a7
+      internalID: 1083886317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4035415e542493742ac8340cc2484368
+      internalID: 881346751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4752a4d2b0a4f514296e00f1174b8761
+      internalID: -359520884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de979029b94f8974cbe8000cf49748d4
+      internalID: -1177481455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94923439e97acbc4597771eb1c5ce4cc
+      internalID: -1804818253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a96eb6811332c6469b218f4bca37b80
+      internalID: 1754718716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_37
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b160c31191854b84180599083edacd7d
+      internalID: -975190496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_38
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1020e22c8cbca54f9c5f51d5c350edf
+      internalID: 1024680768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_39
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760593906e980d041949e4e1d7174dcd
+      internalID: 2076022773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b267b1698440e943a3b03d0f6b7bd61
+      internalID: -1330850802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5138af305e41745b123cc517b13943
+      internalID: 180457180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a56a1612bbb33b4d9ae9311f3ab8c6a
+      internalID: 1652052407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1308834d57e6441827685491a4a0d6
+      internalID: -1697586013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d580f6e3fbcd9224fba189cff60072bd
+      internalID: -880634798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe81a1c4df56f4469e1a9054d521ce3
+      internalID: -1409961827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ca00ab75a93d446925176c7960be6a
+      internalID: 753634663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_47
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5ae380bc47cbe4fbf3af2fd74df98b
+      internalID: 451327509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_48
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7450d7d0c0f39e449d78e6fd754b4a5
+      internalID: 1620072341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92409b79e23343a4e9e761e8eef3c901
+      internalID: -423520637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25460c2f3b2c6a04f827c22d7296f75d
+      internalID: -1178617755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24c9ad5b03cb8845b178950a04686a6
+      internalID: -1614431722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_52
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc05a284d6d4bdf4bbe7f135082639a6
+      internalID: 831538115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeea46feabf2b6244b4da48bf44ccdfd
+      internalID: 1645420071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_54
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445629337cc3722449b0072049988471
+      internalID: 1246393651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_55
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5915738d44aeaf045a0be70b2c1aeb6c
+      internalID: -1976800986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_56
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815737c859b917e4984f6f98aa72491a
+      internalID: -521121430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_Spritesheet_Attack_And_Casting 1_57
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b75cec97a876d4e98665df605e69e9
+      internalID: 1879980949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ranger_Spritesheet_0: -1291706738
+      Ranger_Spritesheet_1: -233329487
+      Ranger_Spritesheet_10: 1842952208
+      Ranger_Spritesheet_100: -170649339
+      Ranger_Spritesheet_101: -1765650252
+      Ranger_Spritesheet_102: -1484967397
+      Ranger_Spritesheet_103: 344787091
+      Ranger_Spritesheet_104: 1765288050
+      Ranger_Spritesheet_105: 1515686732
+      Ranger_Spritesheet_106: 1011342936
+      Ranger_Spritesheet_107: 1555784454
+      Ranger_Spritesheet_108: 2104745437
+      Ranger_Spritesheet_109: 1617631297
+      Ranger_Spritesheet_11: -28556348
+      Ranger_Spritesheet_110: 754800313
+      Ranger_Spritesheet_111: -1058589189
+      Ranger_Spritesheet_112: -800443422
+      Ranger_Spritesheet_113: -420459383
+      Ranger_Spritesheet_114: 1386193477
+      Ranger_Spritesheet_115: 1722490805
+      Ranger_Spritesheet_116: 442637950
+      Ranger_Spritesheet_117: 1021173902
+      Ranger_Spritesheet_118: -762668739
+      Ranger_Spritesheet_119: 359341639
+      Ranger_Spritesheet_12: -609128216
+      Ranger_Spritesheet_120: -103795346
+      Ranger_Spritesheet_121: 1813110098
+      Ranger_Spritesheet_122: 92516447
+      Ranger_Spritesheet_123: 344572182
+      Ranger_Spritesheet_124: 630760286
+      Ranger_Spritesheet_125: -1880021817
+      Ranger_Spritesheet_126: -1178631829
+      Ranger_Spritesheet_127: 1094801939
+      Ranger_Spritesheet_128: -1838765425
+      Ranger_Spritesheet_129: 484742040
+      Ranger_Spritesheet_13: 1212430509
+      Ranger_Spritesheet_130: 1549690336
+      Ranger_Spritesheet_131: -1805377290
+      Ranger_Spritesheet_132: -1241382433
+      Ranger_Spritesheet_133: -1059232058
+      Ranger_Spritesheet_134: -293088344
+      Ranger_Spritesheet_135: -1351582406
+      Ranger_Spritesheet_136: -1657773799
+      Ranger_Spritesheet_137: -2070229152
+      Ranger_Spritesheet_138: 1913548197
+      Ranger_Spritesheet_139: 586831058
+      Ranger_Spritesheet_14: -612974373
+      Ranger_Spritesheet_140: 723820868
+      Ranger_Spritesheet_141: -397964607
+      Ranger_Spritesheet_142: 647856169
+      Ranger_Spritesheet_143: -1197874581
+      Ranger_Spritesheet_144: 677667310
+      Ranger_Spritesheet_145: -935257206
+      Ranger_Spritesheet_146: -330031021
+      Ranger_Spritesheet_147: -918343188
+      Ranger_Spritesheet_148: -1920262956
+      Ranger_Spritesheet_149: 2015586953
+      Ranger_Spritesheet_15: 1186060319
+      Ranger_Spritesheet_150: -1426439526
+      Ranger_Spritesheet_151: 1293243695
+      Ranger_Spritesheet_152: 73829597
+      Ranger_Spritesheet_153: -758155861
+      Ranger_Spritesheet_154: -1269212044
+      Ranger_Spritesheet_155: -829159944
+      Ranger_Spritesheet_156: -1787846477
+      Ranger_Spritesheet_157: -1318081419
+      Ranger_Spritesheet_158: 1666881259
+      Ranger_Spritesheet_159: 116060788
+      Ranger_Spritesheet_16: 833673484
+      Ranger_Spritesheet_160: 587720323
+      Ranger_Spritesheet_161: 824051540
+      Ranger_Spritesheet_162: 1625969144
+      Ranger_Spritesheet_163: -114584835
+      Ranger_Spritesheet_164: -438984253
+      Ranger_Spritesheet_165: 483371181
+      Ranger_Spritesheet_166: -521096140
+      Ranger_Spritesheet_167: -2040530774
+      Ranger_Spritesheet_168: -584668153
+      Ranger_Spritesheet_169: 1628773755
+      Ranger_Spritesheet_17: 1665474243
+      Ranger_Spritesheet_170: -2077290346
+      Ranger_Spritesheet_171: 2111059569
+      Ranger_Spritesheet_172: 1683477803
+      Ranger_Spritesheet_173: 1627476038
+      Ranger_Spritesheet_174: 1766325598
+      Ranger_Spritesheet_175: -2055329327
+      Ranger_Spritesheet_176: -1145453623
+      Ranger_Spritesheet_177: -965907780
+      Ranger_Spritesheet_178: -1959023479
+      Ranger_Spritesheet_179: 1546481909
+      Ranger_Spritesheet_18: -1088742470
+      Ranger_Spritesheet_180: 151167608
+      Ranger_Spritesheet_181: -1966138398
+      Ranger_Spritesheet_182: -652472424
+      Ranger_Spritesheet_183: 935778398
+      Ranger_Spritesheet_184: 171667612
+      Ranger_Spritesheet_185: 46664791
+      Ranger_Spritesheet_186: 784582236
+      Ranger_Spritesheet_187: -1339640114
+      Ranger_Spritesheet_188: 962651873
+      Ranger_Spritesheet_189: 894274579
+      Ranger_Spritesheet_19: 694778310
+      Ranger_Spritesheet_190: 1755072477
+      Ranger_Spritesheet_191: 417589571
+      Ranger_Spritesheet_192: -470817742
+      Ranger_Spritesheet_193: 22120012
+      Ranger_Spritesheet_194: 522621298
+      Ranger_Spritesheet_195: -676856477
+      Ranger_Spritesheet_196: -1906569924
+      Ranger_Spritesheet_197: -236029914
+      Ranger_Spritesheet_198: 242052382
+      Ranger_Spritesheet_199: -1249087026
+      Ranger_Spritesheet_2: 1465833428
+      Ranger_Spritesheet_20: -1098926161
+      Ranger_Spritesheet_200: -893514128
+      Ranger_Spritesheet_201: 804578788
+      Ranger_Spritesheet_202: 922592781
+      Ranger_Spritesheet_203: -655123073
+      Ranger_Spritesheet_204: 357723109
+      Ranger_Spritesheet_205: 228434188
+      Ranger_Spritesheet_206: -290793980
+      Ranger_Spritesheet_207: -1524262189
+      Ranger_Spritesheet_208: 1592525542
+      Ranger_Spritesheet_209: -604226528
+      Ranger_Spritesheet_21: 1654369355
+      Ranger_Spritesheet_210: -700219958
+      Ranger_Spritesheet_211: -2040246134
+      Ranger_Spritesheet_212: 1793598308
+      Ranger_Spritesheet_213: -1109748501
+      Ranger_Spritesheet_214: 1801030560
+      Ranger_Spritesheet_215: 848773575
+      Ranger_Spritesheet_216: 1799374848
+      Ranger_Spritesheet_217: -1813778784
+      Ranger_Spritesheet_218: -1620028236
+      Ranger_Spritesheet_219: 137685196
+      Ranger_Spritesheet_22: -388015487
+      Ranger_Spritesheet_220: 373979623
+      Ranger_Spritesheet_221: -2048890382
+      Ranger_Spritesheet_222: 699991343
+      Ranger_Spritesheet_223: 1400061832
+      Ranger_Spritesheet_224: -156338947
+      Ranger_Spritesheet_225: 795341725
+      Ranger_Spritesheet_226: 550841026
+      Ranger_Spritesheet_227: 1752236908
+      Ranger_Spritesheet_228: 2056006984
+      Ranger_Spritesheet_229: -256703624
+      Ranger_Spritesheet_23: 580161263
+      Ranger_Spritesheet_230: 1947480710
+      Ranger_Spritesheet_231: 1041691099
+      Ranger_Spritesheet_232: -981977425
+      Ranger_Spritesheet_233: -1127141042
+      Ranger_Spritesheet_234: 1967075360
+      Ranger_Spritesheet_235: -604011635
+      Ranger_Spritesheet_236: -2107811539
+      Ranger_Spritesheet_237: -126157551
+      Ranger_Spritesheet_238: -1789074408
+      Ranger_Spritesheet_239: 224365950
+      Ranger_Spritesheet_24: -1956740555
+      Ranger_Spritesheet_240: 843573775
+      Ranger_Spritesheet_241: 1681585276
+      Ranger_Spritesheet_242: 1979102459
+      Ranger_Spritesheet_243: -856799916
+      Ranger_Spritesheet_244: 614598232
+      Ranger_Spritesheet_245: -1473358918
+      Ranger_Spritesheet_246: -594167513
+      Ranger_Spritesheet_247: 1134472834
+      Ranger_Spritesheet_248: 1324625948
+      Ranger_Spritesheet_249: -168685886
+      Ranger_Spritesheet_25: -541080305
+      Ranger_Spritesheet_250: 408520982
+      Ranger_Spritesheet_251: 1881771369
+      Ranger_Spritesheet_252: 1262965052
+      Ranger_Spritesheet_253: -347617760
+      Ranger_Spritesheet_254: -1507299271
+      Ranger_Spritesheet_255: 978659163
+      Ranger_Spritesheet_256: -539055316
+      Ranger_Spritesheet_257: -1902434096
+      Ranger_Spritesheet_258: -1462794060
+      Ranger_Spritesheet_259: -832772537
+      Ranger_Spritesheet_26: 2055168519
+      Ranger_Spritesheet_260: -1345031801
+      Ranger_Spritesheet_261: -775120915
+      Ranger_Spritesheet_262: -1342842004
+      Ranger_Spritesheet_263: 831703290
+      Ranger_Spritesheet_264: -1394142419
+      Ranger_Spritesheet_265: -1873317331
+      Ranger_Spritesheet_266: 204902654
+      Ranger_Spritesheet_267: 77161036
+      Ranger_Spritesheet_268: 522401685
+      Ranger_Spritesheet_269: 663810144
+      Ranger_Spritesheet_27: -665880825
+      Ranger_Spritesheet_270: 1375647161
+      Ranger_Spritesheet_271: -768475381
+      Ranger_Spritesheet_272: -874001853
+      Ranger_Spritesheet_273: 855292429
+      Ranger_Spritesheet_274: -1176725699
+      Ranger_Spritesheet_275: 883009596
+      Ranger_Spritesheet_276: -470437195
+      Ranger_Spritesheet_277: 1707891050
+      Ranger_Spritesheet_278: 756654562
+      Ranger_Spritesheet_279: -1219779482
+      Ranger_Spritesheet_28: 1070325663
+      Ranger_Spritesheet_280: -1249657490
+      Ranger_Spritesheet_281: -2083896012
+      Ranger_Spritesheet_282: 616163486
+      Ranger_Spritesheet_283: 1408873613
+      Ranger_Spritesheet_284: -1585127148
+      Ranger_Spritesheet_285: -1337295410
+      Ranger_Spritesheet_286: 163607309
+      Ranger_Spritesheet_287: -1571757572
+      Ranger_Spritesheet_288: -317722044
+      Ranger_Spritesheet_289: 1395596983
+      Ranger_Spritesheet_29: -1189941350
+      Ranger_Spritesheet_290: -1064788568
+      Ranger_Spritesheet_291: -1188738327
+      Ranger_Spritesheet_292: -903291643
+      Ranger_Spritesheet_293: 1942741332
+      Ranger_Spritesheet_294: 1699202925
+      Ranger_Spritesheet_295: -1523154787
+      Ranger_Spritesheet_296: 1160794792
+      Ranger_Spritesheet_297: 344918043
+      Ranger_Spritesheet_298: 890098728
+      Ranger_Spritesheet_299: -139727594
+      Ranger_Spritesheet_3: 1384396178
+      Ranger_Spritesheet_30: -649495327
+      Ranger_Spritesheet_300: 1286198978
+      Ranger_Spritesheet_301: -1253211197
+      Ranger_Spritesheet_302: 474739648
+      Ranger_Spritesheet_303: -1261727524
+      Ranger_Spritesheet_304: -370882353
+      Ranger_Spritesheet_305: -404060157
+      Ranger_Spritesheet_306: -1163572879
+      Ranger_Spritesheet_307: 1903544826
+      Ranger_Spritesheet_308: 158897557
+      Ranger_Spritesheet_309: 1504796456
+      Ranger_Spritesheet_31: 2129266279
+      Ranger_Spritesheet_310: -1894005586
+      Ranger_Spritesheet_311: 1721175808
+      Ranger_Spritesheet_312: 258478449
+      Ranger_Spritesheet_313: -1248269398
+      Ranger_Spritesheet_314: 1689284250
+      Ranger_Spritesheet_315: 1898771044
+      Ranger_Spritesheet_316: 1590407102
+      Ranger_Spritesheet_317: 2055072156
+      Ranger_Spritesheet_318: 844237211
+      Ranger_Spritesheet_319: 2005465847
+      Ranger_Spritesheet_32: 1703016780
+      Ranger_Spritesheet_320: 1182640523
+      Ranger_Spritesheet_321: 1008972885
+      Ranger_Spritesheet_322: 1005101105
+      Ranger_Spritesheet_33: -957682313
+      Ranger_Spritesheet_34: 150913256
+      Ranger_Spritesheet_35: 2089742753
+      Ranger_Spritesheet_36: -249923993
+      Ranger_Spritesheet_37: 176450646
+      Ranger_Spritesheet_38: -1756818107
+      Ranger_Spritesheet_39: 1565510960
+      Ranger_Spritesheet_4: 1418287262
+      Ranger_Spritesheet_40: -1527141391
+      Ranger_Spritesheet_41: -1573678282
+      Ranger_Spritesheet_42: -884074189
+      Ranger_Spritesheet_43: -1345688139
+      Ranger_Spritesheet_44: -1153405513
+      Ranger_Spritesheet_45: -1631000787
+      Ranger_Spritesheet_46: -1896033174
+      Ranger_Spritesheet_47: -1497735577
+      Ranger_Spritesheet_48: -79275613
+      Ranger_Spritesheet_49: 686151066
+      Ranger_Spritesheet_5: -624880004
+      Ranger_Spritesheet_50: 2146274537
+      Ranger_Spritesheet_51: -1004491635
+      Ranger_Spritesheet_52: -1778362807
+      Ranger_Spritesheet_53: 1678083711
+      Ranger_Spritesheet_54: -714181193
+      Ranger_Spritesheet_55: -1976998728
+      Ranger_Spritesheet_56: -1133805877
+      Ranger_Spritesheet_57: 1519707941
+      Ranger_Spritesheet_58: -170574082
+      Ranger_Spritesheet_59: 1364720653
+      Ranger_Spritesheet_6: 1153804033
+      Ranger_Spritesheet_60: -68021470
+      Ranger_Spritesheet_61: 1763874416
+      Ranger_Spritesheet_62: -1425590733
+      Ranger_Spritesheet_63: 2015661858
+      Ranger_Spritesheet_64: -1769790634
+      Ranger_Spritesheet_65: 401223923
+      Ranger_Spritesheet_66: 2105494825
+      Ranger_Spritesheet_67: 2038334844
+      Ranger_Spritesheet_68: -765720464
+      Ranger_Spritesheet_69: -2040738081
+      Ranger_Spritesheet_7: 2113545494
+      Ranger_Spritesheet_70: 1857173410
+      Ranger_Spritesheet_71: -1952714737
+      Ranger_Spritesheet_72: 70533500
+      Ranger_Spritesheet_73: -1056098998
+      Ranger_Spritesheet_74: -801197351
+      Ranger_Spritesheet_75: -33375734
+      Ranger_Spritesheet_76: 1317068378
+      Ranger_Spritesheet_77: -1303770883
+      Ranger_Spritesheet_78: -1931841379
+      Ranger_Spritesheet_79: 1211017408
+      Ranger_Spritesheet_8: 1639107086
+      Ranger_Spritesheet_80: 1929129872
+      Ranger_Spritesheet_81: -2075495981
+      Ranger_Spritesheet_82: -1926059263
+      Ranger_Spritesheet_83: 567344612
+      Ranger_Spritesheet_84: 1550799028
+      Ranger_Spritesheet_85: 32549704
+      Ranger_Spritesheet_86: -92024063
+      Ranger_Spritesheet_87: -88867262
+      Ranger_Spritesheet_88: -164390896
+      Ranger_Spritesheet_89: 1744590514
+      Ranger_Spritesheet_9: 396086652
+      Ranger_Spritesheet_90: 1716902873
+      Ranger_Spritesheet_91: -582682767
+      Ranger_Spritesheet_92: 371854585
+      Ranger_Spritesheet_93: -252425417
+      Ranger_Spritesheet_94: 1408872112
+      Ranger_Spritesheet_95: -1060553638
+      Ranger_Spritesheet_96: -145913851
+      Ranger_Spritesheet_97: -54334871
+      Ranger_Spritesheet_98: 155867894
+      Ranger_Spritesheet_99: 832318620
+      Ranger_Spritesheet_Attack_And_Casting 1_0: -1294276231
+      Ranger_Spritesheet_Attack_And_Casting 1_1: -260246833
+      Ranger_Spritesheet_Attack_And_Casting 1_10: 860801827
+      Ranger_Spritesheet_Attack_And_Casting 1_11: 632672498
+      Ranger_Spritesheet_Attack_And_Casting 1_12: -265146168
+      Ranger_Spritesheet_Attack_And_Casting 1_13: 1358463403
+      Ranger_Spritesheet_Attack_And_Casting 1_14: 1111133204
+      Ranger_Spritesheet_Attack_And_Casting 1_15: -669591945
+      Ranger_Spritesheet_Attack_And_Casting 1_16: -1142133644
+      Ranger_Spritesheet_Attack_And_Casting 1_17: -2070653800
+      Ranger_Spritesheet_Attack_And_Casting 1_18: 853591923
+      Ranger_Spritesheet_Attack_And_Casting 1_19: -768289089
+      Ranger_Spritesheet_Attack_And_Casting 1_2: 72565798
+      Ranger_Spritesheet_Attack_And_Casting 1_20: -1638848587
+      Ranger_Spritesheet_Attack_And_Casting 1_21: 1993718443
+      Ranger_Spritesheet_Attack_And_Casting 1_22: -382896483
+      Ranger_Spritesheet_Attack_And_Casting 1_23: 460573920
+      Ranger_Spritesheet_Attack_And_Casting 1_24: -229680294
+      Ranger_Spritesheet_Attack_And_Casting 1_25: -884725828
+      Ranger_Spritesheet_Attack_And_Casting 1_26: 876759351
+      Ranger_Spritesheet_Attack_And_Casting 1_27: -1499275765
+      Ranger_Spritesheet_Attack_And_Casting 1_28: -1746418959
+      Ranger_Spritesheet_Attack_And_Casting 1_29: -661809071
+      Ranger_Spritesheet_Attack_And_Casting 1_3: 1675965336
+      Ranger_Spritesheet_Attack_And_Casting 1_30: 409234675
+      Ranger_Spritesheet_Attack_And_Casting 1_31: 1083886317
+      Ranger_Spritesheet_Attack_And_Casting 1_32: 881346751
+      Ranger_Spritesheet_Attack_And_Casting 1_33: -359520884
+      Ranger_Spritesheet_Attack_And_Casting 1_34: -1177481455
+      Ranger_Spritesheet_Attack_And_Casting 1_35: -1804818253
+      Ranger_Spritesheet_Attack_And_Casting 1_36: 1754718716
+      Ranger_Spritesheet_Attack_And_Casting 1_37: -975190496
+      Ranger_Spritesheet_Attack_And_Casting 1_38: 1024680768
+      Ranger_Spritesheet_Attack_And_Casting 1_39: 2076022773
+      Ranger_Spritesheet_Attack_And_Casting 1_4: 480839581
+      Ranger_Spritesheet_Attack_And_Casting 1_40: -1330850802
+      Ranger_Spritesheet_Attack_And_Casting 1_41: 180457180
+      Ranger_Spritesheet_Attack_And_Casting 1_42: 1652052407
+      Ranger_Spritesheet_Attack_And_Casting 1_43: -1697586013
+      Ranger_Spritesheet_Attack_And_Casting 1_44: -880634798
+      Ranger_Spritesheet_Attack_And_Casting 1_45: -1409961827
+      Ranger_Spritesheet_Attack_And_Casting 1_46: 753634663
+      Ranger_Spritesheet_Attack_And_Casting 1_47: 451327509
+      Ranger_Spritesheet_Attack_And_Casting 1_48: 1620072341
+      Ranger_Spritesheet_Attack_And_Casting 1_49: -423520637
+      Ranger_Spritesheet_Attack_And_Casting 1_5: -1478248986
+      Ranger_Spritesheet_Attack_And_Casting 1_50: -1178617755
+      Ranger_Spritesheet_Attack_And_Casting 1_51: -1614431722
+      Ranger_Spritesheet_Attack_And_Casting 1_52: 831538115
+      Ranger_Spritesheet_Attack_And_Casting 1_53: 1645420071
+      Ranger_Spritesheet_Attack_And_Casting 1_54: 1246393651
+      Ranger_Spritesheet_Attack_And_Casting 1_55: -1976800986
+      Ranger_Spritesheet_Attack_And_Casting 1_56: -521121430
+      Ranger_Spritesheet_Attack_And_Casting 1_57: 1879980949
+      Ranger_Spritesheet_Attack_And_Casting 1_6: -1032446016
+      Ranger_Spritesheet_Attack_And_Casting 1_7: -1713536137
+      Ranger_Spritesheet_Attack_And_Casting 1_8: 898197955
+      Ranger_Spritesheet_Attack_And_Casting 1_9: -468172549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

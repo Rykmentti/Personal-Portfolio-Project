@@ -1,0 +1,2164 @@
+fileFormatVersion: 2
+guid: 1e996ff239174104f882194fa59abba2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ff84a8192b03c409c7d763384aa9e2
+      internalID: -1011809888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38c22a78cd533d4785b2579f3d9be92
+      internalID: -665279261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38144f9c778d1494991078b7282c78a8
+      internalID: -452579337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1cbce7c81f6b2499005aa2f1fc0d26
+      internalID: 954046147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32a84bed3eec774d8c90bb7656f87ad
+      internalID: -794639299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82836b13cc4010a46b3ad9fe0f4c0225
+      internalID: 1225530538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d80905694c2fe64ab47a81c6c5848e3
+      internalID: -1279729942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2d9ed03a05c834f83fa913d76c34ea
+      internalID: -1862853652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a49a215c498cdb4c933adad72195e5a
+      internalID: -1858473354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1226d86cdafdd94dabc8c9f7e09d65e
+      internalID: 285185876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6795ccc599a610e4fb010af9aa6cc259
+      internalID: -1980693346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42122067c00b9f84ebe659047a78291a
+      internalID: 258817833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b5d1e1d8d51a64db66dbc2e01cc109
+      internalID: -623523296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c526d4c00920d4ead4d88722a08071
+      internalID: -31625806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8005f4211e54284d8531f2af752f6c3
+      internalID: 1032851440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e1a571a960c194b940a6bf4e91ca2d
+      internalID: 49406176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c84a50d6b38d2c48be3840988b3e4e0
+      internalID: 409347765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2691baf0e22a124408b548ae38e15d25
+      internalID: 1506460919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d444c966e3730d94eba4130fe2830802
+      internalID: 1761354751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958d97d8621820945a9a43e8a0e0b1bf
+      internalID: -1628943248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8129a7e5b44cf4bbbae202219204cb
+      internalID: 1548337835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60f3371c933c4a4f98234e68c2d72a1
+      internalID: 1064901630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038d57b759ebb0944abfc6f25dd1673d
+      internalID: -994144364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47023464e753d45479ffe088d8845692
+      internalID: 1686911628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ac7fde61a1c3c4eb0fb1d01053125d
+      internalID: -93369566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54aee1887be4f64d8042d97bb9b54b7
+      internalID: 18619288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3429e1b94381c4796e14d4927195c4
+      internalID: -323966813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51810e329f91b73418d68ef99b77b8a5
+      internalID: -1639470836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5457f4d683f1d498ee0aac0e44381a
+      internalID: -1692768033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a2fc1e7c8a7e741adc97ae95830936
+      internalID: -268675349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f39dd5871cb5a0469122258f8ab2d93
+      internalID: 1084765227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4368117a562f1408d8a2555b526fd1
+      internalID: -1842000097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3b1661f8a883540b347afe4c7b240a
+      internalID: -1906021855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f955a71952ce754493a04e74675d10c
+      internalID: 416089444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107336d3d22702444a7410b6e2ca76c3
+      internalID: 1721859482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed26e915ab24098499996429dfe85a5e
+      internalID: -813365204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b770a48dd5cb094449fa9e039f27f2c2
+      internalID: -524078097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaef95a0f8726124c885e795ef1d8118
+      internalID: -2008879105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d165a26e45d6e447a9e89da15de6fde
+      internalID: -1599074628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1abbb701c39e34e847c1b2d9296a13
+      internalID: 373882453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a421736adb3ab94697232ae8f83ad3d
+      internalID: -1614598440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abf65f4717707c4bb53f5e6dc6863e6
+      internalID: -2105181087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5613bb044dfffa34c967662afd0a35ac
+      internalID: -2038489002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02f7d722df69614fbdc0eb22d039c41
+      internalID: -263848985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edebcbc428f8b5418babe4bb4aa6ed2
+      internalID: -971957424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248d7e425738de94dae23a1fbec94b41
+      internalID: -260913379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505f254589386ea46b1273c7e74bf6aa
+      internalID: -250549783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfb5dea992386644a6104e805649849
+      internalID: -51539383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500459d29ddbf384089ef04152514712
+      internalID: 1030641277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be86629d30d81854aa6c8261ea6873f7
+      internalID: 544672624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e6cdb9d078ac94b932b421ee20a3a8
+      internalID: -933186490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22846be2a80f34f45a485b0a45a8601b
+      internalID: -1750995451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de243818b830b74419f55aa302b40cd5
+      internalID: -919838033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e39f48d690d0a843af72051e33fd030
+      internalID: 492990410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbe00f41b4752e478a210254afcbcf7
+      internalID: 1341529723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2773b6abda37c9b47840882a8b2c00d0
+      internalID: -1313716556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ebc69a1a347c44086c48e26b273033
+      internalID: 1327812509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bcdcdb6e4977344ad62858ff186e8a
+      internalID: 761042825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437b812df46c14c46ae21cf9d7fadfee
+      internalID: 1189603784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1da7a52943ac64baac60d1f1f6967b
+      internalID: -1074239799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e36124fa3fd0b468dfa4053aefdb2f
+      internalID: 1098519507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a014d8eef6b32428584d4225df1b1e
+      internalID: 377113314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924ef9bf6b199cb49af0a5536e2d58cc
+      internalID: -698558736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1ca110fe7c7d5428866b06068d711b
+      internalID: -523682139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_185
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0706bd06c88eb3a478dd0873648ff9e7
+      internalID: 722855625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_186
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc14e01c9a17a44e9f5db1cb6f113d5
+      internalID: 1895933021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_187
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88574b2a6865d546b001fae007416ef
+      internalID: 1077218278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_188
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3737ff41ba4fd4893089d9a7e87d34
+      internalID: -2078362343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_189
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c24bad598b6f84d8168877af313dc5
+      internalID: -1038917477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_190
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e6d38dffb895249a4d79782d3e1101
+      internalID: -248089885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_191
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4123c6df00ac64847bb01349c447e363
+      internalID: -1511527061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_192
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3bd71ca61e1cb40a52164456a7547e
+      internalID: 715542993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_193
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88ff4a16b3f5624eb1289b841bfba28
+      internalID: -1886187637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Spritesheet_194
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7386318b218b34295d9d83a9dccd18
+      internalID: -1716902226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Knight_Spritesheet_0: -1011809888
+      Knight_Spritesheet_1: -665279261
+      Knight_Spritesheet_10: 285185876
+      Knight_Spritesheet_100: -1074239799
+      Knight_Spritesheet_101: 1098519507
+      Knight_Spritesheet_102: 377113314
+      Knight_Spritesheet_103: -698558736
+      Knight_Spritesheet_104: -523682139
+      Knight_Spritesheet_105: 2141857239
+      Knight_Spritesheet_106: 769333890
+      Knight_Spritesheet_107: -858251768
+      Knight_Spritesheet_108: -43122615
+      Knight_Spritesheet_109: -655993557
+      Knight_Spritesheet_11: -1980693346
+      Knight_Spritesheet_110: -2004559427
+      Knight_Spritesheet_111: -1932315816
+      Knight_Spritesheet_112: -1165780425
+      Knight_Spritesheet_113: 261762755
+      Knight_Spritesheet_114: 482883979
+      Knight_Spritesheet_115: 155968341
+      Knight_Spritesheet_116: 604426640
+      Knight_Spritesheet_117: 896088221
+      Knight_Spritesheet_118: -552919162
+      Knight_Spritesheet_119: 195254720
+      Knight_Spritesheet_12: 258817833
+      Knight_Spritesheet_120: -1117465958
+      Knight_Spritesheet_121: -472889120
+      Knight_Spritesheet_122: 1769700347
+      Knight_Spritesheet_123: 499907732
+      Knight_Spritesheet_124: 1341431029
+      Knight_Spritesheet_125: 871341613
+      Knight_Spritesheet_126: -1060670726
+      Knight_Spritesheet_127: 892781959
+      Knight_Spritesheet_128: 2128606461
+      Knight_Spritesheet_129: -1748302457
+      Knight_Spritesheet_13: -623523296
+      Knight_Spritesheet_130: -258645976
+      Knight_Spritesheet_131: -75830544
+      Knight_Spritesheet_132: -1789362671
+      Knight_Spritesheet_133: -1584188023
+      Knight_Spritesheet_134: -959011923
+      Knight_Spritesheet_135: -779554131
+      Knight_Spritesheet_136: -179952510
+      Knight_Spritesheet_137: -1081817265
+      Knight_Spritesheet_138: 922133764
+      Knight_Spritesheet_139: 656535909
+      Knight_Spritesheet_14: -31625806
+      Knight_Spritesheet_140: 1011424663
+      Knight_Spritesheet_141: -1502922147
+      Knight_Spritesheet_142: 1471860982
+      Knight_Spritesheet_143: 521273880
+      Knight_Spritesheet_144: -83054667
+      Knight_Spritesheet_145: -1179191213
+      Knight_Spritesheet_146: 952043636
+      Knight_Spritesheet_147: -2104856945
+      Knight_Spritesheet_148: -1758738052
+      Knight_Spritesheet_149: -789887640
+      Knight_Spritesheet_15: 1170355537
+      Knight_Spritesheet_150: -1597781853
+      Knight_Spritesheet_151: -1101808633
+      Knight_Spritesheet_152: -1502567352
+      Knight_Spritesheet_153: 1356722975
+      Knight_Spritesheet_154: 2060960195
+      Knight_Spritesheet_155: -1636172722
+      Knight_Spritesheet_156: 437521292
+      Knight_Spritesheet_157: -253534174
+      Knight_Spritesheet_158: -1203884332
+      Knight_Spritesheet_159: 797984021
+      Knight_Spritesheet_16: 1032851440
+      Knight_Spritesheet_160: 912765061
+      Knight_Spritesheet_161: -2108132524
+      Knight_Spritesheet_162: 851892982
+      Knight_Spritesheet_163: -1436021899
+      Knight_Spritesheet_164: 766837897
+      Knight_Spritesheet_165: 433665762
+      Knight_Spritesheet_166: 155903332
+      Knight_Spritesheet_167: -1874348612
+      Knight_Spritesheet_168: 2060018087
+      Knight_Spritesheet_169: -2120978503
+      Knight_Spritesheet_17: 49406176
+      Knight_Spritesheet_170: 18427708
+      Knight_Spritesheet_171: -821896289
+      Knight_Spritesheet_172: 1597850828
+      Knight_Spritesheet_173: 525264404
+      Knight_Spritesheet_174: -159794915
+      Knight_Spritesheet_175: -819125842
+      Knight_Spritesheet_176: -1271695220
+      Knight_Spritesheet_177: 2079621008
+      Knight_Spritesheet_178: 452060060
+      Knight_Spritesheet_179: -9638060
+      Knight_Spritesheet_18: 409347765
+      Knight_Spritesheet_180: 635821947
+      Knight_Spritesheet_181: -295401595
+      Knight_Spritesheet_182: 1347164454
+      Knight_Spritesheet_183: 1445033780
+      Knight_Spritesheet_184: -525733307
+      Knight_Spritesheet_185: 722855625
+      Knight_Spritesheet_186: 1895933021
+      Knight_Spritesheet_187: 1077218278
+      Knight_Spritesheet_188: -2078362343
+      Knight_Spritesheet_189: -1038917477
+      Knight_Spritesheet_19: 1506460919
+      Knight_Spritesheet_190: -248089885
+      Knight_Spritesheet_191: -1511527061
+      Knight_Spritesheet_192: 715542993
+      Knight_Spritesheet_193: -1886187637
+      Knight_Spritesheet_194: -1716902226
+      Knight_Spritesheet_195: -883123877
+      Knight_Spritesheet_196: -568867370
+      Knight_Spritesheet_197: 754322648
+      Knight_Spritesheet_198: -1743420025
+      Knight_Spritesheet_199: -1580194153
+      Knight_Spritesheet_2: -452579337
+      Knight_Spritesheet_20: 1761354751
+      Knight_Spritesheet_200: -1790741624
+      Knight_Spritesheet_201: 1103030877
+      Knight_Spritesheet_202: 48404391
+      Knight_Spritesheet_203: 1794182352
+      Knight_Spritesheet_204: 1386833694
+      Knight_Spritesheet_205: -42255969
+      Knight_Spritesheet_206: 756672047
+      Knight_Spritesheet_207: -2091707563
+      Knight_Spritesheet_208: 686638677
+      Knight_Spritesheet_209: -1701496533
+      Knight_Spritesheet_21: -1628943248
+      Knight_Spritesheet_210: -856989825
+      Knight_Spritesheet_211: 1287891624
+      Knight_Spritesheet_212: -384344837
+      Knight_Spritesheet_213: 1161930596
+      Knight_Spritesheet_214: 286370440
+      Knight_Spritesheet_215: 1493634291
+      Knight_Spritesheet_216: 1563338825
+      Knight_Spritesheet_217: -1102480326
+      Knight_Spritesheet_218: 1652536715
+      Knight_Spritesheet_219: -917457472
+      Knight_Spritesheet_22: 1548337835
+      Knight_Spritesheet_220: 974991765
+      Knight_Spritesheet_221: 352783148
+      Knight_Spritesheet_222: 1669769358
+      Knight_Spritesheet_223: 1824482443
+      Knight_Spritesheet_224: -1121677214
+      Knight_Spritesheet_225: 1360512916
+      Knight_Spritesheet_226: 38793157
+      Knight_Spritesheet_227: -514611601
+      Knight_Spritesheet_228: 1260428012
+      Knight_Spritesheet_229: 1187349866
+      Knight_Spritesheet_23: 601667292
+      Knight_Spritesheet_230: 666281407
+      Knight_Spritesheet_231: -2139932089
+      Knight_Spritesheet_232: 463384022
+      Knight_Spritesheet_233: 643470602
+      Knight_Spritesheet_234: -510182231
+      Knight_Spritesheet_235: -1086034483
+      Knight_Spritesheet_236: -521325010
+      Knight_Spritesheet_237: -1668188252
+      Knight_Spritesheet_238: -1920362795
+      Knight_Spritesheet_239: -2120722366
+      Knight_Spritesheet_24: 1064901630
+      Knight_Spritesheet_240: 1653181742
+      Knight_Spritesheet_241: 1519647102
+      Knight_Spritesheet_242: 631780469
+      Knight_Spritesheet_243: -1182255686
+      Knight_Spritesheet_244: -2078592792
+      Knight_Spritesheet_245: 1044571336
+      Knight_Spritesheet_246: -1544727191
+      Knight_Spritesheet_247: -107655269
+      Knight_Spritesheet_248: 2093793204
+      Knight_Spritesheet_249: -289169867
+      Knight_Spritesheet_25: -994144364
+      Knight_Spritesheet_250: 1440462474
+      Knight_Spritesheet_251: -107511643
+      Knight_Spritesheet_252: 858434361
+      Knight_Spritesheet_253: -1965505392
+      Knight_Spritesheet_254: -679297606
+      Knight_Spritesheet_255: -529601442
+      Knight_Spritesheet_256: -621472944
+      Knight_Spritesheet_257: -2094850281
+      Knight_Spritesheet_258: -365411233
+      Knight_Spritesheet_259: 1074597492
+      Knight_Spritesheet_26: 1686911628
+      Knight_Spritesheet_260: 950441173
+      Knight_Spritesheet_261: -1878026179
+      Knight_Spritesheet_262: -1141373843
+      Knight_Spritesheet_263: -1585798536
+      Knight_Spritesheet_264: -355758805
+      Knight_Spritesheet_265: -2028137667
+      Knight_Spritesheet_266: 1862579267
+      Knight_Spritesheet_267: 1463055934
+      Knight_Spritesheet_268: 2084195109
+      Knight_Spritesheet_269: 480680610
+      Knight_Spritesheet_27: -93369566
+      Knight_Spritesheet_270: 1952479065
+      Knight_Spritesheet_271: -127212830
+      Knight_Spritesheet_272: 164528282
+      Knight_Spritesheet_273: 1876292315
+      Knight_Spritesheet_274: -873556801
+      Knight_Spritesheet_275: -1259575983
+      Knight_Spritesheet_276: -1035116363
+      Knight_Spritesheet_277: 1572414909
+      Knight_Spritesheet_278: -396195566
+      Knight_Spritesheet_279: -1884486627
+      Knight_Spritesheet_28: 18619288
+      Knight_Spritesheet_280: 300959030
+      Knight_Spritesheet_281: -64831206
+      Knight_Spritesheet_282: 177322105
+      Knight_Spritesheet_283: 971734769
+      Knight_Spritesheet_284: -1621417026
+      Knight_Spritesheet_285: -1057855726
+      Knight_Spritesheet_286: 918454644
+      Knight_Spritesheet_287: 1751549214
+      Knight_Spritesheet_288: -517989938
+      Knight_Spritesheet_289: 22376970
+      Knight_Spritesheet_29: -323966813
+      Knight_Spritesheet_290: 1975274066
+      Knight_Spritesheet_291: -2084535629
+      Knight_Spritesheet_292: -331508051
+      Knight_Spritesheet_293: -1654311253
+      Knight_Spritesheet_294: 585389320
+      Knight_Spritesheet_295: -1035196419
+      Knight_Spritesheet_296: 655633982
+      Knight_Spritesheet_297: 257001247
+      Knight_Spritesheet_298: -692018648
+      Knight_Spritesheet_299: 1706732889
+      Knight_Spritesheet_3: 954046147
+      Knight_Spritesheet_30: -1639470836
+      Knight_Spritesheet_300: -315645636
+      Knight_Spritesheet_301: -1488528859
+      Knight_Spritesheet_302: 1286702545
+      Knight_Spritesheet_303: -611725389
+      Knight_Spritesheet_304: -1560039391
+      Knight_Spritesheet_305: -879958618
+      Knight_Spritesheet_306: 1804665556
+      Knight_Spritesheet_307: 197046712
+      Knight_Spritesheet_308: 1161559133
+      Knight_Spritesheet_309: 796004973
+      Knight_Spritesheet_31: -748070447
+      Knight_Spritesheet_310: -1960881894
+      Knight_Spritesheet_311: 1926212646
+      Knight_Spritesheet_312: 14121163
+      Knight_Spritesheet_313: 63763878
+      Knight_Spritesheet_314: -1077574394
+      Knight_Spritesheet_315: -1720360837
+      Knight_Spritesheet_316: 1258134088
+      Knight_Spritesheet_317: 897216035
+      Knight_Spritesheet_318: -19742625
+      Knight_Spritesheet_319: 282146234
+      Knight_Spritesheet_32: -1334391840
+      Knight_Spritesheet_320: -784847387
+      Knight_Spritesheet_321: -640546181
+      Knight_Spritesheet_322: 1339194980
+      Knight_Spritesheet_323: -805853552
+      Knight_Spritesheet_324: -1353883467
+      Knight_Spritesheet_325: -970818674
+      Knight_Spritesheet_326: 1710776637
+      Knight_Spritesheet_327: -1003527105
+      Knight_Spritesheet_328: -1373817041
+      Knight_Spritesheet_329: 952139236
+      Knight_Spritesheet_33: -254596235
+      Knight_Spritesheet_330: -1278262494
+      Knight_Spritesheet_331: 1869832337
+      Knight_Spritesheet_332: 1343412391
+      Knight_Spritesheet_333: -1450119059
+      Knight_Spritesheet_334: -1963107
+      Knight_Spritesheet_335: -2100095408
+      Knight_Spritesheet_336: -1292807590
+      Knight_Spritesheet_337: 179506945
+      Knight_Spritesheet_338: -126701221
+      Knight_Spritesheet_339: 361806113
+      Knight_Spritesheet_34: 1933049860
+      Knight_Spritesheet_340: -629640621
+      Knight_Spritesheet_341: 1084924722
+      Knight_Spritesheet_342: 683628296
+      Knight_Spritesheet_343: 1328566634
+      Knight_Spritesheet_344: -211537121
+      Knight_Spritesheet_345: 2042889994
+      Knight_Spritesheet_346: -1686640223
+      Knight_Spritesheet_347: -561273818
+      Knight_Spritesheet_348: 1028279285
+      Knight_Spritesheet_349: 773620659
+      Knight_Spritesheet_35: -466338566
+      Knight_Spritesheet_350: -976330378
+      Knight_Spritesheet_351: 863142132
+      Knight_Spritesheet_352: 1451591134
+      Knight_Spritesheet_353: 224806187
+      Knight_Spritesheet_354: 1256000975
+      Knight_Spritesheet_355: 187817290
+      Knight_Spritesheet_356: -255701154
+      Knight_Spritesheet_357: 1284930399
+      Knight_Spritesheet_358: -1349024141
+      Knight_Spritesheet_359: 1290803628
+      Knight_Spritesheet_36: -1817651700
+      Knight_Spritesheet_360: -1794367978
+      Knight_Spritesheet_361: 2010154918
+      Knight_Spritesheet_362: -1250439485
+      Knight_Spritesheet_363: 784647086
+      Knight_Spritesheet_364: -1583827713
+      Knight_Spritesheet_365: 464245217
+      Knight_Spritesheet_366: 1209759904
+      Knight_Spritesheet_367: 1680308889
+      Knight_Spritesheet_368: -1231097308
+      Knight_Spritesheet_369: 432789225
+      Knight_Spritesheet_37: -1429456820
+      Knight_Spritesheet_370: -1203681757
+      Knight_Spritesheet_371: -1192744801
+      Knight_Spritesheet_372: 1267485322
+      Knight_Spritesheet_373: -1375866891
+      Knight_Spritesheet_374: 218756472
+      Knight_Spritesheet_375: -900331339
+      Knight_Spritesheet_376: -1575147243
+      Knight_Spritesheet_377: 1406646674
+      Knight_Spritesheet_378: -97964713
+      Knight_Spritesheet_379: -1744819747
+      Knight_Spritesheet_38: -40914818
+      Knight_Spritesheet_380: 1835218128
+      Knight_Spritesheet_381: 1063466149
+      Knight_Spritesheet_382: -1844225243
+      Knight_Spritesheet_383: 1031789853
+      Knight_Spritesheet_384: 484619428
+      Knight_Spritesheet_385: -1120235506
+      Knight_Spritesheet_386: -632155517
+      Knight_Spritesheet_387: 1925186760
+      Knight_Spritesheet_388: -1904045423
+      Knight_Spritesheet_389: 1741406945
+      Knight_Spritesheet_39: -1400589348
+      Knight_Spritesheet_390: 731908708
+      Knight_Spritesheet_391: -939531194
+      Knight_Spritesheet_392: -515989475
+      Knight_Spritesheet_393: 798492513
+      Knight_Spritesheet_394: -1161131516
+      Knight_Spritesheet_395: 1107696475
+      Knight_Spritesheet_396: -165434736
+      Knight_Spritesheet_397: -950872881
+      Knight_Spritesheet_398: 1371777074
+      Knight_Spritesheet_399: -1959685465
+      Knight_Spritesheet_4: -794639299
+      Knight_Spritesheet_40: -1479208794
+      Knight_Spritesheet_400: -61069089
+      Knight_Spritesheet_401: 2051821206
+      Knight_Spritesheet_402: -517219978
+      Knight_Spritesheet_403: 88744231
+      Knight_Spritesheet_404: -2024589740
+      Knight_Spritesheet_405: 396095120
+      Knight_Spritesheet_406: 664083615
+      Knight_Spritesheet_407: 1064000366
+      Knight_Spritesheet_408: -2130969923
+      Knight_Spritesheet_409: 942852906
+      Knight_Spritesheet_41: 1979603119
+      Knight_Spritesheet_410: 1301738940
+      Knight_Spritesheet_411: -1258957861
+      Knight_Spritesheet_412: -264000381
+      Knight_Spritesheet_413: 24424820
+      Knight_Spritesheet_414: -659239719
+      Knight_Spritesheet_415: 1114849152
+      Knight_Spritesheet_416: 475216554
+      Knight_Spritesheet_417: -647802812
+      Knight_Spritesheet_418: -417480265
+      Knight_Spritesheet_419: 1537216734
+      Knight_Spritesheet_42: -843142823
+      Knight_Spritesheet_420: 1574179307
+      Knight_Spritesheet_421: 727024511
+      Knight_Spritesheet_422: 1214561834
+      Knight_Spritesheet_423: -1120459918
+      Knight_Spritesheet_424: -62655554
+      Knight_Spritesheet_425: 1634292431
+      Knight_Spritesheet_426: 19947693
+      Knight_Spritesheet_427: -970728065
+      Knight_Spritesheet_428: 1496081451
+      Knight_Spritesheet_429: -1308665992
+      Knight_Spritesheet_43: 1882102397
+      Knight_Spritesheet_430: -1322377283
+      Knight_Spritesheet_431: -1541495332
+      Knight_Spritesheet_432: -169274023
+      Knight_Spritesheet_433: 1853316483
+      Knight_Spritesheet_434: -1802754756
+      Knight_Spritesheet_435: 855856596
+      Knight_Spritesheet_436: -1723007683
+      Knight_Spritesheet_437: 1159167864
+      Knight_Spritesheet_438: 547153530
+      Knight_Spritesheet_439: 1550648534
+      Knight_Spritesheet_44: 775673016
+      Knight_Spritesheet_440: -414939476
+      Knight_Spritesheet_441: 267341241
+      Knight_Spritesheet_442: -1791407926
+      Knight_Spritesheet_443: -291487118
+      Knight_Spritesheet_444: 886146067
+      Knight_Spritesheet_445: 1958805104
+      Knight_Spritesheet_446: -2047679150
+      Knight_Spritesheet_447: 15448994
+      Knight_Spritesheet_448: 469771641
+      Knight_Spritesheet_449: 258771883
+      Knight_Spritesheet_45: 308253720
+      Knight_Spritesheet_450: -1176155281
+      Knight_Spritesheet_451: 335219305
+      Knight_Spritesheet_452: 760613792
+      Knight_Spritesheet_453: -1439300757
+      Knight_Spritesheet_454: -1787912221
+      Knight_Spritesheet_455: 1400849594
+      Knight_Spritesheet_456: 1635563489
+      Knight_Spritesheet_46: -161153015
+      Knight_Spritesheet_47: 607021903
+      Knight_Spritesheet_48: 2029572082
+      Knight_Spritesheet_49: -841439919
+      Knight_Spritesheet_5: 1225530538
+      Knight_Spritesheet_50: -1354276337
+      Knight_Spritesheet_51: 710343315
+      Knight_Spritesheet_52: -27248660
+      Knight_Spritesheet_53: -960767383
+      Knight_Spritesheet_54: -904078548
+      Knight_Spritesheet_55: 1852905818
+      Knight_Spritesheet_56: 1011333435
+      Knight_Spritesheet_57: -504353882
+      Knight_Spritesheet_58: -1256744499
+      Knight_Spritesheet_59: 33422642
+      Knight_Spritesheet_6: -1279729942
+      Knight_Spritesheet_60: 322141082
+      Knight_Spritesheet_61: 675733934
+      Knight_Spritesheet_62: -1181144947
+      Knight_Spritesheet_63: -1282736567
+      Knight_Spritesheet_64: 1773524614
+      Knight_Spritesheet_65: -1219040202
+      Knight_Spritesheet_66: -1341331071
+      Knight_Spritesheet_67: -1692768033
+      Knight_Spritesheet_68: -268675349
+      Knight_Spritesheet_69: 1084765227
+      Knight_Spritesheet_7: 1373382373
+      Knight_Spritesheet_70: -1842000097
+      Knight_Spritesheet_71: -1906021855
+      Knight_Spritesheet_72: 416089444
+      Knight_Spritesheet_73: 1721859482
+      Knight_Spritesheet_74: -813365204
+      Knight_Spritesheet_75: -524078097
+      Knight_Spritesheet_76: 1917326994
+      Knight_Spritesheet_77: -2008879105
+      Knight_Spritesheet_78: -1599074628
+      Knight_Spritesheet_79: 373882453
+      Knight_Spritesheet_8: -1862853652
+      Knight_Spritesheet_80: -1614598440
+      Knight_Spritesheet_81: -2105181087
+      Knight_Spritesheet_82: -2038489002
+      Knight_Spritesheet_83: -263848985
+      Knight_Spritesheet_84: -971957424
+      Knight_Spritesheet_85: -260913379
+      Knight_Spritesheet_86: -250549783
+      Knight_Spritesheet_87: -51539383
+      Knight_Spritesheet_88: 1030641277
+      Knight_Spritesheet_89: 544672624
+      Knight_Spritesheet_9: -1858473354
+      Knight_Spritesheet_90: -933186490
+      Knight_Spritesheet_91: -1750995451
+      Knight_Spritesheet_92: -919838033
+      Knight_Spritesheet_93: 492990410
+      Knight_Spritesheet_94: 1341529723
+      Knight_Spritesheet_95: 1295656389
+      Knight_Spritesheet_96: -1313716556
+      Knight_Spritesheet_97: 1327812509
+      Knight_Spritesheet_98: 761042825
+      Knight_Spritesheet_99: 1189603784
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

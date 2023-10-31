@@ -1,0 +1,21 @@
+{
+    "name": "com.devplz.combattext",
+  "version": "1.0.1",
+  "displayName": "Intense Combat Text",
+  "description": "Custom floating combat text",
+  "unity": "2018.4",
+  "unityRelease": "26f1",
+  "dependencies": {
+    "com.unity.textmeshpro": "1.4.1"
+ },
+ "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "John Jensen",
+    "email": "johncjensen@gmail.com",
+    "url": "https://www.devplz.com"
+  }
+}
