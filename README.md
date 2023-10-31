@@ -15,7 +15,7 @@ Don't expect complete games or working solutions. They are for me to keep track 
 ## Version Guide:
 I will list all the versions here, with (hopefully) brief descriptions.
 ### first-project-final:
-I started this project started on 23.01.2022, sometime after I finished my Junior Programmer Pathway on Unity. I had zero previous coding experience prior to this.
+My very first project. I started this project started on 23.01.2022, sometime after I finished my Junior Programmer Pathway on Unity. I had zero previous coding experience prior to this.
 
 First Commit Date: 07.09.2022 (Didn't "really" use github, until I started school, hence the 8 month gap betweem first and last commit)
 
@@ -27,7 +27,9 @@ Code is full of annotations full of annotiations, that do not make sense to anyo
 
 I concluded this project, because it was made with Unity 2020.3.12f1 LTS and the new project is going to using on newest Unity 2022 LTS.
 ### first-mobile-project
-I am currently Jyväskylä University of Applied Sciences student, specializing in the game development. This is my personal prototype, which I use to build and test everything.
+My first mobile project. I am currently Jyväskylä University of Applied Sciences student, specializing in the game development. This is my personal prototype, which I use to build and test everything.
+
+Why mobile? I wanted to see how mobile development works and since I'm very interested in 2D, doing a mobile project is a good idea to find out how everything works there. I am using tablet as the end platform right.
 
 First Commit Date: 19.07.2023
 
