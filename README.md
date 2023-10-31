@@ -1,4 +1,4 @@
-# Personal-Portfolio Front Page
+# Personal-Portfolio Project Front Page
 Eternal work-in-progress repository, which I made for myself to document the progress and development of me as a Unity Developer. Hopefully it will double as a portfolio as well.
 
 It should work like this:
