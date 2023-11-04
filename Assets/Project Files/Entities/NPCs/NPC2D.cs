@@ -127,10 +127,10 @@ public class NPC2D : MonoBehaviour
         if (target == null) { SetState(CurrentState.FindNearestEnemy); return; }
 
         // Setting Animations, using angle, which then sets correct animation set in Sprite Animator.
-        if ((targetAngle > 315 && targetAngle < 360) || (targetAngle > 0 && targetAngle < 45)) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.WalkingAnimationWest);
-        else if (targetAngle > 45 && targetAngle < 135) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.WalkingAnimationSouth);
-        else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.WalkingAnimationEast);
-        else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.WalkingAnimationNorth);
+        if ((targetAngle > 315 && targetAngle < 360) || (targetAngle > 0 && targetAngle < 45)) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.WalkingAnimationNorth);
+        else if (targetAngle > 45 && targetAngle < 135) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.WalkingAnimationEast);
+        else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.WalkingAnimationSouth);
+        else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.WalkingAnimationWest);
 
         if (targetDestination != target.position) // No need to do calculations again for an object that isn't moving.
         {
@@ -151,9 +151,9 @@ public class NPC2D : MonoBehaviour
             // Testing
         }
     }
-    protected float GetAngleBetweenTargetAndSelf() // Calculating angles always start from west. I.e. West = 0/360, South = 90, East = 180 and North = 270.
+    protected float GetAngleBetweenTargetAndSelf() // Calculating angles always start from North. I.e. North = 0/360, East = 90, South = 180 and West = 270.
     {
-        float angle = Mathf.Atan2(transform.position.y - target.position.y, transform.position.x - target.position.x) * Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(target.position.x - transform.position.x, target.position.y - transform.position.y) * Mathf.Rad2Deg;
         if (angle < 0) angle += 360f; // Making sure value is between 0 and 360 degrees, instead of 180 and -180.
         return angle;
     }

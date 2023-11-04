@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class WizardProjectile : MonoBehaviour
+public class CasterEnemyProjectile : MonoBehaviour
 {
     NavMeshAgent projectileAgent;
     CasterNPC parentScript;
@@ -19,10 +19,10 @@ public class WizardProjectile : MonoBehaviour
         projectileAgent.updateRotation = false; // Can't have this with 2D sprites using NavMesh.
         projectileAgent.updateUpAxis = false; // Can't have this with 2D sprites using NavMesh.
 
-        damage = GetComponentInParent<CasterNPC>().SetDamageForChildren();
-        parentScript = GetComponentInParent<CasterNPC>();
-        target = parentScript.SetTargetForChildren();
         selfIdentifierTag = transform.parent.gameObject.tag; // We are use tag as our creator, to differentiate enemies.
+        parentScript = GetComponentInParent<CasterNPC>();
+        damage = parentScript.SetDamageForChildren();
+        target = parentScript.SetTargetForChildren();
         transform.parent = null; // We don't want the projectile flying on the same localPosition "plane" as the transform.
     }
 

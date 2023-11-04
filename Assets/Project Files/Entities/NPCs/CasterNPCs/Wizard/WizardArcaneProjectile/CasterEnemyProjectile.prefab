@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3851915573515738962}
   - component: {fileID: 7714751184647896600}
   m_Layer: 0
-  m_Name: WizardProjectile
+  m_Name: CasterEnemyProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
