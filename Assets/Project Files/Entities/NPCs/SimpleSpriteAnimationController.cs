@@ -89,6 +89,9 @@ public class SimpleSpriteAnimationController : MonoBehaviour
     {
         // Top-Down 2D animation requires 4 directions per animation set. North, East, South and West.
 
+        // Hold state, to make sure we don't play any animation, when we don't want to.
+        Hold, 
+
         // 4-Directional Animation States.
         IdleAnimationNorth, IdleAnimationEast, IdleAnimationSouth, IdleAnimationWest,
         WalkingAnimationNorth, WalkingAnimationEast, WalkingAnimationSouth, WalkingAnimationWest,
@@ -117,7 +120,9 @@ public class SimpleSpriteAnimationController : MonoBehaviour
     {
         switch (currentState)
         {
-            // False = looping animation. True = play only once animation
+            // Hold state for the animation controller, to make sure we don't play any animation, when we don't want to.
+            case CurrentState.Hold: break; 
+            // False = looping animation. True = play only once animation.
             case CurrentState.IdleAnimationNorth: PlayAnimation(0, 0, idleAnimationInterval, false); break;
             case CurrentState.IdleAnimationEast:  PlayAnimation(0, 1, idleAnimationInterval, false); break;
             case CurrentState.IdleAnimationSouth: PlayAnimation(0, 2, idleAnimationInterval, false); break;
@@ -128,10 +133,10 @@ public class SimpleSpriteAnimationController : MonoBehaviour
             case CurrentState.WalkingAnimationSouth: PlayAnimation(1, 2, walkAnimationInterval, false); break;
             case CurrentState.WalkingAnimationWest:  PlayAnimation(1, 3, walkAnimationInterval, false); break;
 
-            case CurrentState.AttackingAnimationNorth:  PlayAnimation(2, 0, attackAnimationInterval, false); break;
-            case CurrentState.AttackingAnimationEast:   PlayAnimation(2, 1, attackAnimationInterval, false); break;
-            case CurrentState.AttackingAnimationSouth:  PlayAnimation(2, 2, attackAnimationInterval, false); break;
-            case CurrentState.AttackingAnimationWest:   PlayAnimation(2, 3, attackAnimationInterval, false); break;
+            case CurrentState.AttackingAnimationNorth:  PlayAnimation(2, 0, attackAnimationInterval, true); break;
+            case CurrentState.AttackingAnimationEast:   PlayAnimation(2, 1, attackAnimationInterval, true); break;
+            case CurrentState.AttackingAnimationSouth:  PlayAnimation(2, 2, attackAnimationInterval, true); break;
+            case CurrentState.AttackingAnimationWest:   PlayAnimation(2, 3, attackAnimationInterval, true); break;
 
             case CurrentState.CastingAnimationNorth: PlayAnimation(3, 0, castAnimationInterval, false); break;
             case CurrentState.CastingAnimationEast:  PlayAnimation(3, 1, castAnimationInterval, false); break;
@@ -168,6 +173,7 @@ public class SimpleSpriteAnimationController : MonoBehaviour
                 yield return new WaitForSeconds(time);
             }
         } while (!playOnce); // We will use StopCoroutine method or playOnce bool, to break the do-while loop.
+        currentState = CurrentState.Hold;
     }
 
     void AnimationTestingWithKeys() // Testing.

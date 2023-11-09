@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class RangedNPC : NPC2D
 {
+    bool defaultAttackCooldown;
+
     [SerializeField] GameObject rangerArrow; // Set in editor for now.
     protected override void AttackingEnemy() // AttackingEnemy State. Cannot use override properly here, research what's wrong with it.
     {
@@ -18,31 +20,20 @@ public class RangedNPC : NPC2D
 
         if (targetDestination != target.position) npcAgent.SetDestination(target.position); // No need to do calculations again for an object that isn't moving.
         if (npcAgent.remainingDistance > attackDistance) SetState(CurrentState.MovingToAttack);
-        else if (!attackCooldown) StartCoroutine(DoDamage());
+        else if (!defaultAttackCooldown) StartCoroutine(DoDamage());
     }
     protected IEnumerator DoDamage() // Have to make this more modular later on, so I can change the style on the fly as well.
     {
-        attackCooldown = true;
+        defaultAttackCooldown = true;
 
         float angle = GetAngleBetweenTargetAndSelf();
-        Vector3 projectileStartRotation = new Vector3(0f, 0f, angle);
+        // Wow... hour wasted, only to figure out, that the Unity specifies rotations in counterclockwise manner, which means I have to add - in front angle value below. So clockwise rotation decreases value on z axis and counterclockwise rotation increases it? Gotta love it!
+        Vector3 projectileStartRotation = new Vector3(0f, 0f, -angle);
         //Changing EulerAngles to Quaternions, so we can use them in Instantiate as parameter.
         Quaternion quaternion = Quaternion.Euler(projectileStartRotation);
 
         Instantiate(rangerArrow, transform.position, quaternion, transform);
         yield return new WaitForSeconds(attackRate);
-        attackCooldown = false;
-    }
-    protected override void AttackSkill()
-    {
-
-    }
-    protected override void DefenseSkill()
-    {
-
-    }
-    protected override void CasterSkill()
-    {
-
+        defaultAttackCooldown = false;
     }
 }

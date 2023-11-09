@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CasterNPC : NPC2D
 {
+    bool defaultAttackCooldown;
+
     [SerializeField] GameObject spellProjectile; // Set in editor for now.
     protected override void AttackingEnemy() // AttackingEnemy State. Cannot use override properly here, research what's wrong with it.
     {
@@ -22,11 +24,11 @@ public class CasterNPC : NPC2D
             npcAgent.SetDestination(target.position);
         }
         if (npcAgent.remainingDistance > attackDistance) SetState(CurrentState.MovingToAttack);
-        else if (!attackCooldown) StartCoroutine(DoDamage());
+        else if (!defaultAttackCooldown) StartCoroutine(DoDamage());
     }
     protected IEnumerator DoDamage() // Have to make this more modular later on, so I can change the style on the fly as well.
     {
-        attackCooldown = true;
+        defaultAttackCooldown = true;
 
         float angle = GetAngleBetweenTargetAndSelf();
         //Miksi vitussa t‰ss‰ pit‰‰ rotationiin laittaa +90, ett‰ toi kaava pit‰‰ paikkansa, ku PlayerMiekassa sit‰ ei tarvi laittaa. wtf? :D
@@ -36,18 +38,6 @@ public class CasterNPC : NPC2D
 
         Instantiate(spellProjectile, transform.position, quaternion, transform);
         yield return new WaitForSeconds(attackRate);
-        attackCooldown = false;
-    }
-    protected override void AttackSkill()
-    {
-
-    }
-    protected override void DefenseSkill()
-    {
-
-    }
-    protected override void CasterSkill()
-    {
-
+        defaultAttackCooldown = false;
     }
 }

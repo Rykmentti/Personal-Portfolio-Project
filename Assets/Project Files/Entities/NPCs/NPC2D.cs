@@ -22,12 +22,13 @@ public class NPC2D : MonoBehaviour
     [SerializeField] protected float targetDistance;
 
     // Setting battle related values in editor for now, for testing purposes.
+    [SerializeField] protected bool globalCooldown;
+    [SerializeField] protected float globalCooldownTime;
     [SerializeField] protected float attackDistance;
     [SerializeField] protected float attackRate;
     [SerializeField] protected int health;
     [SerializeField] protected int damage;
 
-    protected bool attackCooldown;
     protected bool inCombat;
     protected bool isDead;
 
@@ -184,17 +185,10 @@ public class NPC2D : MonoBehaviour
         yield return new WaitForSeconds(1); // Hack, to get entity to wait, until the animation has stopped playing. Need to add system to manually remove target from targetList, so it won't treated as an active combatant, without destroying the object because of animations and post-death stuff.
         Destroy(gameObject);
     }
-    // Overwritable methods, so scripts that inherit this, make themselves unique from each other and main NPC script.
-    protected virtual void AttackSkill()
+    protected IEnumerator GlobalCooldownCounter()
     {
-
-    }
-    protected virtual void DefenseSkill()
-    {
-
-    }
-    protected virtual void CasterSkill()
-    {
-
+        globalCooldown = true;
+        yield return new WaitForSeconds(globalCooldownTime);
+        globalCooldown = false;
     }
 }
