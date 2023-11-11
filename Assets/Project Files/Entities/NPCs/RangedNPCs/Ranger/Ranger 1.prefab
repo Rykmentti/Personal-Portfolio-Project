@@ -64,7 +64,7 @@ GameObject:
   - component: {fileID: -2267203623591548428}
   - component: {fileID: 7392577516707616217}
   m_Layer: 0
-  m_Name: Ranger
+  m_Name: Ranger 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -387,9 +387,9 @@ MonoBehaviour:
   health: 50
   damage: 8
   currentState: 0
-  rangerArrow: {fileID: 8673954142898095713, guid: b760a13b8c5cf2f47a409864a3c92181, type: 3}
   projectileSpeed: 5
   defaultAttackCooldown: 0
   heavyAttackCooldown: 0
   defaultAttackCooldownTime: 2
   heavyAttackCooldownTime: 5
+  rangerArrow: {fileID: 8673954142898095713, guid: b760a13b8c5cf2f47a409864a3c92181, type: 3}

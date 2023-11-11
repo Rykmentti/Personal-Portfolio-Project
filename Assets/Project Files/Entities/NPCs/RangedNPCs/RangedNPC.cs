@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class RangedNPC : NPC2D
 {
+    [SerializeField] GameObject rangerArrow; // Set in editor for now.
+
     [SerializeField] int projectileSpeed;
 
     [SerializeField] bool defaultAttackCooldown;
@@ -12,13 +14,16 @@ public class RangedNPC : NPC2D
 
     [SerializeField] float defaultAttackCooldownTime;
     [SerializeField] float heavyAttackCooldownTime;
-
-    [SerializeField] GameObject rangerArrow; // Set in editor for now.
     protected override void AttackingEnemy() // AttackingEnemy State. Cannot use override properly here, research what's wrong with it.
     {
         if (target == null) { SetState(CurrentState.FindNearestEnemy); return; }
         npcAgent.stoppingDistance = attackDistance;
-        if (targetDestination != target.position) npcAgent.SetDestination(target.position); // No need to do calculations again for an object that isn't moving.
+
+        if (targetDestination != target.position) // No need to do calculations again for an object that isn't moving.
+        {
+            targetDestination = target.position;
+            npcAgent.SetDestination(target.position);
+        }
         if (npcAgent.remainingDistance > attackDistance) SetState(CurrentState.MovingToAttack);
         else if (!globalCooldown) DoAttackActionFromListActions();
         else if (simpleSpriteAnimationController.IsAnimating() == false) FaceEnemyWithWeaponDrawn(); // If we are not attacking, we are facing the enemy with our weapon drawn.
@@ -26,17 +31,15 @@ public class RangedNPC : NPC2D
 
     void DoAttackActionFromListActions() // Do attack action, from a "list" of attacks, which are just if statements for now. Figure out a better way to do it later on. The ones on top go first and then it goes to the next one etc.
     {
-        if (!globalCooldown)
+        if (!heavyAttackCooldown) // Heavy Attack
         {
-            if (!heavyAttackCooldown) // Heavy Attack
-            {
-                HeavyAttack();
-            }
-            else if (!defaultAttackCooldown) // Default Attack
-            {
-                DefaultAttack();
-            }
+            HeavyAttack();
         }
+        else if (!defaultAttackCooldown) // Default Attack
+        {
+            DefaultAttack();
+        }
+        else FaceEnemyWithWeaponDrawn(); // If we are not attacking, we are facing the enemy with our weapon drawn.
     }
     void FaceEnemyWithWeaponDrawn()
     {
@@ -67,7 +70,7 @@ public class RangedNPC : NPC2D
         RangerArrow projectileScript = projectile.GetComponentInChildren<RangerArrow>();
         projectileScript.SetDamageForChildren(damage ); 
         projectileScript.SetSpeedForChildren(projectileSpeed * 2); //Double speed for default attack.
-        projectile.tag = gameObject.tag; // Projectile is same tag the creator.
+        projectileScript.SetIdentifierTagForChildren(gameObject.tag);
 
         Vector3 dialogTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
         CombatText.Spawn(TextStyle.CombatDialogue, "Default Attack!", dialogTextPosition, transform); // Visual Debugging.
@@ -93,7 +96,7 @@ public class RangedNPC : NPC2D
         RangerArrow projectileScript = projectile.GetComponentInChildren<RangerArrow>();
         projectileScript.SetDamageForChildren(damage * 2); //Double damage for heavy attack.
         projectileScript.SetSpeedForChildren(projectileSpeed);
-        projectile.tag = gameObject.tag; // Projectile is same tag as the creator.
+        projectileScript.SetIdentifierTagForChildren(gameObject.tag);
 
         Vector3 dialogTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
         CombatText.Spawn(TextStyle.CombatDialogue, "Heavy Attack!", dialogTextPosition, transform); // Visual Debugging.

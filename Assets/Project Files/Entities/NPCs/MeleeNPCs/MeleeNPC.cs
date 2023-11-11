@@ -27,16 +27,13 @@ public class MeleeNPC : NPC2D
     }
     void DoAttackActionFromListActions() // Do attack action, from a "list" of attacks, which are just if statements for now. Figure out a better way to do it later on. The ones on top go first and then it goes to the next one etc.
     {
-        if (!globalCooldown)
-        {            
-            if (!heavyAttackCooldown) // Heavy Attack
-            {
-                HeavyAttack();
-            }
-            else if (!defaultAttackCooldown) // Default Attack
-            {
-                DefaultAttack();
-            }
+        if (!heavyAttackCooldown) // Heavy Attack
+        {
+            HeavyAttack();
+        }
+        else if (!defaultAttackCooldown) // Default Attack
+        {
+            DefaultAttack();
         }
     }
     void FaceEnemyWithWeaponDrawn()

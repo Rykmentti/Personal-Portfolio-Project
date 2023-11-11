@@ -6,7 +6,7 @@ public class SimpleSpriteAnimationController : MonoBehaviour
 {
     [SerializeField] SpriteRenderer spriteRenderer; // Assigned in Editor
     [SerializeField] CurrentState currentState;
-    Coroutine currentCoroutine; // Using this to make sure only one animation is active at any point in time.
+    Coroutine currentAnimationCoroutine; // Using this to make sure only one animation is active at any point in time.
 
     // 2D Animation sprites for 4 directions. Implemented with state machine.
     // Decide how many sprites there in the animation, add sprites themselves into the arrays and in correct order and the script should do the rest by itself.
@@ -141,6 +141,12 @@ public class SimpleSpriteAnimationController : MonoBehaviour
         return isAnimating;
     }
 
+    public void KillCurrentAnimationCoroutine() 
+    {
+        StopCoroutine(currentAnimationCoroutine); // Need to kill current Coroutine, if we want to change animation mid-animation, will Crash Unity Editor otherwise, because we are trying to create/replace new Coroutine, while the old one is still running.
+        currentState = CurrentState.Hold;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -202,8 +208,8 @@ public class SimpleSpriteAnimationController : MonoBehaviour
         if (isAnimating) return;
 
         animationSet = animationSpritesJaggedArray[row][column];
-        if (currentCoroutine != null) StopCoroutine(currentCoroutine);
-        currentCoroutine = StartCoroutine(PlayAnimation(animationInterval, playOnce));
+        if (currentAnimationCoroutine != null) StopCoroutine(currentAnimationCoroutine);
+        currentAnimationCoroutine = StartCoroutine(PlayAnimation(animationInterval, playOnce));
         isAnimating = true;
     }
     IEnumerator PlayAnimation(float time, bool playOnce)

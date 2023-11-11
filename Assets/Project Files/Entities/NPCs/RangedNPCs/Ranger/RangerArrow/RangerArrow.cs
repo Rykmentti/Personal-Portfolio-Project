@@ -6,6 +6,7 @@ public class RangerArrow : MonoBehaviour
 {
     [SerializeField] int speed;
     [SerializeField] int damage;
+    string identifierTag;
     float timer;
     // Update is called once per frame
     void Update()
@@ -18,10 +19,11 @@ public class RangerArrow : MonoBehaviour
 
     public void SetDamageForChildren(int parentDamage) { damage = parentDamage; }
     public void SetSpeedForChildren(int parentSpeed) { speed = parentSpeed; }
+    public void SetIdentifierTagForChildren(string parentTag) { identifierTag = parentTag; }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag(gameObject.tag) && !other.CompareTag("Untagged"))
+        if (!other.CompareTag(identifierTag) && !other.CompareTag("Untagged"))
         {
             other.GetComponent<NPC2D>().ReceiveDamage(damage);
             Debug.Log(gameObject.name + " dealt Damage to " + other.name + "!");

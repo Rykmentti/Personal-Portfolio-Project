@@ -138,7 +138,12 @@ public class NPC2D : MonoBehaviour
             targetDestination = target.position;
             npcAgent.SetDestination(target.position);
         }
-        if (npcAgent.remainingDistance != 0 && npcAgent.remainingDistance < attackDistance) SetState(CurrentState.AttackingEnemy); // Need to make sure 0 isn't a valid value, otherwise during the first frame when the value is temporarily set zero by NavMeshAgent, condition will be true.
+
+        if (npcAgent.remainingDistance != 0 && npcAgent.remainingDistance < attackDistance) // Need to make sure 0 isn't a valid value, otherwise during the first frame when the value is temporarily set zero by NavMeshAgent, condition will be true.
+        {
+            simpleSpriteAnimationController.KillCurrentAnimationCoroutine(); // Killing the animation coroutine, so the old one animation isn't hanging around after we switch states.
+            SetState(CurrentState.AttackingEnemy);
+        } 
     }
     protected virtual void AttackingEnemy() // AttackingEnemy State, Overridable from inherited variants.
     {

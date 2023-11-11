@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class CasterEnemyProjectile : MonoBehaviour
+public class CasterNPCProjectile : MonoBehaviour
 {
     NavMeshAgent projectileAgent;
-    CasterNPC parentScript;
     Transform target;
     Vector3 targetDestination;
+    string identifierTag;
     int damage;
-    string selfIdentifierTag;
+    int speed;
     float timer;
     // Start is called before the first frame update
     void Start()
@@ -18,19 +18,12 @@ public class CasterEnemyProjectile : MonoBehaviour
         projectileAgent = GetComponent<NavMeshAgent>();
         projectileAgent.updateRotation = false; // Can't have this with 2D sprites using NavMesh.
         projectileAgent.updateUpAxis = false; // Can't have this with 2D sprites using NavMesh.
-
-        selfIdentifierTag = transform.parent.gameObject.tag; // We are use tag as our creator, to differentiate enemies.
-        parentScript = GetComponentInParent<CasterNPC>();
-        damage = parentScript.SetDamageForChildren();
-        target = parentScript.SetTargetForChildren();
-        transform.parent = null; // We don't want the projectile flying on the same localPosition "plane" as the transform.
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (target == null) target = parentScript.SetTargetForChildren();
-        else if (target == null) Destroy(gameObject);
+        if (target == null) Destroy(gameObject);
 
         timer += Time.deltaTime;
         if (timer > 4) Destroy(gameObject); // Clean projectiles, if they miss.
@@ -42,13 +35,18 @@ public class CasterEnemyProjectile : MonoBehaviour
         }
     }
 
+    public void SetDamageForChildren(int parentDamage) { damage = parentDamage; }
+    public void SetSpeedForChildren(int parentSpeed) { speed = parentSpeed; }
+    public void SetIdentifierTagForChildren(string parentTag) { identifierTag = parentTag; }
+    public void SetTargetForChildren(Transform parentTarget) { target = parentTarget; }
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag(selfIdentifierTag) && !other.CompareTag("Untagged"))
+        if (!other.CompareTag(identifierTag) && !other.CompareTag("Untagged"))
         {
             other.GetComponent<NPC2D>().ReceiveDamage(damage);
             Debug.Log(gameObject.name + " dealt Damage to " + other.name + "!");
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
         //if (other.gameObject.CompareTag("Blocker"))
         //{
