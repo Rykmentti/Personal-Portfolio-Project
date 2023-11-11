@@ -198,6 +198,15 @@ MonoBehaviour:
   - {fileID: 1024680768, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
   - {fileID: 2076022773, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
   walkAnimationInterval: 0.083
+  attackIdleAnimationSpritesNorth:
+  - {fileID: 1813110098, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
+  attackIdleAnimationSpritesEast:
+  - {fileID: 587720323, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
+  attackIdleAnimationSpritesSouth:
+  - {fileID: -918343188, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
+  attackIdleAnimationSpritesWest:
+  - {fileID: -293088344, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
+  attackIdleAnimationInterval: 0
   attackAnimationSpritesNorth:
   - {fileID: 1813110098, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
   - {fileID: 92516447, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
@@ -255,6 +264,11 @@ MonoBehaviour:
   - {fileID: -935257206, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
   - {fileID: -330031021, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
   attackAnimationInterval: 0.125
+  castIdleAnimationSpritesNorth: []
+  castIdleAnimationSpritesEast: []
+  castIdleAnimationSpritesSouth: []
+  castIdleAnimationSpritesWest: []
+  castIdleAnimationInterval: 0
   castAnimationSpritesNorth: []
   castAnimationSpritesEast: []
   castAnimationSpritesSouth: []
@@ -366,9 +380,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetDistance: 0
-  attackDistance: 6
+  globalCooldown: 0
+  globalCooldownTime: 2
+  attackDistance: 10
   attackRate: 1.625
   health: 50
   damage: 8
   currentState: 0
+  projectileSpeed: 5
+  defaultAttackCooldown: 0
+  heavyAttackCooldown: 0
+  defaultAttackCooldownTime: 2
+  heavyAttackCooldownTime: 5
   rangerArrow: {fileID: 8673954142898095713, guid: b760a13b8c5cf2f47a409864a3c92181, type: 3}

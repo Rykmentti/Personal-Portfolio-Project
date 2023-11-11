@@ -1,7 +1,6 @@
 using DevPlz.CombatText;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class MeleeNPC : NPC2D
@@ -24,45 +23,57 @@ public class MeleeNPC : NPC2D
         }
         if (npcAgent.remainingDistance > attackDistance) SetState(CurrentState.MovingToAttack);
         else if (!globalCooldown) DoAttackActionFromListActions();
+        else if (simpleSpriteAnimationController.IsAnimating() == false) FaceEnemyWithWeaponDrawn(); // If we are not attacking, we are facing the enemy with our weapon drawn.
     }
     void DoAttackActionFromListActions() // Do attack action, from a "list" of attacks, which are just if statements for now. Figure out a better way to do it later on. The ones on top go first and then it goes to the next one etc.
     {
         if (!globalCooldown)
-        {
-            Vector3 dialogTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
+        {            
             if (!heavyAttackCooldown) // Heavy Attack
             {
-                // Setting Animations, using angle, which then sets correct animation set in Sprite Animator.
-                if ((targetAngle > 315 && targetAngle < 360) || (targetAngle > 0 && targetAngle < 45)) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationNorth);
-                else if (targetAngle > 45 && targetAngle < 135) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationEast);
-                else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationSouth);
-                else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationWest);
-
-                DoDamage(damage * 2);
-                StartCoroutine(HeavyAttackCooldownCounter());
-                Debug.Log("Heavy Attack!");
-                CombatText.Spawn(TextStyle.CombatDialogue, "Heavy Attack!", dialogTextPosition, transform);
+                HeavyAttack();
             }
             else if (!defaultAttackCooldown) // Default Attack
             {
-                // Setting Animations, using angle, which then sets correct animation set in Sprite Animator.
-                if ((targetAngle > 315 && targetAngle < 360) || (targetAngle > 0 && targetAngle < 45)) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationNorth);
-                else if (targetAngle > 45 && targetAngle < 135) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationEast);
-                else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationSouth);
-                else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationWest);
-
-                DoDamage(damage);
-                StartCoroutine(DefaultAttackCooldownCounter());
-                Debug.Log("Default Attack!");
-                CombatText.Spawn(TextStyle.CombatDialogue, "Default Attack!", dialogTextPosition, transform);
+                DefaultAttack();
             }
         }
     }
-    void DoDamage(int damage) // Have to make this more modular later on, so I can change the style on the fly as well.
+    void FaceEnemyWithWeaponDrawn()
     {
+        // Setting Animations, using angle, which then sets correct animation set in Sprite Animator.
+        if ((targetAngle > 315 && targetAngle < 360) || (targetAngle > 0 && targetAngle < 45)) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationNorth);
+        else if (targetAngle > 45 && targetAngle < 135) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationEast);
+        else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationSouth);
+        else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationWest);
+    }
+    void DefaultAttack()
+    {
+        // Setting Animations, using angle, which then sets correct animation set in Sprite Animator.
+        if ((targetAngle > 315 && targetAngle < 360) || (targetAngle > 0 && targetAngle < 45)) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationNorth);
+        else if (targetAngle > 45 && targetAngle < 135) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationEast);
+        else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationSouth);
+        else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationWest);
+
+        DoDamage(damage);
         StartCoroutine(GlobalCooldownCounter());
-        target.GetComponent<NPC2D>().ReceiveDamage(damage);
-        Debug.Log(gameObject.name + " dealt Damage to " + target.name + "!");
+        StartCoroutine(DefaultAttackCooldownCounter());
+        Vector3 dialogTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
+        CombatText.Spawn(TextStyle.CombatDialogue, "Default Attack!", dialogTextPosition, transform); // Visual Debugging.
+    }
+    void HeavyAttack()
+    {
+        // Setting Animations, using angle, which then sets correct animation set in Sprite Animator.
+        if ((targetAngle > 315 && targetAngle < 360) || (targetAngle > 0 && targetAngle < 45)) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationNorth);
+        else if (targetAngle > 45 && targetAngle < 135) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationEast);
+        else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationSouth);
+        else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationWest);
+
+        DoDamage(damage * 2);
+        StartCoroutine(GlobalCooldownCounter());
+        StartCoroutine(HeavyAttackCooldownCounter());
+        Vector3 dialogTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
+        CombatText.Spawn(TextStyle.CombatDialogue, "Heavy Attack!", dialogTextPosition, transform); // Visual Debugging.
     }
     protected IEnumerator HeavyAttackCooldownCounter()
     {

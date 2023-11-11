@@ -14,13 +14,16 @@ public class SimpleSpriteAnimationController : MonoBehaviour
 
     // Main Jagged Array, from which all the arrays below are accessed from.
 
-    [SerializeField] Sprite[][][] animationSpritesJaggedArray = new Sprite[5][][];
+    [SerializeField] Sprite[][][] animationSpritesJaggedArray = new Sprite[7][][];
 
     // 4-Directional Sprite sets.
     [SerializeField] Sprite[][] idleAnimationSprites = new Sprite[4][];
     [SerializeField] Sprite[][] walkAnimationSprites = new Sprite[4][];
+    [SerializeField] Sprite[][] attackIdleAnimationSprites = new Sprite[4][];
     [SerializeField] Sprite[][] attackAnimationSprites = new Sprite[4][];
+    [SerializeField] Sprite[][] castIdleAnimationSprites = new Sprite[4][];
     [SerializeField] Sprite[][] castAnimationSprites = new Sprite[4][];
+
     // 1-Directional Sprite sets.
     [SerializeField] Sprite[][] deathAnimationSprites = new Sprite[1][];
 
@@ -37,11 +40,23 @@ public class SimpleSpriteAnimationController : MonoBehaviour
     [SerializeField] Sprite[] walkAnimationSpritesWest = new Sprite[0];
     [SerializeField] float walkAnimationInterval; // 12 Frames per second animation = (60 : 12) : 60 = 0.83333...f
 
+    [SerializeField] Sprite[] attackIdleAnimationSpritesNorth = new Sprite[0];
+    [SerializeField] Sprite[] attackIdleAnimationSpritesEast = new Sprite[0];
+    [SerializeField] Sprite[] attackIdleAnimationSpritesSouth = new Sprite[0];
+    [SerializeField] Sprite[] attackIdleAnimationSpritesWest = new Sprite[0];
+    [SerializeField] float attackIdleAnimationInterval; // Set all animation interval values in editor for now.
+
     [SerializeField] Sprite[] attackAnimationSpritesNorth = new Sprite[0];
     [SerializeField] Sprite[] attackAnimationSpritesEast = new Sprite[0];
     [SerializeField] Sprite[] attackAnimationSpritesSouth = new Sprite[0];
     [SerializeField] Sprite[] attackAnimationSpritesWest = new Sprite[0];
     [SerializeField] float attackAnimationInterval; // 8 Frames per second animation = (60 : 8) : 60 = 0.125f
+
+    [SerializeField] Sprite[] castIdleAnimationSpritesNorth = new Sprite[0];
+    [SerializeField] Sprite[] castIdleAnimationSpritesEast = new Sprite[0];
+    [SerializeField] Sprite[] castIdleAnimationSpritesSouth = new Sprite[0];
+    [SerializeField] Sprite[] castIdleAnimationSpritesWest = new Sprite[0];
+    [SerializeField] float castIdleAnimationInterval;
 
     [SerializeField] Sprite[] castAnimationSpritesNorth = new Sprite[0];
     [SerializeField] Sprite[] castAnimationSpritesEast = new Sprite[0];
@@ -55,9 +70,11 @@ public class SimpleSpriteAnimationController : MonoBehaviour
     {
         animationSpritesJaggedArray[0] = idleAnimationSprites;
         animationSpritesJaggedArray[1] = walkAnimationSprites;
-        animationSpritesJaggedArray[2] = attackAnimationSprites;
-        animationSpritesJaggedArray[3] = castAnimationSprites;
-        animationSpritesJaggedArray[4] = deathAnimationSprites;
+        animationSpritesJaggedArray[2] = attackIdleAnimationSprites;
+        animationSpritesJaggedArray[3] = attackAnimationSprites;
+        animationSpritesJaggedArray[4] = castIdleAnimationSprites;
+        animationSpritesJaggedArray[5] = castAnimationSprites;
+        animationSpritesJaggedArray[6] = deathAnimationSprites;
 
         idleAnimationSprites[0] = idleAnimationSpritesNorth;
         idleAnimationSprites[1] = idleAnimationSpritesEast;
@@ -69,10 +86,20 @@ public class SimpleSpriteAnimationController : MonoBehaviour
         walkAnimationSprites[2] = walkAnimationSpritesSouth;
         walkAnimationSprites[3] = walkAnimationSpritesWest;
 
+        attackIdleAnimationSprites[0] = attackIdleAnimationSpritesNorth;
+        attackIdleAnimationSprites[1] = attackIdleAnimationSpritesEast;
+        attackIdleAnimationSprites[2] = attackIdleAnimationSpritesSouth;
+        attackIdleAnimationSprites[3] = attackIdleAnimationSpritesWest;
+
         attackAnimationSprites[0] = attackAnimationSpritesNorth;
         attackAnimationSprites[1] = attackAnimationSpritesEast;
         attackAnimationSprites[2] = attackAnimationSpritesSouth;
         attackAnimationSprites[3] = attackAnimationSpritesWest;
+
+        castIdleAnimationSprites[0] = castIdleAnimationSpritesNorth;
+        castIdleAnimationSprites[1] = castIdleAnimationSpritesEast;
+        castIdleAnimationSprites[2] = castIdleAnimationSpritesSouth;
+        castIdleAnimationSprites[3] = castIdleAnimationSpritesWest;
 
         castAnimationSprites[0] = castAnimationSpritesNorth;
         castAnimationSprites[1] = castAnimationSpritesEast;
@@ -95,7 +122,9 @@ public class SimpleSpriteAnimationController : MonoBehaviour
         // 4-Directional Animation States.
         IdleAnimationNorth, IdleAnimationEast, IdleAnimationSouth, IdleAnimationWest,
         WalkingAnimationNorth, WalkingAnimationEast, WalkingAnimationSouth, WalkingAnimationWest,
+        AttackIdleAnimationNorth, AttackIdleAnimationEast, AttackIdleAnimationSouth, AttackIdleAnimationWest,
         AttackingAnimationNorth, AttackingAnimationEast, AttackingAnimationSouth, AttackingAnimationWest,
+        CastIdleAnimationNorth, CastIdleAnimationEast, CastIdleAnimationSouth, CastIdleAnimationWest,
         CastingAnimationNorth, CastingAnimationEast, CastingAnimationSouth, CastingAnimationWest,
 
         // 1-Directional Animation States.
@@ -106,6 +135,10 @@ public class SimpleSpriteAnimationController : MonoBehaviour
         if (state == currentState) return; // To make sure we are not playing same animation on top of one another. I.e. We only play new animation, to replace the previous one.
         isAnimating = false;
         currentState = state;
+    }
+    public bool IsAnimating()
+    {
+        return isAnimating;
     }
 
     // Start is called before the first frame update
@@ -121,7 +154,8 @@ public class SimpleSpriteAnimationController : MonoBehaviour
         switch (currentState)
         {
             // Hold state for the animation controller, to make sure we don't play any animation, when we don't want to.
-            case CurrentState.Hold: break; 
+            case CurrentState.Hold: break;
+
             // False = looping animation. True = play only once animation.
             case CurrentState.IdleAnimationNorth: PlayAnimation(0, 0, idleAnimationInterval, false); break;
             case CurrentState.IdleAnimationEast:  PlayAnimation(0, 1, idleAnimationInterval, false); break;
@@ -133,17 +167,27 @@ public class SimpleSpriteAnimationController : MonoBehaviour
             case CurrentState.WalkingAnimationSouth: PlayAnimation(1, 2, walkAnimationInterval, false); break;
             case CurrentState.WalkingAnimationWest:  PlayAnimation(1, 3, walkAnimationInterval, false); break;
 
-            case CurrentState.AttackingAnimationNorth:  PlayAnimation(2, 0, attackAnimationInterval, true); break;
-            case CurrentState.AttackingAnimationEast:   PlayAnimation(2, 1, attackAnimationInterval, true); break;
-            case CurrentState.AttackingAnimationSouth:  PlayAnimation(2, 2, attackAnimationInterval, true); break;
-            case CurrentState.AttackingAnimationWest:   PlayAnimation(2, 3, attackAnimationInterval, true); break;
+            case CurrentState.AttackIdleAnimationNorth: PlayAnimation(2, 0, attackIdleAnimationInterval, false); break;
+            case CurrentState.AttackIdleAnimationEast:  PlayAnimation(2, 1, attackIdleAnimationInterval, false); break;
+            case CurrentState.AttackIdleAnimationSouth: PlayAnimation(2, 2, attackIdleAnimationInterval, false); break;
+            case CurrentState.AttackIdleAnimationWest:  PlayAnimation(2, 3, attackIdleAnimationInterval, false); break;
 
-            case CurrentState.CastingAnimationNorth: PlayAnimation(3, 0, castAnimationInterval, false); break;
-            case CurrentState.CastingAnimationEast:  PlayAnimation(3, 1, castAnimationInterval, false); break;
-            case CurrentState.CastingAnimationSouth: PlayAnimation(3, 2, castAnimationInterval, false); break;
-            case CurrentState.CastingAnimationWest:  PlayAnimation(3, 3, castAnimationInterval, false); break;
+            case CurrentState.AttackingAnimationNorth:  PlayAnimation(3, 0, attackAnimationInterval, true); break;
+            case CurrentState.AttackingAnimationEast:   PlayAnimation(3, 1, attackAnimationInterval, true); break;
+            case CurrentState.AttackingAnimationSouth:  PlayAnimation(3, 2, attackAnimationInterval, true); break;
+            case CurrentState.AttackingAnimationWest:   PlayAnimation(3, 3, attackAnimationInterval, true); break;
 
-            case CurrentState.DeathAnimation: PlayAnimation(4, 0, 0.125f, true); break;
+            case CurrentState.CastIdleAnimationNorth: PlayAnimation(4, 0, castAnimationInterval, false); break;
+            case CurrentState.CastIdleAnimationEast: PlayAnimation(4, 1, castAnimationInterval, false); break;
+            case CurrentState.CastIdleAnimationSouth: PlayAnimation(4, 2, castAnimationInterval, false); break;
+            case CurrentState.CastIdleAnimationWest: PlayAnimation(4, 3, castAnimationInterval, false); break;
+
+            case CurrentState.CastingAnimationNorth: PlayAnimation(5, 0, castAnimationInterval, true); break;
+            case CurrentState.CastingAnimationEast:  PlayAnimation(5, 1, castAnimationInterval, true); break;
+            case CurrentState.CastingAnimationSouth: PlayAnimation(5, 2, castAnimationInterval, true); break;
+            case CurrentState.CastingAnimationWest:  PlayAnimation(5, 3, castAnimationInterval, true); break;
+
+            case CurrentState.DeathAnimation: PlayAnimation(6, 0, deathAnimationInterval, true); break;
 
             default: // Default Behaviour. I.e. If statemachine does not recognize the state, it will default to this state that something is trying to put into it. (It's not in enum CurrentState?)
                 Debug.Log("This state '" + currentState + "' for state machine doesn't exist, or there is a typo in name(string) of the state, defaulting to Idle State");
@@ -173,7 +217,8 @@ public class SimpleSpriteAnimationController : MonoBehaviour
                 yield return new WaitForSeconds(time);
             }
         } while (!playOnce); // We will use StopCoroutine method or playOnce bool, to break the do-while loop.
-        currentState = CurrentState.Hold;
+        isAnimating = false;
+        SetState(CurrentState.Hold);
     }
 
     void AnimationTestingWithKeys() // Testing.

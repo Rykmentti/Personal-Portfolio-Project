@@ -2,11 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RangerArrow : MonoBehaviour
+public class HeavyRangerArrow : MonoBehaviour
 {
-    [SerializeField] int speed;
+    [SerializeField] int speed; // Set speed in editor for now.
     [SerializeField] int damage;
+
+    string selfIdentifierTag;
     float timer;
+    // Start is called before the first frame update
+    void Start()
+    {
+        selfIdentifierTag = transform.parent.gameObject.tag; // We are same tag as our creator.
+        damage = GetComponentInParent<RangedNPC>().SetDamageForChildren() * 2;
+        transform.parent = null;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -16,14 +26,11 @@ public class RangerArrow : MonoBehaviour
         transform.Translate(speed * Time.deltaTime * new Vector2(0f, 1f));
     }
 
-    public void SetDamageForChildren(int parentDamage) { damage = parentDamage; }
-    public void SetSpeedForChildren(int parentSpeed) { speed = parentSpeed; }
-
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag(gameObject.tag) && !other.CompareTag("Untagged"))
+        if (!other.CompareTag(selfIdentifierTag) && !other.CompareTag("Untagged"))
         {
-            other.GetComponent<NPC2D>().ReceiveDamage(damage);
+            other.GetComponent<NPC2D>().ReceiveDamage(damage); //Double damage for heavy attack.
             Debug.Log(gameObject.name + " dealt Damage to " + other.name + "!");
             Destroy(gameObject);
         }

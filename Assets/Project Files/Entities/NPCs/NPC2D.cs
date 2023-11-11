@@ -158,6 +158,11 @@ public class NPC2D : MonoBehaviour
         if (angle < 0) angle += 360f; // Making sure value is between 0 and 360 degrees, instead of 180 and -180.
         return angle;
     }
+    protected void DoDamage(int damage)
+    {
+        target.GetComponent<NPC2D>().ReceiveDamage(damage);
+        Debug.Log(gameObject.name + " dealt Damage to " + target.name + "!");
+    }
     public void ReceiveDamage(int damage)
     {
         Vector3 scrollingCombatTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
@@ -182,7 +187,7 @@ public class NPC2D : MonoBehaviour
         SetState(CurrentState.SuspendStateMachine);
         simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.DeathAnimation);
         Debug.Log(gameObject.name + " has fallen in battle!");
-        yield return new WaitForSeconds(1); // Hack, to get entity to wait, until the animation has stopped playing. Need to add system to manually remove target from targetList, so it won't treated as an active combatant, without destroying the object because of animations and post-death stuff.
+        yield return new WaitForSeconds(1);
         Destroy(gameObject);
     }
     protected IEnumerator GlobalCooldownCounter()
