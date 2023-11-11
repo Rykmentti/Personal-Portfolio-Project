@@ -243,7 +243,7 @@ MonoBehaviour:
   - {fileID: -511864186, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
   - {fileID: -232294793, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
   - {fileID: 1828448100, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  attackAnimationInterval: 0.25
+  attackAnimationInterval: 0.2
   castIdleAnimationSpritesNorth:
   - {fileID: 0}
   castIdleAnimationSpritesEast:
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetDistance: 0
   globalCooldown: 0
-  globalCooldownTime: 1
+  globalCooldownTime: 2
   attackDistance: 10
   attackRate: 2
   health: 75
@@ -376,5 +376,5 @@ MonoBehaviour:
   projectileSpeed: 5
   defaultAttackCooldown: 0
   heavyAttackCooldown: 0
-  defaultAttackCooldownTime: 3
+  defaultAttackCooldownTime: 4
   heavyAttackCooldownTime: 6

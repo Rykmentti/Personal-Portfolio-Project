@@ -163,11 +163,6 @@ public class NPC2D : MonoBehaviour
         if (angle < 0) angle += 360f; // Making sure value is between 0 and 360 degrees, instead of 180 and -180.
         return angle;
     }
-    protected void DoDamage(int damage)
-    {
-        target.GetComponent<NPC2D>().ReceiveDamage(damage);
-        Debug.Log(gameObject.name + " dealt Damage to " + target.name + "!");
-    }
     public void ReceiveDamage(int damage)
     {
         Vector3 scrollingCombatTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);

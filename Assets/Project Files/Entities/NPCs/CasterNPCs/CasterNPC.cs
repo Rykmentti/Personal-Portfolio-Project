@@ -34,11 +34,11 @@ public class CasterNPC : NPC2D
     {
         if (!heavyAttackCooldown) // Heavy Attack
         {
-            HomingAttack();
+            StartCoroutine(HomingAttack());
         }
         else if (!defaultAttackCooldown) // Default Attack
         {
-            DefaultAttack();
+            StartCoroutine(DefaultAttack());
         }
     }
     void FaceEnemyWithWeaponDrawn()
@@ -49,13 +49,17 @@ public class CasterNPC : NPC2D
         else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationSouth);
         else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationWest);
     }
-    void DefaultAttack()
+    IEnumerator DefaultAttack()
     {
         // Setting Animations, using angle, which then sets correct animation set in Sprite Animator.
         if ((targetAngle > 315 && targetAngle < 360) || (targetAngle > 0 && targetAngle < 45)) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationNorth);
         else if (targetAngle > 45 && targetAngle < 135) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationEast);
         else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationSouth);
         else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationWest);
+        StartCoroutine(GlobalCooldownCounter());
+        StartCoroutine(DefaultAttackCooldownCounter());
+
+        yield return new WaitForSeconds(1f);
 
         float angle = GetAngleBetweenTargetAndSelf();
         // Wow... hour wasted, only to figure out, that the Unity specifies rotations in counterclockwise manner, which means I have to add - in front angle value below. So clockwise rotation decreases value on z axis and counterclockwise rotation increases it? Gotta love it!
@@ -63,9 +67,6 @@ public class CasterNPC : NPC2D
         //Changing EulerAngles to Quaternions, so we can use them in Instantiate as parameter.
         Quaternion quaternion = Quaternion.Euler(projectileStartRotation);
         GameObject projectile = Instantiate(homingSpellProjectile, transform.position, quaternion);
-        StartCoroutine(GlobalCooldownCounter());
-        StartCoroutine(DefaultAttackCooldownCounter());
-
         //Set damage and speed for children.
         CasterNPCProjectile projectileScript = projectile.GetComponentInChildren<CasterNPCProjectile>();
         projectileScript.SetDamageForChildren(damage);
@@ -76,13 +77,17 @@ public class CasterNPC : NPC2D
         Vector3 dialogTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
         CombatText.Spawn(TextStyle.CombatDialogue, "Default Attack!", dialogTextPosition, transform); // Visual Debugging.
     }
-    void HomingAttack()
+    IEnumerator HomingAttack()
     {
         // Setting Animations, using angle, which then sets correct animation set in Sprite Animator.
         if ((targetAngle > 315 && targetAngle < 360) || (targetAngle > 0 && targetAngle < 45)) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationNorth);
         else if (targetAngle > 45 && targetAngle < 135) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationEast);
         else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationSouth);
         else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationWest);
+        StartCoroutine(GlobalCooldownCounter());
+        StartCoroutine(HeavyAttackCooldownCounter());
+
+        yield return new WaitForSeconds(1f);
 
         float angle = GetAngleBetweenTargetAndSelf();
         // Wow... hour wasted, only to figure out, that the Unity specifies rotations in counterclockwise manner, which means I have to add - in front angle value below. So clockwise rotation decreases value on z axis and counterclockwise rotation increases it? Gotta love it!
@@ -90,9 +95,6 @@ public class CasterNPC : NPC2D
         //Changing EulerAngles to Quaternions, so we can use them in Instantiate as parameter.
         Quaternion quaternion = Quaternion.Euler(projectileStartRotation);
         GameObject projectile = Instantiate(homingSpellProjectile, transform.position, quaternion);
-        StartCoroutine(GlobalCooldownCounter());
-        StartCoroutine(HeavyAttackCooldownCounter());
-
         //Set damage, speed and target for children.
         CasterNPCProjectile projectileScript = projectile.GetComponentInChildren<CasterNPCProjectile>();
         projectileScript.SetDamageForChildren(damage * 2); //Double damage for heavy attack.

@@ -52,7 +52,7 @@ public class MeleeNPC : NPC2D
         else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationSouth);
         else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationWest);
 
-        DoDamage(damage);
+        StartCoroutine(DoDamage(damage));
         StartCoroutine(GlobalCooldownCounter());
         StartCoroutine(DefaultAttackCooldownCounter());
         Vector3 dialogTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
@@ -66,11 +66,20 @@ public class MeleeNPC : NPC2D
         else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationSouth);
         else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackingAnimationWest);
 
-        DoDamage(damage * 2);
+        StartCoroutine(DoDamage(damage * 2));
         StartCoroutine(GlobalCooldownCounter());
         StartCoroutine(HeavyAttackCooldownCounter());
         Vector3 dialogTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
         CombatText.Spawn(TextStyle.CombatDialogue, "Heavy Attack!", dialogTextPosition, transform); // Visual Debugging.
+    }
+    IEnumerator DoDamage(int damage)
+    {
+        yield return new WaitForSeconds(0.5f);
+        if (target != null)
+        {
+            target.GetComponent<NPC2D>().ReceiveDamage(damage);
+            Debug.Log(gameObject.name + " dealt Damage to " + target.name + "!");
+        }
     }
     protected IEnumerator HeavyAttackCooldownCounter()
     {
