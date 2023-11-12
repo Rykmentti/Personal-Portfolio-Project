@@ -15,8 +15,8 @@ public class NPC2D : MonoBehaviour
     protected NavMeshAgent npcAgent;
     protected DetectorScript2D detectorScript;
     protected SimpleSpriteAnimationController simpleSpriteAnimationController;
+    
     protected Transform target;
-
     protected Vector3 targetDestination;
     protected float targetAngle;
     [SerializeField] protected float targetDistance;
@@ -25,7 +25,6 @@ public class NPC2D : MonoBehaviour
     [SerializeField] protected bool globalCooldown;
     [SerializeField] protected float globalCooldownTime;
     [SerializeField] protected float attackDistance;
-    [SerializeField] protected float attackRate;
     [SerializeField] protected int health;
     [SerializeField] protected int damage;
 
