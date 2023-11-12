@@ -25,7 +25,7 @@ public class DetectorScript2D : MonoBehaviour
     {
         // Creating detectorCollider in script for convenience, trivial to create it in Editor and set the trigger and radius there, if we want to do it that way.
         
-        if (detectorRadius == 0) detectorRadius = 5; // Default value, if I forget to set it.
+        if (detectorRadius == 0) detectorRadius = 10; // Default value, if I forget to set it.
         if (detectorCollider == null)
         {
             detectorCollider = gameObject.AddComponent<CircleCollider2D>();
