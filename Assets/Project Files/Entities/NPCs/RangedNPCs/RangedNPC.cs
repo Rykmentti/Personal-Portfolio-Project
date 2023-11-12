@@ -88,6 +88,7 @@ public class RangedNPC : NPC2D
 
         yield return new WaitForSeconds(1f);
 
+        if (target == null) yield break; // If target is dead, we don't want to spawn projectiles.
         float angle = GetAngleBetweenTargetAndSelf();
         // Wow... hour wasted, only to figure out, that the Unity specifies rotations in counterclockwise manner, which means I have to add - in front angle value below. So clockwise rotation decreases value on z axis and counterclockwise rotation increases it? Gotta love it!
         Vector3 projectileStartRotation = new Vector3(0f, 0f, -angle);
