@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae95ca5617e062c4f95293bdc33bf923, type: 3}
+  m_Name: Knight SpriteSet
+  m_EditorClassIdentifier: 
+  idleAnimationSpritesNorth:
+  - {fileID: -1692768033, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  idleAnimationSpritesEast:
+  - {fileID: -1313716556, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  idleAnimationSpritesSouth:
+  - {fileID: -250549783, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  idleAnimationSpritesWest:
+  - {fileID: -2008879105, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  idleAnimationInterval: 0
+  walkAnimationSpritesNorth:
+  - {fileID: -268675349, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 1084765227, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -1842000097, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -1906021855, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 416089444, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 1721859482, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -813365204, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -524078097, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  walkAnimationSpritesEast:
+  - {fileID: 1327812509, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 761042825, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 1189603784, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -1074239799, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 1098519507, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 377113314, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -698558736, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -523682139, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  walkAnimationSpritesSouth:
+  - {fileID: -51539383, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 1030641277, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 544672624, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -933186490, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -1750995451, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -919838033, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 492990410, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 1341529723, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  walkAnimationSpritesWest:
+  - {fileID: -1599074628, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 373882453, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -1614598440, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -2105181087, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -2038489002, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -263848985, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -971957424, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -260913379, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  walkAnimationInterval: 0.083
+  attackIdleAnimationSpritesNorth:
+  - {fileID: 280134834, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  attackIdleAnimationSpritesEast:
+  - {fileID: 0}
+  attackIdleAnimationSpritesSouth:
+  - {fileID: 0}
+  attackIdleAnimationSpritesWest:
+  - {fileID: 0}
+  attackIdleAnimationInterval: 0
+  attackAnimationSpritesNorth:
+  - {fileID: 280134834, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: -1878007240, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: 82449493, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: 2016815987, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: -1450869945, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: 923066278, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  attackAnimationSpritesEast:
+  - {fileID: -1993377887, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: 1492927514, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: -1128334414, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: -691256822, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: 870469630, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: 2056022124, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  attackAnimationSpritesSouth:
+  - {fileID: 1200955937, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: 117992140, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: 44986843, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: 1502660342, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: 722782166, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: -1648859046, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  attackAnimationSpritesWest:
+  - {fileID: 1435884779, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: -1499025250, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: 753463868, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: 1062361247, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: 565005059, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  - {fileID: -1050636143, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
+  attackAnimationInterval: 0.125
+  castIdleAnimationSpritesNorth: []
+  castIdleAnimationSpritesEast: []
+  castIdleAnimationSpritesSouth: []
+  castIdleAnimationSpritesWest: []
+  castIdleAnimationInterval: 0
+  castAnimationSpritesNorth: []
+  castAnimationSpritesEast: []
+  castAnimationSpritesSouth: []
+  castAnimationSpritesWest: []
+  castAnimationInterval: 0
+  deathAnimationSpritesSouth:
+  - {fileID: 722855625, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 1895933021, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: 1077218278, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -2078362343, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -1038917477, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  - {fileID: -248089885, guid: 1e996ff239174104f882194fa59abba2, type: 3}
+  deathAnimationInterval: 125
