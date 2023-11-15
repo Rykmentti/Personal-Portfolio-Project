@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SimpleSpriteAnimationControllerSO : MonoBehaviour
 {
-    [SerializeField] SpriteSet spriteSetSO; // ScriptableObject, assigned in Editor
+    [SerializeField] SpriteSet spriteSetSO; // ScriptableObject, which contains all the sprites for the NPC. Assigned in Editor
     [SerializeField] SpriteRenderer spriteRenderer; // Assigned in Editor
     [SerializeField] CurrentState currentState;
     Coroutine currentAnimationCoroutine; // Using this to make sure only one animation coroutine is active at any point in time.
@@ -35,7 +35,7 @@ public class SimpleSpriteAnimationControllerSO : MonoBehaviour
     }
     public void SetState(CurrentState state)
     {
-        if (state == currentState) return; // To make sure we are not playing same animation on top of one another. I.e. We only play new animation, to replace the previous one.
+        if (state == currentState) return; // To make sure we are not playing same animation on top of one another. I.e. We only play new animation and replace the previous one.
         isAnimating = false;
         currentState = state;
     }
@@ -46,7 +46,7 @@ public class SimpleSpriteAnimationControllerSO : MonoBehaviour
 
     public void KillCurrentAnimationCoroutine() 
     {
-        StopCoroutine(currentAnimationCoroutine); // Need to kill current Coroutine, if we want to change animation mid-animation, will Crash Unity Editor otherwise, because we are trying to create/replace new Coroutine, while the old one is still running.
+        StopCoroutine(currentAnimationCoroutine); // Need to kill current Coroutine, if we want to change animation mid-animation. It WILL Crash Unity Editor otherwise, because we are trying to create/replace new Coroutine, while the old one is still running.
         currentState = CurrentState.Hold;
     }
 
@@ -65,37 +65,37 @@ public class SimpleSpriteAnimationControllerSO : MonoBehaviour
             case CurrentState.Hold: break;
 
             // False = looping animation. True = play only once animation.
-            case CurrentState.IdleAnimationNorth: PlayAnimation(spriteSetSO.idleAnimationSpritesNorth, 0, false); break;
-            case CurrentState.IdleAnimationEast:  PlayAnimation(spriteSetSO.idleAnimationSpritesEast,  0, false); break;
-            case CurrentState.IdleAnimationSouth: PlayAnimation(spriteSetSO.idleAnimationSpritesSouth, 0, false); break;
-            case CurrentState.IdleAnimationWest:  PlayAnimation(spriteSetSO.idleAnimationSpritesWest,  0, false); break;
+            case CurrentState.IdleAnimationNorth: SetSprite(spriteSetSO.idleAnimationSpritesNorth); break;
+            case CurrentState.IdleAnimationEast:  SetSprite(spriteSetSO.idleAnimationSpritesEast ); break;
+            case CurrentState.IdleAnimationSouth: SetSprite(spriteSetSO.idleAnimationSpritesSouth); break;
+            case CurrentState.IdleAnimationWest:  SetSprite(spriteSetSO.idleAnimationSpritesWest ); break;
 
-            case CurrentState.WalkingAnimationNorth: PlayAnimation(spriteSetSO.walkAnimationSpritesNorth, spriteSetSO.walkAnimationInterval, false); break;
-            case CurrentState.WalkingAnimationEast:  PlayAnimation(spriteSetSO.walkAnimationSpritesEast,  spriteSetSO.walkAnimationInterval,  false); break;
-            case CurrentState.WalkingAnimationSouth: PlayAnimation(spriteSetSO.walkAnimationSpritesSouth, spriteSetSO.walkAnimationInterval, false); break;
-            case CurrentState.WalkingAnimationWest:  PlayAnimation(spriteSetSO.walkAnimationSpritesWest,  spriteSetSO.walkAnimationInterval, false); break;
+            case CurrentState.WalkingAnimationNorth: PlayLoopingAnimation(spriteSetSO.walkAnimationSpritesNorth, spriteSetSO.walkAnimationInterval); break;
+            case CurrentState.WalkingAnimationEast:  PlayLoopingAnimation(spriteSetSO.walkAnimationSpritesEast,  spriteSetSO.walkAnimationInterval); break;
+            case CurrentState.WalkingAnimationSouth: PlayLoopingAnimation(spriteSetSO.walkAnimationSpritesSouth, spriteSetSO.walkAnimationInterval); break;
+            case CurrentState.WalkingAnimationWest:  PlayLoopingAnimation(spriteSetSO.walkAnimationSpritesWest,  spriteSetSO.walkAnimationInterval); break;
 
-            case CurrentState.AttackIdleAnimationNorth: PlayAnimation(spriteSetSO.attackIdleAnimationSpritesNorth, 0, false); break;
-            case CurrentState.AttackIdleAnimationEast:  PlayAnimation(spriteSetSO.attackIdleAnimationSpritesEast,  0,  false); break;
-            case CurrentState.AttackIdleAnimationSouth: PlayAnimation(spriteSetSO.attackIdleAnimationSpritesSouth, 0, false); break;
-            case CurrentState.AttackIdleAnimationWest:  PlayAnimation(spriteSetSO.attackIdleAnimationSpritesWest,  0, false); break;
+            case CurrentState.AttackIdleAnimationNorth: SetSprite(spriteSetSO.attackIdleAnimationSpritesNorth); break;
+            case CurrentState.AttackIdleAnimationEast:  SetSprite(spriteSetSO.attackIdleAnimationSpritesEast); break;
+            case CurrentState.AttackIdleAnimationSouth: SetSprite(spriteSetSO.attackIdleAnimationSpritesSouth); break;
+            case CurrentState.AttackIdleAnimationWest:  SetSprite(spriteSetSO.attackIdleAnimationSpritesWest); break;
 
-            case CurrentState.AttackingAnimationNorth:  PlayAnimation(spriteSetSO.attackAnimationSpritesNorth, spriteSetSO.attackAnimationInterval, true); break;
-            case CurrentState.AttackingAnimationEast:   PlayAnimation(spriteSetSO.attackAnimationSpritesEast,  spriteSetSO.attackAnimationInterval,  true); break;
-            case CurrentState.AttackingAnimationSouth:  PlayAnimation(spriteSetSO.attackAnimationSpritesSouth, spriteSetSO.attackAnimationInterval, true); break;
-            case CurrentState.AttackingAnimationWest:   PlayAnimation(spriteSetSO.attackAnimationSpritesWest,  spriteSetSO.attackAnimationInterval, true); break;
+            case CurrentState.AttackingAnimationNorth:  PlaySingleAnimation(spriteSetSO.attackAnimationSpritesNorth, spriteSetSO.attackAnimationInterval); break;
+            case CurrentState.AttackingAnimationEast:   PlaySingleAnimation(spriteSetSO.attackAnimationSpritesEast,  spriteSetSO.attackAnimationInterval); break;
+            case CurrentState.AttackingAnimationSouth:  PlaySingleAnimation(spriteSetSO.attackAnimationSpritesSouth, spriteSetSO.attackAnimationInterval); break;
+            case CurrentState.AttackingAnimationWest:   PlaySingleAnimation(spriteSetSO.attackAnimationSpritesWest,  spriteSetSO.attackAnimationInterval); break;
 
-            case CurrentState.CastIdleAnimationNorth: PlayAnimation(spriteSetSO.castIdleAnimationSpritesNorth, 0, false); break;
-            case CurrentState.CastIdleAnimationEast:  PlayAnimation(spriteSetSO.castIdleAnimationSpritesEast,  0, false); break;
-            case CurrentState.CastIdleAnimationSouth: PlayAnimation(spriteSetSO.castIdleAnimationSpritesSouth, 0, false); break;
-            case CurrentState.CastIdleAnimationWest:  PlayAnimation(spriteSetSO.castIdleAnimationSpritesWest,  0, false); break;
+            case CurrentState.CastIdleAnimationNorth: SetSprite(spriteSetSO.castIdleAnimationSpritesNorth); break;
+            case CurrentState.CastIdleAnimationEast:  SetSprite(spriteSetSO.castIdleAnimationSpritesEast); break;
+            case CurrentState.CastIdleAnimationSouth: SetSprite(spriteSetSO.castIdleAnimationSpritesSouth); break;
+            case CurrentState.CastIdleAnimationWest:  SetSprite(spriteSetSO.castIdleAnimationSpritesWest); break;
 
-            case CurrentState.CastingAnimationNorth: PlayAnimation(spriteSetSO.castAnimationSpritesNorth, spriteSetSO.castAnimationInterval, true); break;
-            case CurrentState.CastingAnimationEast:  PlayAnimation(spriteSetSO.castAnimationSpritesEast,  spriteSetSO.castAnimationInterval, true); break;
-            case CurrentState.CastingAnimationSouth: PlayAnimation(spriteSetSO.castAnimationSpritesSouth, spriteSetSO.castAnimationInterval, true); break;
-            case CurrentState.CastingAnimationWest:  PlayAnimation(spriteSetSO.castAnimationSpritesWest,  spriteSetSO.castAnimationInterval, true); break;
+            case CurrentState.CastingAnimationNorth: PlaySingleAnimation(spriteSetSO.castAnimationSpritesNorth, spriteSetSO.castAnimationInterval); break;
+            case CurrentState.CastingAnimationEast:  PlaySingleAnimation(spriteSetSO.castAnimationSpritesEast,  spriteSetSO.castAnimationInterval); break;
+            case CurrentState.CastingAnimationSouth: PlaySingleAnimation(spriteSetSO.castAnimationSpritesSouth, spriteSetSO.castAnimationInterval); break;
+            case CurrentState.CastingAnimationWest:  PlaySingleAnimation(spriteSetSO.castAnimationSpritesWest,  spriteSetSO.castAnimationInterval); break;
 
-            case CurrentState.DeathAnimation: PlayAnimation(spriteSetSO.deathAnimationSpritesSouth, spriteSetSO.deathAnimationInterval, true); break;
+            case CurrentState.DeathAnimation: PlaySingleAnimation(spriteSetSO.deathAnimationSpritesSouth, spriteSetSO.deathAnimationInterval); break;
 
             default: // Default Behaviour. I.e. If statemachine does not recognize the state, it will default to this state that something is trying to put into it. (It's not in enum CurrentState?)
                 Debug.Log("This state '" + currentState + "' for state machine doesn't exist, or there is a typo in name(string) of the state, defaulting to Idle State");
@@ -105,29 +105,54 @@ public class SimpleSpriteAnimationControllerSO : MonoBehaviour
 
         AnimationTestingWithKeys(); // Testing
     }
-    void PlayAnimation(Sprite[] animationSet, float animationInterval, bool playOnce)
+    void PlaySingleAnimation(Sprite[] animationSet, float animationInterval) // Play single animation.
     {
         if (isAnimating) return;
 
         if (currentAnimationCoroutine != null) StopCoroutine(currentAnimationCoroutine);
-        currentAnimationCoroutine = StartCoroutine(AnimationRuntime(animationSet, animationInterval, playOnce));
+        currentAnimationCoroutine = StartCoroutine(SingleAnimationRuntime(animationSet, animationInterval));
         isAnimating = true;
-    }
-    IEnumerator AnimationRuntime(Sprite[] animationSet, float time, bool playOnce)
-    {
-        do
-        {
-            for (int i = 0; i < animationSet.Length; i++)
-            {
-                if (i > animationSet.Length) i = 0;
-                spriteRenderer.sprite = animationSet[i];
-                yield return new WaitForSeconds(time);
-            }
-        } while (!playOnce); // We will use StopCoroutine method or playOnce bool, to break the do-while loop.
-        isAnimating = false;
-        SetState(CurrentState.Hold);
-    }
 
+        IEnumerator SingleAnimationRuntime(Sprite[] animationSet, float time) // Run single animation set.
+        {
+            do
+            {
+                for (int i = 0; i < animationSet.Length; i++)
+                {
+                    if (i > animationSet.Length) i = 0;
+                    spriteRenderer.sprite = animationSet[i];
+                    yield return new WaitForSeconds(time);
+                }
+            } while (false); // We will stop animation after single iteration.
+            isAnimating = false;
+            SetState(CurrentState.Hold);
+        }
+    }
+    void PlayLoopingAnimation(Sprite[] animationSet, float animationInterval) // Loop single animation.
+    {
+        if (isAnimating) return;
+
+        if (currentAnimationCoroutine != null) StopCoroutine(currentAnimationCoroutine);
+        currentAnimationCoroutine = StartCoroutine(LoopAnimationRuntime(animationSet, animationInterval));
+        isAnimating = true;
+
+        IEnumerator LoopAnimationRuntime(Sprite[] animationSet, float time) // Loop single animation set.
+        {
+            do
+            {
+                for (int i = 0; i < animationSet.Length; i++)
+                {
+                    if (i > animationSet.Length) i = 0;
+                    spriteRenderer.sprite = animationSet[i];
+                    yield return new WaitForSeconds(time);
+                }
+            } while (true); // We will use StopCoroutine method to kill the coroutine running the animation and break the do-while loop.
+        }
+    }
+    void SetSprite(Sprite[] sprites) // Setting single sprite in the renderer, no need to animate anything. In the future, even idle animations will be animated, so this is should temporary.
+    {
+        spriteRenderer.sprite = sprites[0];
+    }
     void AnimationTestingWithKeys() // Testing.
     {
         if (Input.GetKey(KeyCode.W)) SetState(CurrentState.WalkingAnimationNorth);
