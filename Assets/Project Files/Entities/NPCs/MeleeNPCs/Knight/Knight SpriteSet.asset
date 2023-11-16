@@ -61,11 +61,11 @@ MonoBehaviour:
   attackIdleAnimationSpritesNorth:
   - {fileID: 280134834, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
   attackIdleAnimationSpritesEast:
-  - {fileID: 0}
+  - {fileID: -1993377887, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
   attackIdleAnimationSpritesSouth:
-  - {fileID: 0}
+  - {fileID: 1200955937, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
   attackIdleAnimationSpritesWest:
-  - {fileID: 0}
+  - {fileID: 1435884779, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
   attackIdleAnimationInterval: 0
   attackAnimationSpritesNorth:
   - {fileID: 280134834, guid: 46a293cff3389a9469f262dc27e49778, type: 3}
@@ -113,4 +113,4 @@ MonoBehaviour:
   - {fileID: -2078362343, guid: 1e996ff239174104f882194fa59abba2, type: 3}
   - {fileID: -1038917477, guid: 1e996ff239174104f882194fa59abba2, type: 3}
   - {fileID: -248089885, guid: 1e996ff239174104f882194fa59abba2, type: 3}
-  deathAnimationInterval: 125
+  deathAnimationInterval: 0.125

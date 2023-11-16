@@ -2,10 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Sprite Set", menuName = "ScritableObjects/Sprite Set")]
+[CreateAssetMenu(fileName = "New Sprite Set", menuName = "ScriptableObjects/Sprite Set")]
 public class SpriteSet : ScriptableObject
 {
-    //Sprite sets themselves.
+    //ScriptableObject for the Sprite sets themselves. Every sprite is assigned in the editor, to the correct sets, in the correct order.
+
+    // Top-Down 2D frame-by-frame animation requires 4 directions per animation set. North, East, South and West.
+    // Decide how many sprites there in the animation, add sprites themselves into the arrays and in correct order and the script should do the rest by itself.
+    // Just make sure to access this methods within this script, hopefully with a state machine, to make sure the animation is played properly.
+
     [SerializeField] internal Sprite[] idleAnimationSpritesNorth = new Sprite[0];
     [SerializeField] internal Sprite[] idleAnimationSpritesEast = new Sprite[0];
     [SerializeField] internal Sprite[] idleAnimationSpritesSouth = new Sprite[0];
