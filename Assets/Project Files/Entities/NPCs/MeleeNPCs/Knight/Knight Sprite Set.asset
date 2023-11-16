@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae95ca5617e062c4f95293bdc33bf923, type: 3}
-  m_Name: Knight SpriteSet
+  m_Name: Knight Sprite Set
   m_EditorClassIdentifier: 
   idleAnimationSpritesNorth:
   - {fileID: -1692768033, guid: 1e996ff239174104f882194fa59abba2, type: 3}

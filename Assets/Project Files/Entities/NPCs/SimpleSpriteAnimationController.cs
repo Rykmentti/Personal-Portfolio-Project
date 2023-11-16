@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SimpleSpriteAnimationController : MonoBehaviour
 {
+    SpriteRenderer spriteRenderer;
     [SerializeField] SpriteSet spriteSetSO; // ScriptableObject, which contains all the sprites for the NPC. Assigned in Editor
-    [SerializeField] SpriteRenderer spriteRenderer; // Assigned in Editor
     [SerializeField] CurrentState currentState;
     Coroutine currentAnimationCoroutine; // Using this to make sure only one animation coroutine is active at any point in time.
 
@@ -49,6 +49,7 @@ public class SimpleSpriteAnimationController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         SetState(CurrentState.IdleAnimationSouth);
     }
 

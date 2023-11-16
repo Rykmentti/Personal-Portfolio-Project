@@ -58,11 +58,11 @@ GameObject:
   m_Component:
   - component: {fileID: 8199326611187489177}
   - component: {fileID: 7989897612408442273}
-  - component: {fileID: 4241015977405547709}
+  - component: {fileID: 5957024088157549528}
+  - component: {fileID: 5998434398917898509}
   - component: {fileID: -3026433991178921529}
   - component: {fileID: 4082885235470315256}
   - component: {fileID: -2267203623591548428}
-  - component: {fileID: 5957024088157549528}
   m_Layer: 0
   m_Name: Wizard
   m_TagString: Untagged
@@ -138,7 +138,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4241015977405547709
+--- !u!114 &5957024088157549528
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,125 +147,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 5891032112362584617}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6cb07c0a49570344a066ccec5399529, type: 3}
+  m_Script: {fileID: 11500000, guid: 185d396ea7a2b0a4b9fbe2f0e25addf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 7989897612408442273}
+  targetDistance: 0
+  globalCooldown: 0
+  globalCooldownTime: 2
+  attackDistance: 10
+  health: 75
+  damage: 15
   currentState: 0
-  idleAnimationSpritesNorth:
-  - {fileID: 804035249, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  idleAnimationSpritesEast:
-  - {fileID: -1906713496, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  idleAnimationSpritesSouth:
-  - {fileID: 1062410844, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  idleAnimationSpritesWest:
-  - {fileID: -1262750688, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  idleAnimationInterval: 0
-  walkAnimationSpritesNorth:
-  - {fileID: -45386308, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1121504508, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1599660099, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1606421509, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 516944459, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1484345716, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1177789197, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -410175674, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  walkAnimationSpritesEast:
-  - {fileID: -1898104646, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1765357309, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1943942563, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -839292339, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -2093374989, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 774529236, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1741680141, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1709474291, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  walkAnimationSpritesSouth:
-  - {fileID: -1913521654, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -914084203, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 921200119, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 698800357, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1415558983, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1917025131, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1429882826, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1843806610, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  walkAnimationSpritesWest:
-  - {fileID: -1190827403, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 416826229, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1439749020, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1513438631, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1430394544, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1856782520, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1477670940, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 689483294, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  walkAnimationInterval: 0.083
-  attackIdleAnimationSpritesNorth:
-  - {fileID: 466908496, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  attackIdleAnimationSpritesEast:
-  - {fileID: -603590752, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  attackIdleAnimationSpritesSouth:
-  - {fileID: 1470911484, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  attackIdleAnimationSpritesWest:
-  - {fileID: 2008077343, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  attackIdleAnimationInterval: 0
-  attackAnimationSpritesNorth:
-  - {fileID: 466908496, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1602764473, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -2004558436, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 292947449, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 95819554, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -816797482, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1558950148, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -780091675, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  attackAnimationSpritesEast:
-  - {fileID: -603590752, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1324965483, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1265429334, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1686996042, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 718364545, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -560140144, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 942117431, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1742458687, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  attackAnimationSpritesSouth:
-  - {fileID: 1470911484, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1591957574, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -56519785, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -305491875, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -352886770, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 234551175, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1822802459, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1172796099, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  attackAnimationSpritesWest:
-  - {fileID: 2008077343, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -743858139, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1076464541, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 273287619, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 464020818, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -511864186, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -232294793, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1828448100, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  attackAnimationInterval: 0.2
-  castIdleAnimationSpritesNorth:
-  - {fileID: 0}
-  castIdleAnimationSpritesEast:
-  - {fileID: 0}
-  castIdleAnimationSpritesSouth:
-  - {fileID: 0}
-  castIdleAnimationSpritesWest:
-  - {fileID: 0}
-  castIdleAnimationInterval: 0
-  castAnimationSpritesNorth: []
-  castAnimationSpritesEast: []
-  castAnimationSpritesSouth: []
-  castAnimationSpritesWest: []
-  castAnimationInterval: 0
-  deathAnimationSpritesSouth:
-  - {fileID: 2117203340, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1973653466, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -1438673186, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1539089355, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: -932157153, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  - {fileID: 1034532137, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  deathAnimationInterval: 0.125
+  defaultSpellProjectile: {fileID: 0}
+  homingSpellProjectile: {fileID: 3380600678960153891, guid: 11be2987c0d268d4f9c178939d963a40, type: 3}
+  projectileSpeed: 5
+  defaultAttackCooldown: 0
+  heavyAttackCooldown: 0
+  defaultAttackCooldownTime: 4
+  heavyAttackCooldownTime: 6
+--- !u!114 &5998434398917898509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5891032112362584617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56f65646d9e26a4ca836f2a062a5674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteSetSO: {fileID: 11400000, guid: 343a1a6bfe6dad9408ca9a75367700c1, type: 2}
+  currentState: 0
   isAnimating: 0
 --- !u!70 &-3026433991178921529
 CapsuleCollider2D:
@@ -351,30 +263,3 @@ NavMeshAgent:
   m_BaseOffset: 0.32
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &5957024088157549528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5891032112362584617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 185d396ea7a2b0a4b9fbe2f0e25addf4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetDistance: 0
-  globalCooldown: 0
-  globalCooldownTime: 2
-  attackDistance: 10
-  attackRate: 2
-  health: 75
-  damage: 15
-  currentState: 0
-  defaultSpellProjectile: {fileID: 0}
-  homingSpellProjectile: {fileID: 3380600678960153891, guid: 11be2987c0d268d4f9c178939d963a40, type: 3}
-  projectileSpeed: 5
-  defaultAttackCooldown: 0
-  heavyAttackCooldown: 0
-  defaultAttackCooldownTime: 4
-  heavyAttackCooldownTime: 6
