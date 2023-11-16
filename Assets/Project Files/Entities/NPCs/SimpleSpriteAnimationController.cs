@@ -73,9 +73,9 @@ public class SimpleSpriteAnimationController : MonoBehaviour
             case CurrentState.WalkingAnimationWest:  PlayLoopingAnimation(spriteSetSO.walkAnimationSpritesWest,  spriteSetSO.walkAnimationInterval); break;
 
             case CurrentState.AttackIdleAnimationNorth: SetSprite(spriteSetSO.attackIdleAnimationSpritesNorth); break;
-            case CurrentState.AttackIdleAnimationEast:  SetSprite(spriteSetSO.attackIdleAnimationSpritesEast); break;
+            case CurrentState.AttackIdleAnimationEast:  SetSprite(spriteSetSO.attackIdleAnimationSpritesEast);  break;
             case CurrentState.AttackIdleAnimationSouth: SetSprite(spriteSetSO.attackIdleAnimationSpritesSouth); break;
-            case CurrentState.AttackIdleAnimationWest:  SetSprite(spriteSetSO.attackIdleAnimationSpritesWest); break;
+            case CurrentState.AttackIdleAnimationWest:  SetSprite(spriteSetSO.attackIdleAnimationSpritesWest);  break;
 
             case CurrentState.AttackingAnimationNorth:  PlaySingleAnimation(spriteSetSO.attackAnimationSpritesNorth, spriteSetSO.attackAnimationInterval); break;
             case CurrentState.AttackingAnimationEast:   PlaySingleAnimation(spriteSetSO.attackAnimationSpritesEast,  spriteSetSO.attackAnimationInterval); break;
@@ -83,9 +83,9 @@ public class SimpleSpriteAnimationController : MonoBehaviour
             case CurrentState.AttackingAnimationWest:   PlaySingleAnimation(spriteSetSO.attackAnimationSpritesWest,  spriteSetSO.attackAnimationInterval); break;
 
             case CurrentState.CastIdleAnimationNorth: SetSprite(spriteSetSO.castIdleAnimationSpritesNorth); break;
-            case CurrentState.CastIdleAnimationEast:  SetSprite(spriteSetSO.castIdleAnimationSpritesEast); break;
+            case CurrentState.CastIdleAnimationEast:  SetSprite(spriteSetSO.castIdleAnimationSpritesEast);  break;
             case CurrentState.CastIdleAnimationSouth: SetSprite(spriteSetSO.castIdleAnimationSpritesSouth); break;
-            case CurrentState.CastIdleAnimationWest:  SetSprite(spriteSetSO.castIdleAnimationSpritesWest); break;
+            case CurrentState.CastIdleAnimationWest:  SetSprite(spriteSetSO.castIdleAnimationSpritesWest);  break;
 
             case CurrentState.CastingAnimationNorth: PlaySingleAnimation(spriteSetSO.castAnimationSpritesNorth, spriteSetSO.castAnimationInterval); break;
             case CurrentState.CastingAnimationEast:  PlaySingleAnimation(spriteSetSO.castAnimationSpritesEast,  spriteSetSO.castAnimationInterval); break;
@@ -130,7 +130,7 @@ public class SimpleSpriteAnimationController : MonoBehaviour
         currentAnimationCoroutine = StartCoroutine(LoopAnimationRuntime(animationSet, animationInterval));
         isAnimating = true;
 
-        IEnumerator LoopAnimationRuntime(Sprite[] animationSet, float time) // Loop single animation set.
+        IEnumerator LoopAnimationRuntime(Sprite[] animationSet, float time) // Loop single animation set forever.
         {
             do
             {
