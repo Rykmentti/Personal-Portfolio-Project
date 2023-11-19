@@ -26,7 +26,7 @@ public class SimpleSpriteAnimationController : MonoBehaviour
         CastIdleAnimationNorth, CastIdleAnimationEast, CastIdleAnimationSouth, CastIdleAnimationWest,
         CastingAnimationNorth, CastingAnimationEast, CastingAnimationSouth, CastingAnimationWest,
 
-        // 1-Directional Animation States.
+        // 1-Direction Animation States.
         DeathAnimation,
     }
     public void SetState(CurrentState state)
@@ -67,32 +67,32 @@ public class SimpleSpriteAnimationController : MonoBehaviour
             case CurrentState.IdleAnimationSouth: SetSprite(spriteSetSO.idleAnimationSpritesSouth); break;
             case CurrentState.IdleAnimationWest:  SetSprite(spriteSetSO.idleAnimationSpritesWest ); break;
 
-            case CurrentState.WalkingAnimationNorth: PlayLoopingAnimation(spriteSetSO.walkAnimationSpritesNorth, spriteSetSO.walkAnimationInterval); break;
-            case CurrentState.WalkingAnimationEast:  PlayLoopingAnimation(spriteSetSO.walkAnimationSpritesEast,  spriteSetSO.walkAnimationInterval); break;
-            case CurrentState.WalkingAnimationSouth: PlayLoopingAnimation(spriteSetSO.walkAnimationSpritesSouth, spriteSetSO.walkAnimationInterval); break;
-            case CurrentState.WalkingAnimationWest:  PlayLoopingAnimation(spriteSetSO.walkAnimationSpritesWest,  spriteSetSO.walkAnimationInterval); break;
+            case CurrentState.WalkingAnimationNorth: PlayAnimationLoop(spriteSetSO.walkAnimationSpritesNorth, spriteSetSO.walkAnimationInterval); break;
+            case CurrentState.WalkingAnimationEast:  PlayAnimationLoop(spriteSetSO.walkAnimationSpritesEast,  spriteSetSO.walkAnimationInterval); break;
+            case CurrentState.WalkingAnimationSouth: PlayAnimationLoop(spriteSetSO.walkAnimationSpritesSouth, spriteSetSO.walkAnimationInterval); break;
+            case CurrentState.WalkingAnimationWest:  PlayAnimationLoop(spriteSetSO.walkAnimationSpritesWest,  spriteSetSO.walkAnimationInterval); break;
 
             case CurrentState.AttackIdleAnimationNorth: SetSprite(spriteSetSO.attackIdleAnimationSpritesNorth); break;
             case CurrentState.AttackIdleAnimationEast:  SetSprite(spriteSetSO.attackIdleAnimationSpritesEast);  break;
             case CurrentState.AttackIdleAnimationSouth: SetSprite(spriteSetSO.attackIdleAnimationSpritesSouth); break;
             case CurrentState.AttackIdleAnimationWest:  SetSprite(spriteSetSO.attackIdleAnimationSpritesWest);  break;
 
-            case CurrentState.AttackingAnimationNorth:  PlaySingleAnimation(spriteSetSO.attackAnimationSpritesNorth, spriteSetSO.attackAnimationInterval); break;
-            case CurrentState.AttackingAnimationEast:   PlaySingleAnimation(spriteSetSO.attackAnimationSpritesEast,  spriteSetSO.attackAnimationInterval); break;
-            case CurrentState.AttackingAnimationSouth:  PlaySingleAnimation(spriteSetSO.attackAnimationSpritesSouth, spriteSetSO.attackAnimationInterval); break;
-            case CurrentState.AttackingAnimationWest:   PlaySingleAnimation(spriteSetSO.attackAnimationSpritesWest,  spriteSetSO.attackAnimationInterval); break;
+            case CurrentState.AttackingAnimationNorth:  PlayAnimationOnce(spriteSetSO.attackAnimationSpritesNorth, spriteSetSO.attackAnimationInterval); break;
+            case CurrentState.AttackingAnimationEast:   PlayAnimationOnce(spriteSetSO.attackAnimationSpritesEast,  spriteSetSO.attackAnimationInterval); break;
+            case CurrentState.AttackingAnimationSouth:  PlayAnimationOnce(spriteSetSO.attackAnimationSpritesSouth, spriteSetSO.attackAnimationInterval); break;
+            case CurrentState.AttackingAnimationWest:   PlayAnimationOnce(spriteSetSO.attackAnimationSpritesWest,  spriteSetSO.attackAnimationInterval); break;
 
             case CurrentState.CastIdleAnimationNorth: SetSprite(spriteSetSO.castIdleAnimationSpritesNorth); break;
             case CurrentState.CastIdleAnimationEast:  SetSprite(spriteSetSO.castIdleAnimationSpritesEast);  break;
             case CurrentState.CastIdleAnimationSouth: SetSprite(spriteSetSO.castIdleAnimationSpritesSouth); break;
             case CurrentState.CastIdleAnimationWest:  SetSprite(spriteSetSO.castIdleAnimationSpritesWest);  break;
 
-            case CurrentState.CastingAnimationNorth: PlaySingleAnimation(spriteSetSO.castAnimationSpritesNorth, spriteSetSO.castAnimationInterval); break;
-            case CurrentState.CastingAnimationEast:  PlaySingleAnimation(spriteSetSO.castAnimationSpritesEast,  spriteSetSO.castAnimationInterval); break;
-            case CurrentState.CastingAnimationSouth: PlaySingleAnimation(spriteSetSO.castAnimationSpritesSouth, spriteSetSO.castAnimationInterval); break;
-            case CurrentState.CastingAnimationWest:  PlaySingleAnimation(spriteSetSO.castAnimationSpritesWest,  spriteSetSO.castAnimationInterval); break;
+            case CurrentState.CastingAnimationNorth: PlayAnimationOnce(spriteSetSO.castAnimationSpritesNorth, spriteSetSO.castAnimationInterval); break;
+            case CurrentState.CastingAnimationEast:  PlayAnimationOnce(spriteSetSO.castAnimationSpritesEast,  spriteSetSO.castAnimationInterval); break;
+            case CurrentState.CastingAnimationSouth: PlayAnimationOnce(spriteSetSO.castAnimationSpritesSouth, spriteSetSO.castAnimationInterval); break;
+            case CurrentState.CastingAnimationWest:  PlayAnimationOnce(spriteSetSO.castAnimationSpritesWest,  spriteSetSO.castAnimationInterval); break;
 
-            case CurrentState.DeathAnimation: PlaySingleAnimation(spriteSetSO.deathAnimationSpritesSouth, spriteSetSO.deathAnimationInterval); break;
+            case CurrentState.DeathAnimation: PlayAnimationOnce(spriteSetSO.deathAnimationSpritesSouth, spriteSetSO.deathAnimationInterval); break;
 
             default: // Default Behaviour. I.e. If statemachine does not recognize the state, it will default to this state that something is trying to put into it. (It's not in enum CurrentState?)
                 Debug.Log("This state '" + currentState + "' for state machine doesn't exist, or there is a typo in name(string) of the state, defaulting to Idle State");
@@ -102,15 +102,15 @@ public class SimpleSpriteAnimationController : MonoBehaviour
 
         AnimationTestingWithKeys(); // Testing
     }
-    void PlaySingleAnimation(Sprite[] animationSet, float animationInterval) // Play single animation.
+    void PlayAnimationOnce(Sprite[] animationSet, float animationInterval) // Play single animation.
     {
         if (isAnimating) return;
 
         if (currentAnimationCoroutine != null) StopCoroutine(currentAnimationCoroutine);
-        currentAnimationCoroutine = StartCoroutine(SingleAnimationRuntime(animationSet, animationInterval));
+        currentAnimationCoroutine = StartCoroutine(PlayAnimationOnceRuntime(animationSet, animationInterval));
         isAnimating = true;
 
-        IEnumerator SingleAnimationRuntime(Sprite[] animationSet, float time) // Run single animation set.
+        IEnumerator PlayAnimationOnceRuntime(Sprite[] animationSet, float time) // Run single animation set.
         {
             for (int i = 0; i < animationSet.Length; i++)
             {
@@ -122,15 +122,15 @@ public class SimpleSpriteAnimationController : MonoBehaviour
             SetState(CurrentState.Hold);
         }
     }
-    void PlayLoopingAnimation(Sprite[] animationSet, float animationInterval) // Loop single animation.
+    void PlayAnimationLoop(Sprite[] animationSet, float animationInterval) // Loop single animation.
     {
         if (isAnimating) return;
 
         if (currentAnimationCoroutine != null) StopCoroutine(currentAnimationCoroutine);
-        currentAnimationCoroutine = StartCoroutine(LoopAnimationRuntime(animationSet, animationInterval));
+        currentAnimationCoroutine = StartCoroutine(PlaceAnimationLoopRuntime(animationSet, animationInterval));
         isAnimating = true;
 
-        IEnumerator LoopAnimationRuntime(Sprite[] animationSet, float time) // Loop single animation set forever.
+        IEnumerator PlaceAnimationLoopRuntime(Sprite[] animationSet, float time) // Loop single animation set forever.
         {
             do
             {

@@ -35,10 +35,10 @@ public class CasterNPCProjectile : MonoBehaviour
         }
     }
 
-    public void SetDamageForChildren(int parentDamage) { damage = parentDamage; }
-    public void SetSpeedForChildren(int parentSpeed) { speed = parentSpeed; }
+    public void SetTargetForChildren(Transform projectileTarget) { target = projectileTarget; }
+    public void SetDamageForChildren(int projectileDamage) { damage = projectileDamage; }
+    public void SetSpeedForChildren(int projectileSpeed) { speed = projectileSpeed; }
     public void SetIdentifierTagForChildren(string parentTag) { identifierTag = parentTag; }
-    public void SetTargetForChildren(Transform parentTarget) { target = parentTarget; }
 
     void OnTriggerEnter2D(Collider2D other)
     {

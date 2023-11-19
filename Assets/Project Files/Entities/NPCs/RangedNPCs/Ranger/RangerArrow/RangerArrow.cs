@@ -17,8 +17,8 @@ public class RangerArrow : MonoBehaviour
         transform.Translate(speed * Time.deltaTime * new Vector2(0f, 1f));
     }
 
-    public void SetDamageForChildren(int parentDamage) { damage = parentDamage; }
-    public void SetSpeedForChildren(int parentSpeed) { speed = parentSpeed; }
+    public void SetDamageForChildren(int projectileDamage) { damage = projectileDamage; }
+    public void SetSpeedForChildren(int projectileSpeed) { speed = projectileSpeed; }
     public void SetIdentifierTagForChildren(string parentTag) { identifierTag = parentTag; }
 
     void OnTriggerEnter2D(Collider2D other)
