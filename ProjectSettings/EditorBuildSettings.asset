@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Project Files/Scenes/Testing/TestingFightScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Project Files/Scenes/02_BattleScene.unity
+    guid: b65c5c3e7cd41414dbc924a00c3face3
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 67a86398f9e95204486346b83280b98e, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: a4b08116a75e19d42abd610bf013173c, type: 2}
