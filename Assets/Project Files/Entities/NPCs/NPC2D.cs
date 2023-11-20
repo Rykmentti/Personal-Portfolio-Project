@@ -48,14 +48,6 @@ public class NPC2D : MonoBehaviour
     {
         // Purkka at it's finest. Just to showcase other how this could work in class. :D If we actually end up using this, we need to create one script dedicated wholly to scrolling combat text.
         Vector3 dialogTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
-        if (gameObject.name == "Blue Knight Leader")
-        {
-            CombatText.Spawn(TextStyle.Dialogue, "Knights of the Elyvia! Charge!!!", dialogTextPosition, transform);
-        }
-        if (gameObject.name == "Red Knight Leader")
-        {
-            CombatText.Spawn(TextStyle.Dialogue, "Die heretic!!! Chaos rules here!", dialogTextPosition, transform);
-        }
         npcAgent = GetComponent<NavMeshAgent>();
         npcAgent.updateRotation = false; // Can't have this with 2D sprites using NavMesh.
         npcAgent.updateUpAxis = false; // Can't have this with 2D sprites using NavMesh.
