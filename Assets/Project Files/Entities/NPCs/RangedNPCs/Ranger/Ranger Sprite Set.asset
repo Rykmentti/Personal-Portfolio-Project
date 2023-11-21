@@ -135,10 +135,10 @@ MonoBehaviour:
   castAnimationSpritesWest: []
   castAnimationInterval: 0
   deathAnimationSpritesSouth:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1627476038, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
+  - {fileID: 1766325598, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
+  - {fileID: -2055329327, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
+  - {fileID: -1145453623, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
+  - {fileID: -965907780, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
+  - {fileID: -1959023479, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
   deathAnimationInterval: 0.125
