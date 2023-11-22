@@ -14,16 +14,16 @@ public class WaveManager : MonoBehaviour
 
     public void SpawnNumberedWave(int waveNumber)
     {
-        if (waveNumber == 0) SpawnWave(3, 2, 0);
-        else if (waveNumber == 1) SpawnWave(5, 3, 0);
-        else if (waveNumber == 2) SpawnWave(8, 2, 0);
-        else if (waveNumber == 3) SpawnWave(8, 5, 0);
-        else if (waveNumber == 4) SpawnWave(10, 3, 2);
-        else if (waveNumber == 5) SpawnWave(10, 7, 3);
-        else if (waveNumber == 6) SpawnWave(12, 10, 3);
-        else if (waveNumber == 7) SpawnWave(10, 10, 5);
-        else if (waveNumber == 8) SpawnWave(15, 5, 5);
-        else if (waveNumber == 9) SpawnWave(15, 5, 5);
+        if (waveNumber == 0) { SpawnWave(3, 2, 0); UI_Manager.uiManager.UpdateMoneyLeftText(1000); }
+        else if (waveNumber == 1) { SpawnWave(5, 3, 0); UI_Manager.uiManager.UpdateMoneyLeftText(1000); }
+        else if (waveNumber == 2) { SpawnWave(8, 2, 0); UI_Manager.uiManager.UpdateMoneyLeftText(1000); }
+        else if (waveNumber == 3) { SpawnWave(8, 5, 0); UI_Manager.uiManager.UpdateMoneyLeftText(1000); }
+        else if (waveNumber == 4) { SpawnWave(10, 3, 2); UI_Manager.uiManager.UpdateMoneyLeftText(1500); }
+        else if (waveNumber == 5) { SpawnWave(10, 7, 3); UI_Manager.uiManager.UpdateMoneyLeftText(1500); }
+        else if (waveNumber == 6) { SpawnWave(12, 10, 3); UI_Manager.uiManager.UpdateMoneyLeftText(1500); }
+        else if (waveNumber == 7) { SpawnWave(10, 10, 5); UI_Manager.uiManager.UpdateMoneyLeftText(1500); }
+        else if (waveNumber == 8) { SpawnWave(15, 5, 5); UI_Manager.uiManager.UpdateMoneyLeftText(2000); }
+        else if (waveNumber == 9) { SpawnWave(15, 5, 5); UI_Manager.uiManager.UpdateMoneyLeftText(2000); }
     }
 
     void SpawnWave(int meleeNPC_Amount, int rangedNPC_Amount, int casterAmount_NPC)

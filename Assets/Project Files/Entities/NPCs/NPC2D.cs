@@ -191,6 +191,25 @@ public class NPC2D : MonoBehaviour
         yield return new WaitForSeconds(globalCooldownTime);
         globalCooldown = false;
     }
+    void OnDrawGizmosSelected() // Visualizing attackDistance in editor.
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackDistance);
+    }
+    public int GetNPCDeployValue()
+    {
+        return npcDeployValue;
+    }
+    //void OnEnable() // Object fooling. I.e. If we have a pool of objects, we can use this to update the UI when the object is enabled.
+    //{
+    //    if (gameObject.tag == "Blue") UI_Manager.uiManager.UpdatePlayerNPCTotalValueText(npcDeployValue);
+    //    else if (gameObject.tag == "Red") UI_Manager.uiManager.UpdateEnemyNPCTotalValueText(npcDeployValue);
+    //}
+    //void OnDisable()
+    //{
+    //    if (gameObject.tag == "Blue") UI_Manager.uiManager.UpdatePlayerNPCTotalValueText(-npcDeployValue);
+    //    else if (gameObject.tag == "Red") UI_Manager.uiManager.UpdateEnemyNPCTotalValueText(-npcDeployValue);
+    //}
     void OnDestroy()
     {
         if (gameObject.tag == "Blue") UI_Manager.uiManager.UpdatePlayerNPCTotalValueText(-npcDeployValue);

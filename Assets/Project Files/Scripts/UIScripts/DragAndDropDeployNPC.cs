@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 {
@@ -13,55 +12,55 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
 
     GameObject previewSpritePrefab;
     bool isDragging = false;
-    [SerializeField] bool onPC = false;
-
-    void Start()
-    {
-        onPC = true;
-    }
     public void OnPointerDown(PointerEventData eventData)
     {
         // Instantiate the deployable sprite preview when the button is clicked and start Drag & Drop functionality.
-        if (Input.touchCount > 0 && onPC == false)
+#if UNITY_ANDROID
+        if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
             CreateDeployablePreviewPrefab();
             isDragging = true;
             Debug.Log("Deploying preview sprite");
         }
-
-        // Testing with mouse on PC.
-        if (onPC == true)
-        {
-            CreateDeployablePreviewPrefab();
-            isDragging = true;
-            Debug.Log("Button has been clicked"); 
-        }
+#endif  // Testing with mouse on PC. Oh this actually still works on tablet, even though I'm not using touch controls because UnityEvents PointEventData is a generic type.
+#if UNITY_EDITOR || UNITY_STANDALONE
+        CreateDeployablePreviewPrefab();
+        isDragging = true;
+        Debug.Log("Button has been clicked");
+#endif
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         // Update the position of the deployable preview prefab while dragging
-        if (isDragging && Input.touchCount > 0 && onPC == false)
+#if UNITY_ANDROID
+        if (isDragging && Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
             previewSpritePrefab.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f));
             Debug.Log("Dragging preview sprite");
         }
-        
-        // Testing with mouse on PC.
-        if (isDragging && onPC == true)
+#endif  // Testing with mouse on PC. Oh this actually still works on tablet, even though I'm not using touch controls because UnityEvents PointEventData is a generic type.
+#if UNITY_EDITOR || UNITY_STANDALONE
+        if (isDragging)
         {
             previewSpritePrefab.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f));
             Debug.Log("Dragging Player NPC image");
-        }
+        } 
+#endif
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
         // Deploy the prefab when the mouse click is released after dragging.
-        if (isDragging && Input.touchCount > 0 && onPC == false)
+#if UNITY_ANDROID
+        if (isDragging && Input.touchCount > 0)
         {
+            if (UI_Manager.uiManager.CheckIfEnoughMoneyToDeployNPC(deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue()) == false) { Destroy(previewSpritePrefab); return; }
+            
+
+            UI_Manager.uiManager.UpdateMoneyLeftText(-deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue());
             Touch touch = Input.GetTouch(0);
             isDragging = false;
             Destroy(previewSpritePrefab);
@@ -70,17 +69,21 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
             npc.tag = "Blue";
             Debug.Log("Deploying Player NPC and destroying preview sprite");
         }
-
-        // Testing with mouse on PC.
-        if (isDragging && onPC == true)
+#endif  // Testing with mouse on PC. Oh this actually still works on tablet, even though I'm not using touch controls because UnityEvents PointEventData is a generic type.
+#if UNITY_EDITOR || UNITY_STANDALONE
+        if (isDragging)
         {
+            if (UI_Manager.uiManager.CheckIfEnoughMoneyToDeployNPC(deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue()) == false) { Destroy(previewSpritePrefab); return; }
+
+            UI_Manager.uiManager.UpdateMoneyLeftText(-deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue());
             isDragging = false;
             Destroy(previewSpritePrefab);
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f));
             GameObject npc = Instantiate(deployableNPC_Prefab, worldPosition, Quaternion.identity);
             npc.tag = "Blue";
             Debug.Log("Deploying Player NPC");
-        }
+        } 
+#endif
     }
     void CreateDeployablePreviewPrefab()
     {

@@ -18,13 +18,13 @@ public class UI_Manager : MonoBehaviour
     [SerializeField] Button restartButton; // Assign in Editor
     [SerializeField] Button resumeButton; // Assign in Editor
 
-    [SerializeField] TMP_Text waveCounterText; // Assign in Editor;
-    [SerializeField] TMP_Text moneyLeftText; // Assign in Editor;
-    [SerializeField] TMP_Text playerNPCTotalValueText; // Assign in Editor;
-    [SerializeField] TMP_Text enemyNPCTotalValueText; // Assign in Editor;
+    [SerializeField] TMP_Text waveCounterText; // Assign in Editor
+    [SerializeField] TMP_Text moneyLeftText; // Assign in Editor
+    [SerializeField] TMP_Text playerNPCTotalValueText; // Assign in Editor
+    [SerializeField] TMP_Text enemyNPCTotalValueText; // Assign in Editor
 
     int waveNumber = 0;
-    int moneyLeft = 0;
+    [SerializeField] int moneyLeft = 0; // Assign starting money in Editor
     int playerNPCTotal = 0;
     int enemyNPCTotal = 0;
 
@@ -32,6 +32,8 @@ public class UI_Manager : MonoBehaviour
     void Start()
     {
         uiManager = this;
+        moneyLeftText.text = moneyLeft.ToString();
+
         waveCounterText.text = "Wave: " + waveNumber.ToString();
         startWaveButton.onClick.AddListener(() => { SpawnWaveAndUpdateWaveCounter(); });
         menuButton.onClick.AddListener(() => { OpenMenuAndPauseGame(); });
@@ -56,7 +58,12 @@ public class UI_Manager : MonoBehaviour
     }
     void QuitGame()
     {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+#if UNITY_ANDROID || UNITY_STANDALONE
         Application.Quit();
+#endif
     }
     void SpawnWaveAndUpdateWaveCounter()
     {
@@ -64,10 +71,23 @@ public class UI_Manager : MonoBehaviour
         waveNumber++;
         waveCounterText.text = "Wave: " + waveNumber.ToString();
     }
+    public bool CheckIfEnoughMoneyToDeployNPC(int npcValue)
+    {
+        if (moneyLeft - npcValue >= 0)
+        {
+            Debug.Log("We have enough money to deploy NPC");
+            return true;
+        }
+        else
+        {
+            Debug.Log("We do not have enough money to deploy NPC");
+            return false;
+        }
+    }
     public void UpdateMoneyLeftText(int money)
     {
         moneyLeft += money;
-        moneyLeftText.text = "Money Left: " + moneyLeft.ToString();
+        moneyLeftText.text = moneyLeft.ToString();
     }
     public void UpdatePlayerNPCTotalValueText(int playerNPCValue)
     {

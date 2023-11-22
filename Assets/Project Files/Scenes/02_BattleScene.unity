@@ -8257,7 +8257,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deployableNPC_Prefab: {fileID: 5891032112362584617, guid: 2917b48ea05e0e248afc16212061340f, type: 3}
   previewSprite: {fileID: -1330850802, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
-  onPC: 0
 --- !u!1 &723730946
 GameObject:
   m_ObjectHideFlags: 0
@@ -9330,7 +9329,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deployableNPC_Prefab: {fileID: 5891032112362584617, guid: 3e5d4b2ca09ecc147a4beee3b84fed63, type: 3}
   previewSprite: {fileID: -51539383, guid: 1e996ff239174104f882194fa59abba2, type: 3}
-  onPC: 0
 --- !u!1 &912544154
 GameObject:
   m_ObjectHideFlags: 0
@@ -16593,6 +16591,7 @@ MonoBehaviour:
   moneyLeftText: {fileID: 579667124}
   playerNPCTotalValueText: {fileID: 51442160}
   enemyNPCTotalValueText: {fileID: 1341085551}
+  moneyLeft: 1000
 --- !u!1 &1643212860
 GameObject:
   m_ObjectHideFlags: 0
@@ -17352,7 +17351,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deployableNPC_Prefab: {fileID: 5891032112362584617, guid: 92e2d1b1914fd6640946f33192b116fb, type: 3}
   previewSprite: {fileID: 1062410844, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  onPC: 0
 --- !u!1 &1944826210
 GameObject:
   m_ObjectHideFlags: 0
