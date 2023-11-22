@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 228859426}
   - component: {fileID: 228859425}
   m_Layer: 5
-  m_Name: UI_BackgroundMiddle
+  m_Name: UI_MenuBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -483,10 +483,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 796135514}
   - {fileID: 2084357899}
   - {fileID: 2081883888}
   - {fileID: 1507532245}
-  - {fileID: 796135514}
   m_Father: {fileID: 1643212864}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -642,41 +642,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2079748090}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &377774709
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 377774710}
-  m_Layer: 5
-  m_Name: --PlayerNPC_Deployer(unflipped)--
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &377774710
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 377774709}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1797401014}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &392985869
 GameObject:
   m_ObjectHideFlags: 0
@@ -8292,7 +8257,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deployableNPC_Prefab: {fileID: 5891032112362584617, guid: 2917b48ea05e0e248afc16212061340f, type: 3}
   previewSprite: {fileID: -1330850802, guid: cec72fba3cac6ae47919da8abddce030, type: 3}
-  npcDeployValue: 0
   onPC: 0
 --- !u!1 &723730946
 GameObject:
@@ -9037,7 +9001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 37}
+  m_AnchoredPosition: {x: 0, y: 50}
   m_SizeDelta: {x: 200, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &796135515
@@ -9366,7 +9330,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deployableNPC_Prefab: {fileID: 5891032112362584617, guid: 3e5d4b2ca09ecc147a4beee3b84fed63, type: 3}
   previewSprite: {fileID: -51539383, guid: 1e996ff239174104f882194fa59abba2, type: 3}
-  npcDeployValue: 0
   onPC: 0
 --- !u!1 &912544154
 GameObject:
@@ -9443,7 +9406,7 @@ GameObject:
   - component: {fileID: 1059572437}
   - component: {fileID: 1059572436}
   m_Layer: 5
-  m_Name: MoneyAmountWithWhichToSpawnPlayerNPCs
+  m_Name: PlayerMoneyAmount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11577,8 +11540,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117470186}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.000061035156, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11626,8 +11589,6 @@ MonoBehaviour:
   - {fileID: 1141834421}
   - {fileID: 723730946}
   - {fileID: 2050700251}
-  startWaveButton: {fileID: 471271102}
-  waveCounterText: {fileID: 2091748552}
 --- !u!1 &1141834421
 GameObject:
   m_ObjectHideFlags: 0
@@ -11824,41 +11785,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1237340474}
   m_CullTransparentMesh: 1
---- !u!1 &1252816499
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1252816500}
-  m_Layer: 5
-  m_Name: --EnemyCounter(flipped)--
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1252816500
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1252816499}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1797401014}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1254841943
 GameObject:
   m_ObjectHideFlags: 0
@@ -14553,7 +14479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.36862746, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.49459833, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -14864,7 +14790,7 @@ GameObject:
   - component: {fileID: 1507532247}
   - component: {fileID: 1507532246}
   m_Layer: 5
-  m_Name: BackToMenuButton
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16617,6 +16543,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1614420068}
+  - component: {fileID: 1614420069}
   m_Layer: 5
   m_Name: UI_Manager
   m_TagString: Untagged
@@ -16643,6 +16570,29 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1614420069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614420067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec65b1806d18b1843a91c8372133253c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveManager: {fileID: 1117470188}
+  menuUI: {fileID: 228859423}
+  startWaveButton: {fileID: 471271102}
+  menuButton: {fileID: 862301244}
+  quitButton: {fileID: 1507532246}
+  restartButton: {fileID: 2081883889}
+  resumeButton: {fileID: 2084357900}
+  waveCounterText: {fileID: 2091748552}
+  moneyLeftText: {fileID: 579667124}
+  playerNPCTotalValueText: {fileID: 51442160}
+  enemyNPCTotalValueText: {fileID: 1341085551}
 --- !u!1 &1643212860
 GameObject:
   m_ObjectHideFlags: 0
@@ -16915,8 +16865,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1252816500}
-  - {fileID: 377774710}
   - {fileID: 471271101}
   - {fileID: 887165139}
   - {fileID: 691488813}
@@ -17404,7 +17352,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deployableNPC_Prefab: {fileID: 5891032112362584617, guid: 92e2d1b1914fd6640946f33192b116fb, type: 3}
   previewSprite: {fileID: 1062410844, guid: 6f745e62dd60510478ebda1b70f090af, type: 3}
-  npcDeployValue: 0
   onPC: 0
 --- !u!1 &1944826210
 GameObject:
@@ -17858,7 +17805,7 @@ GameObject:
   - component: {fileID: 2084357901}
   - component: {fileID: 2084357900}
   m_Layer: 5
-  m_Name: BackButton(Closes Middle UI)
+  m_Name: ResumeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18159,7 +18106,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back
+  m_text: Resume
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18471,8 +18418,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 1254841946}
   - {fileID: 2035523061}
+  - {fileID: 1117470187}
   - {fileID: 283308304}
   - {fileID: 1354751029}
   - {fileID: 1643212864}
   - {fileID: 627126307}
-  - {fileID: 1117470187}

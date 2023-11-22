@@ -25,6 +25,7 @@ public class NPC2D : MonoBehaviour
     [SerializeField] protected bool globalCooldown;
     [SerializeField] protected float globalCooldownTime;
     [SerializeField] protected float attackDistance;
+    [SerializeField] int npcDeployValue;
     [SerializeField] protected int health;
     [SerializeField] protected int damage;
 
@@ -46,6 +47,9 @@ public class NPC2D : MonoBehaviour
     // Start is called before the first frame update
     protected void Start()
     {
+        if (gameObject.tag == "Blue") UI_Manager.uiManager.UpdatePlayerNPCTotalValueText(npcDeployValue);
+        else if (gameObject.tag == "Red") UI_Manager.uiManager.UpdateEnemyNPCTotalValueText(npcDeployValue);
+
         // Purkka at it's finest. Just to showcase other how this could work in class. :D If we actually end up using this, we need to create one script dedicated wholly to scrolling combat text.
         Vector3 dialogTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
         npcAgent = GetComponent<NavMeshAgent>();
@@ -186,5 +190,10 @@ public class NPC2D : MonoBehaviour
         globalCooldown = true;
         yield return new WaitForSeconds(globalCooldownTime);
         globalCooldown = false;
+    }
+    void OnDestroy()
+    {
+        if (gameObject.tag == "Blue") UI_Manager.uiManager.UpdatePlayerNPCTotalValueText(-npcDeployValue);
+        else if (gameObject.tag == "Red") UI_Manager.uiManager.UpdateEnemyNPCTotalValueText(-npcDeployValue);
     }
 }

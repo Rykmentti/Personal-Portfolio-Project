@@ -12,18 +12,7 @@ public class WaveManager : MonoBehaviour
 
     [SerializeField] GameObject[] spawnPointsInOrderOfShortestDistance; // Assign in Editor
 
-    [SerializeField] Button startWaveButton; // Assign in Editor
-    [SerializeField] TMP_Text waveCounterText; // Assign in Editor;
-    int waveNumber;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        startWaveButton.onClick.AddListener(() => { SpawnNumberedWave(); });
-        waveCounterText.text = "Wave: " + waveNumber.ToString();
-    }
-
-    void SpawnNumberedWave()
+    public void SpawnNumberedWave(int waveNumber)
     {
         if (waveNumber == 0) SpawnWave(3, 2, 0);
         else if (waveNumber == 1) SpawnWave(5, 3, 0);
@@ -40,8 +29,6 @@ public class WaveManager : MonoBehaviour
     void SpawnWave(int meleeNPC_Amount, int rangedNPC_Amount, int casterAmount_NPC)
     {
         int spawnPosition = 0;
-        waveNumber++;
-        waveCounterText.text = "Wave: " + waveNumber.ToString();
         for (int i = 0; i < meleeNPC_Amount; i++)
         {
             GameObject enemy = Instantiate(enemyMeleeNPC, spawnPointsInOrderOfShortestDistance[spawnPosition].transform.position, Quaternion.identity);

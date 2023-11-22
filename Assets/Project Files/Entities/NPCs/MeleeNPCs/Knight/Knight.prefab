@@ -157,6 +157,7 @@ MonoBehaviour:
   health: 100
   damage: 10
   currentState: 0
+  npcDeployValue: 150
   defaultAttackCooldown: 0
   heavyAttackCooldown: 0
   defaultAttackCooldownTime: 2

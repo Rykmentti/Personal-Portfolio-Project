@@ -10,7 +10,6 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
 
     [SerializeField] GameObject deployableNPC_Prefab; // Assign in Editor
     [SerializeField] Sprite previewSprite;
-    [SerializeField] int npcDeployValue;
 
     GameObject previewSpritePrefab;
     bool isDragging = false;

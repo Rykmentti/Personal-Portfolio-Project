@@ -154,6 +154,7 @@ MonoBehaviour:
   globalCooldown: 0
   globalCooldownTime: 2
   attackDistance: 10
+  npcDeployValue: 100
   health: 50
   damage: 8
   currentState: 0
