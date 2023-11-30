@@ -10,22 +10,7 @@ public class MeleeNPC : NPC2D
 
     [SerializeField] float defaultAttackCooldownTime;
     [SerializeField] float heavyAttackCooldownTime;
-
-    protected override void AttackingEnemy() // AttackingEnemy State. Cannot use override properly here, research what's wrong with it.
-    {
-        if (target == null) { SetState(CurrentState.FindNearestEnemy); return; }
-        npcAgent.stoppingDistance = attackDistance;
-
-        if (targetDestination != target.position) // No need to do calculations again for an object that isn't moving.
-        {
-            targetDestination = target.position;
-            npcAgent.SetDestination(target.position);
-        }
-        if (npcAgent.remainingDistance > attackDistance) SetState(CurrentState.MovingToAttack);
-        else if (!globalCooldown) DoAttackActionFromListActions();
-        else if (simpleSpriteAnimationController.IsAnimating() == false) FaceEnemyWithWeaponDrawn(); // If we are not attacking, we are facing the enemy with our weapon drawn.
-    }
-    void DoAttackActionFromListActions() // Do attack action, from a "list" of attacks, which are just if statements for now. Figure out a better way to do it later on. The ones on top go first and then it goes to the next one etc.
+    protected override void DoAttackActionFromListActions() // Do attack action, from a "list" of attacks, which are just if statements for now. Figure out a better way to do it later on. The ones on top go first and then it goes to the next one etc.
     {
         if (!heavyAttackCooldown) // Heavy Attack
         {
@@ -36,14 +21,7 @@ public class MeleeNPC : NPC2D
             DefaultAttack();
         }
     }
-    void FaceEnemyWithWeaponDrawn()
-    {
-        // Setting Animations, using angle, which then sets correct animation set in Sprite Animator.
-        if ((targetAngle > 315 && targetAngle < 360) || (targetAngle > 0 && targetAngle < 45)) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationNorth);
-        else if (targetAngle > 45 && targetAngle < 135) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationEast);
-        else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationSouth);
-        else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationWest);
-    }
+    
     void DefaultAttack()
     {
         // Setting Animations, using angle, which then sets correct animation set in Sprite Animator.

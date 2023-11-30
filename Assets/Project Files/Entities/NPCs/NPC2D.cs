@@ -100,6 +100,7 @@ public class NPC2D : MonoBehaviour
         else if (target == null && inCombat) // Victory/End Combat Check.
         {
             inCombat = false;
+            simpleSpriteAnimationController.KillCurrentAnimationCoroutine(); // Killing the animation coroutine, so the old one animation isn't hanging around after we reset the state after the "win".
             simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.IdleAnimationSouth);
             Debug.Log("Enemy list is empty, all enemies have been defeated. We are victorious!");
 
@@ -142,7 +143,17 @@ public class NPC2D : MonoBehaviour
     }
     protected virtual void AttackingEnemy() // AttackingEnemy State, Overridable from inherited variants.
     {
+        if (target == null) { SetState(CurrentState.FindNearestEnemy); return; }
+        npcAgent.stoppingDistance = attackDistance;
 
+        if (targetDestination != target.position) // No need to do calculations again for an object that isn't moving.
+        {
+            targetDestination = target.position;
+            npcAgent.SetDestination(target.position);
+        }
+        if (npcAgent.remainingDistance > attackDistance) SetState(CurrentState.MovingToAttack);
+        else if (!globalCooldown) DoAttackActionFromListActions();
+        else if (simpleSpriteAnimationController.IsAnimating() == false) FaceEnemyWithWeaponDrawn(); // If we are not attacking, we are facing the enemy with our weapon drawn.
     }
     // End of State Machine behaviours.
     protected void TestingWithKeys()
@@ -191,7 +202,17 @@ public class NPC2D : MonoBehaviour
         yield return new WaitForSeconds(globalCooldownTime);
         globalCooldown = false;
     }
-    void OnDrawGizmosSelected() // Visualizing attackDistance in editor.
+    protected virtual void DoAttackActionFromListActions() { } // Overridable attack action. Does attack from a "list" of attacks.
+    protected void FaceEnemyWithWeaponDrawn()
+    {
+        // Setting Animations, using angle, which then sets correct animation set in Sprite Animator.
+        if ((targetAngle > 315 && targetAngle < 360) || (targetAngle > 0 && targetAngle < 45)) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationNorth);
+        else if (targetAngle > 45 && targetAngle < 135) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationEast);
+        else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationSouth);
+        else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.AttackIdleAnimationWest);
+    }
+
+    void OnDrawGizmosSelected() // Visualizing attackDistance in editor if NPC is selected.
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackDistance);
