@@ -16542,6 +16542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1614420068}
   - component: {fileID: 1614420069}
+  - component: {fileID: 1614420070}
   m_Layer: 5
   m_Name: UI_Manager
   m_TagString: Untagged
@@ -16592,6 +16593,19 @@ MonoBehaviour:
   playerNPCTotalValueText: {fileID: 51442160}
   enemyNPCTotalValueText: {fileID: 1341085551}
   moneyLeft: 1000
+--- !u!114 &1614420070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614420067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ea40f140d3e792479c2698e9e18258c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: 
 --- !u!1 &1643212860
 GameObject:
   m_ObjectHideFlags: 0
@@ -16605,7 +16619,7 @@ GameObject:
   - component: {fileID: 1643212862}
   - component: {fileID: 1643212861}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI_Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -57,10 +57,10 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
 #if UNITY_ANDROID
         if (isDragging && Input.touchCount > 0)
         {
-            if (UI_Manager.uiManager.CheckIfEnoughMoneyToDeployNPC(deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue()) == false) { Destroy(previewSpritePrefab); return; }
+            if (UI_ManagerBattleScene.uiManager.CheckIfEnoughMoneyToDeployNPC(deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue()) == false) { Destroy(previewSpritePrefab); return; }
             
 
-            UI_Manager.uiManager.UpdateMoneyLeftText(-deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue());
+            UI_ManagerBattleScene.uiManager.UpdateMoneyLeftText(-deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue());
             Touch touch = Input.GetTouch(0);
             isDragging = false;
             Destroy(previewSpritePrefab);
@@ -73,9 +73,9 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
 #if UNITY_EDITOR || UNITY_STANDALONE
         if (isDragging)
         {
-            if (UI_Manager.uiManager.CheckIfEnoughMoneyToDeployNPC(deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue()) == false) { Destroy(previewSpritePrefab); return; }
+            if (UI_ManagerBattleScene.uiManager.CheckIfEnoughMoneyToDeployNPC(deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue()) == false) { Destroy(previewSpritePrefab); return; }
 
-            UI_Manager.uiManager.UpdateMoneyLeftText(-deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue());
+            UI_ManagerBattleScene.uiManager.UpdateMoneyLeftText(-deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue());
             isDragging = false;
             Destroy(previewSpritePrefab);
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f));

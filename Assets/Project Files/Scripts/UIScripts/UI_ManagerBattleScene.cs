@@ -5,9 +5,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI_Manager : MonoBehaviour
+public class UI_ManagerBattleScene : MonoBehaviour
 {
-    public static UI_Manager uiManager; //Always singular, might as well be static.
+    public static UI_ManagerBattleScene uiManager; //Always singular, might as well be static.
     [SerializeField] WaveManager waveManager; // Assign in Editor
 
     [SerializeField] GameObject menuUI; // Assign in Editor

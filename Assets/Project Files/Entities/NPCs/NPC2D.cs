@@ -47,8 +47,8 @@ public class NPC2D : MonoBehaviour
     // Start is called before the first frame update
     protected void Start()
     {
-        if (gameObject.tag == "Blue") UI_Manager.uiManager.UpdatePlayerNPCTotalValueText(npcDeployValue);
-        else if (gameObject.tag == "Red") UI_Manager.uiManager.UpdateEnemyNPCTotalValueText(npcDeployValue);
+        if (gameObject.tag == "Blue") UI_ManagerBattleScene.uiManager.UpdatePlayerNPCTotalValueText(npcDeployValue);
+        else if (gameObject.tag == "Red") UI_ManagerBattleScene.uiManager.UpdateEnemyNPCTotalValueText(npcDeployValue);
 
         // Purkka at it's finest. Just to showcase other how this could work in class. :D If we actually end up using this, we need to create one script dedicated wholly to scrolling combat text.
         Vector3 dialogTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
@@ -233,7 +233,7 @@ public class NPC2D : MonoBehaviour
     //}
     void OnDestroy()
     {
-        if (gameObject.tag == "Blue") UI_Manager.uiManager.UpdatePlayerNPCTotalValueText(-npcDeployValue);
-        else if (gameObject.tag == "Red") UI_Manager.uiManager.UpdateEnemyNPCTotalValueText(-npcDeployValue);
+        if (gameObject.tag == "Blue") UI_ManagerBattleScene.uiManager.UpdatePlayerNPCTotalValueText(-npcDeployValue);
+        else if (gameObject.tag == "Red") UI_ManagerBattleScene.uiManager.UpdateEnemyNPCTotalValueText(-npcDeployValue);
     }
 }
