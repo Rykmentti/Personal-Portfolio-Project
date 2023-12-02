@@ -7,8 +7,8 @@ using UnityEngine.UI;
 
 public class UI_ManagerBattleScene : MonoBehaviour
 {
-    public static UI_ManagerBattleScene uiManager; //Always singular, might as well be static.
-    [SerializeField] WaveManager waveManager; // Assign in Editor
+    public static UI_ManagerBattleScene uiManagerBattleScene; //Always singular, might as well be static.
+    [SerializeField] CombatManager waveManager; // Assign in Editor
 
     [SerializeField] GameObject menuUI; // Assign in Editor
 
@@ -31,7 +31,7 @@ public class UI_ManagerBattleScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        uiManager = this;
+        uiManagerBattleScene = this;
         moneyLeftText.text = moneyLeft.ToString();
 
         waveCounterText.text = "Wave: " + waveNumber.ToString();
@@ -98,5 +98,9 @@ public class UI_ManagerBattleScene : MonoBehaviour
     {
         enemyNPCTotal += enemyNPCValue;
         enemyNPCTotalValueText.text = enemyNPCTotal.ToString();
+    }
+    public void DeclareWaveOver()
+    {
+        Debug.Log("Wave is over!");
     }
 }

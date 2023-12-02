@@ -27,7 +27,7 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
 #if UNITY_EDITOR || UNITY_STANDALONE
         CreateDeployablePreviewPrefab();
         isDragging = true;
-        Debug.Log("Button has been clicked");
+        Debug.Log("Deploying preview sprite");
 #endif
     }
 
@@ -46,7 +46,7 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
         if (isDragging)
         {
             previewSpritePrefab.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f));
-            Debug.Log("Dragging Player NPC image");
+            Debug.Log("Dragging preview sprite");
         } 
 #endif
     }
@@ -57,14 +57,18 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
 #if UNITY_ANDROID
         if (isDragging && Input.touchCount > 0)
         {
-            if (UI_ManagerBattleScene.uiManager.CheckIfEnoughMoneyToDeployNPC(deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue()) == false) { Destroy(previewSpritePrefab); return; }
+            if (UI_ManagerBattleScene.uiManagerBattleScene.CheckIfEnoughMoneyToDeployNPC(deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue()) == false) { Destroy(previewSpritePrefab); return; }
             
-
-            UI_ManagerBattleScene.uiManager.UpdateMoneyLeftText(-deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue());
             Touch touch = Input.GetTouch(0);
             isDragging = false;
             Destroy(previewSpritePrefab);
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f));
+            if (CheckForPlayerDeploymentZone(worldPosition) == false)
+            {
+                //Debug.Log("Cannot deploy NPC here, not in player deployment zone");
+                return;
+            }
+            UI_ManagerBattleScene.uiManagerBattleScene.UpdateMoneyLeftText(-deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue());
             GameObject npc = Instantiate(deployableNPC_Prefab, worldPosition, Quaternion.identity);
             npc.tag = "Blue";
             Debug.Log("Deploying Player NPC and destroying preview sprite");
@@ -73,15 +77,20 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
 #if UNITY_EDITOR || UNITY_STANDALONE
         if (isDragging)
         {
-            if (UI_ManagerBattleScene.uiManager.CheckIfEnoughMoneyToDeployNPC(deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue()) == false) { Destroy(previewSpritePrefab); return; }
+            if (UI_ManagerBattleScene.uiManagerBattleScene.CheckIfEnoughMoneyToDeployNPC(deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue()) == false) { Destroy(previewSpritePrefab); return; }
 
-            UI_ManagerBattleScene.uiManager.UpdateMoneyLeftText(-deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue());
             isDragging = false;
             Destroy(previewSpritePrefab);
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f));
+            if (CheckForPlayerDeploymentZone(worldPosition) == false)
+            {
+                //Debug.Log("Cannot deploy NPC here, not in player deployment zone");
+                return;
+            }
+            UI_ManagerBattleScene.uiManagerBattleScene.UpdateMoneyLeftText(-deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue());
             GameObject npc = Instantiate(deployableNPC_Prefab, worldPosition, Quaternion.identity);
             npc.tag = "Blue";
-            Debug.Log("Deploying Player NPC");
+            Debug.Log("Deploying Player NPC and destroying preview sprite");
         } 
 #endif
     }
@@ -93,5 +102,24 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
         spriteRenderer.sprite = previewSprite;
         spriteRenderer.sortingOrder = -998;
         spriteRenderer.transform.localScale = new Vector3(3, 3, 3);
+    }
+
+    bool CheckForPlayerDeploymentZone(Vector3 position)
+    {
+        bool isWithinDeploymentZone = false;
+
+        RaycastHit2D hit = Physics2D.Raycast(position, Vector2.zero);
+
+        if (hit.collider != null && hit.collider.name == "PlayerDeploymentZone")
+        {
+            Debug.Log("NPC is within deployment zone");
+            isWithinDeploymentZone = true;
+        }
+        else
+        {
+            Debug.Log("NPC is not within deployment zone");
+            isWithinDeploymentZone = false;
+        }
+        return isWithinDeploymentZone;
     }
 }

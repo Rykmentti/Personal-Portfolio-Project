@@ -145,6 +145,9 @@ public class SimpleSpriteAnimationController : MonoBehaviour
     }
     void SetSprite(Sprite[] sprites) // Setting single sprite in the renderer, no need to animate anything. In the future, even idle animations will be animated, so this is should temporary.
     {
+        if (isAnimating) return;
+
+        if (currentAnimationCoroutine != null) StopCoroutine(currentAnimationCoroutine);
         isAnimating = true;
         spriteRenderer.sprite = sprites[0];
     }

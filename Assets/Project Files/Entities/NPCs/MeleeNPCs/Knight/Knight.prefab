@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8755939866837697614}
   - component: {fileID: 4708980583052212958}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: DetectorCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,6 +63,7 @@ GameObject:
   - component: {fileID: -3026433991178921529}
   - component: {fileID: 4082885235470315256}
   - component: {fileID: -2267203623591548428}
+  - component: {fileID: -894981218373677228}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -154,10 +155,10 @@ MonoBehaviour:
   globalCooldown: 0
   globalCooldownTime: 1
   attackDistance: 1.5
+  npcDeployValue: 150
   health: 100
   damage: 10
   currentState: 0
-  npcDeployValue: 150
   defaultAttackCooldown: 0
   heavyAttackCooldown: 0
   defaultAttackCooldownTime: 2
@@ -261,3 +262,17 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &-894981218373677228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5891032112362584617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66055b6376d74246a096f1cdc7900e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPosition: {x: 0, y: 0, z: 0}
+  timeCounter: 0

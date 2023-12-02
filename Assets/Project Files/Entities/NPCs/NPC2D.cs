@@ -47,8 +47,8 @@ public class NPC2D : MonoBehaviour
     // Start is called before the first frame update
     protected void Start()
     {
-        if (gameObject.tag == "Blue") UI_ManagerBattleScene.uiManager.UpdatePlayerNPCTotalValueText(npcDeployValue);
-        else if (gameObject.tag == "Red") UI_ManagerBattleScene.uiManager.UpdateEnemyNPCTotalValueText(npcDeployValue);
+        if (gameObject.tag == "Blue") UI_ManagerBattleScene.uiManagerBattleScene.UpdatePlayerNPCTotalValueText(npcDeployValue);
+        else if (gameObject.tag == "Red") UI_ManagerBattleScene.uiManagerBattleScene.UpdateEnemyNPCTotalValueText(npcDeployValue);
 
         // Purkka at it's finest. Just to showcase other how this could work in class. :D If we actually end up using this, we need to create one script dedicated wholly to scrolling combat text.
         Vector3 dialogTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
@@ -100,7 +100,6 @@ public class NPC2D : MonoBehaviour
         else if (target == null && inCombat) // Victory/End Combat Check.
         {
             inCombat = false;
-            simpleSpriteAnimationController.KillCurrentAnimationCoroutine(); // Killing the animation coroutine, so the old one animation isn't hanging around after we reset the state after the "win".
             simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.IdleAnimationSouth);
             Debug.Log("Enemy list is empty, all enemies have been defeated. We are victorious!");
 
@@ -144,7 +143,7 @@ public class NPC2D : MonoBehaviour
     protected virtual void AttackingEnemy() // AttackingEnemy State, Overridable from inherited variants.
     {
         if (target == null) { SetState(CurrentState.FindNearestEnemy); return; }
-        npcAgent.stoppingDistance = attackDistance;
+        npcAgent.stoppingDistance = attackDistance; // Need to set the attack distance here, to make sure attack range is consistent if we change the range for whatever reason.
 
         if (targetDestination != target.position) // No need to do calculations again for an object that isn't moving.
         {
@@ -233,7 +232,7 @@ public class NPC2D : MonoBehaviour
     //}
     void OnDestroy()
     {
-        if (gameObject.tag == "Blue") UI_ManagerBattleScene.uiManager.UpdatePlayerNPCTotalValueText(-npcDeployValue);
-        else if (gameObject.tag == "Red") UI_ManagerBattleScene.uiManager.UpdateEnemyNPCTotalValueText(-npcDeployValue);
+        if (gameObject.tag == "Blue") UI_ManagerBattleScene.uiManagerBattleScene.UpdatePlayerNPCTotalValueText(-npcDeployValue);
+        else if (gameObject.tag == "Red") UI_ManagerBattleScene.uiManagerBattleScene.UpdateEnemyNPCTotalValueText(-npcDeployValue);
     }
 }
