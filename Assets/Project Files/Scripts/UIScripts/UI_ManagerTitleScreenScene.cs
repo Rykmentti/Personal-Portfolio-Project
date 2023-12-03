@@ -22,6 +22,7 @@ public class UI_ManagerTitleScreenScene : MonoBehaviour
         FadeSceneTransitionTemplate fadeSceneTransitionTemplate = GetComponent<FadeSceneTransitionTemplate>();
         fadeSceneTransitionTemplate.SetTransitionSceneName(nextSceneName);
         StartCoroutine(fadeSceneTransitionTemplate.FadeOutTransitionSequence());
+        TitleScreenSceneAudioManager.titleScreenSceneAudioManager.StartCoroutine(TitleScreenSceneAudioManager.titleScreenSceneAudioManager.GraduallyDecreaseVolume());
     }
     void QuitGame()
     {

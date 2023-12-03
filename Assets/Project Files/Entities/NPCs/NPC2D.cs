@@ -15,6 +15,7 @@ public class NPC2D : MonoBehaviour
     protected NavMeshAgent npcAgent;
     protected DetectorScript2D detectorScript;
     protected SimpleSpriteAnimationController simpleSpriteAnimationController;
+    protected NPC_AudioPlayer npcAudioPlayer;
     
     protected Transform target;
     protected Vector3 targetDestination;
@@ -26,21 +27,22 @@ public class NPC2D : MonoBehaviour
     [SerializeField] protected float globalCooldownTime;
     [SerializeField] protected float attackDistance;
     [SerializeField] int npcDeployValue;
-    [SerializeField] protected int health;
+    [SerializeField] protected int maxHealth;
+    [SerializeField] protected int currentHealth;
     [SerializeField] protected int damage;
 
     protected bool inCombat;
     protected bool isDead;
 
 
-    protected enum CurrentState
+    public enum CurrentState
     {
         Idle, SuspendStateMachine, MovingToAttack, AttackingEnemy, FindNearestEnemy,
     }
 
     [SerializeField] CurrentState currentState;
 
-    protected void SetState(CurrentState state) // Method we use to change states in the state machine.
+    public void SetState(CurrentState state) // Method we use to change states in the state machine.
     {
         currentState = state;
     }
@@ -50,6 +52,8 @@ public class NPC2D : MonoBehaviour
         if (gameObject.tag == "Blue") UI_ManagerBattleScene.uiManagerBattleScene.UpdatePlayerNPCTotalValueText(npcDeployValue);
         else if (gameObject.tag == "Red") UI_ManagerBattleScene.uiManagerBattleScene.UpdateEnemyNPCTotalValueText(npcDeployValue);
 
+        currentHealth = maxHealth;
+
         // Purkka at it's finest. Just to showcase other how this could work in class. :D If we actually end up using this, we need to create one script dedicated wholly to scrolling combat text.
         Vector3 dialogTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
         npcAgent = GetComponent<NavMeshAgent>();
@@ -58,7 +62,8 @@ public class NPC2D : MonoBehaviour
 
         detectorScript = GetComponentInChildren<DetectorScript2D>();
         simpleSpriteAnimationController = GetComponent<SimpleSpriteAnimationController>();
-        SetState(CurrentState.Idle);
+        npcAudioPlayer = GetComponent<NPC_AudioPlayer>();
+        //SetState(CurrentState.Idle); // When we are spawning NPC, we are setting the state from whatever spawned it. Only use this if there is nothing to set it.
     }
     // Update is called once per frame
     protected void Update() // Main State Machine Body.
@@ -87,7 +92,7 @@ public class NPC2D : MonoBehaviour
     // Start of State Machine behaviours.
     protected void HoldBehaviour() // Hold Behaviour, which doesn't contain anything. I use it to temporarily suspend the state machime. I.e Do Nothing/State Machine Interupt method, while your method is executing or an animation is playing.
     {
-
+        npcAudioPlayer.NPC_StopLoopingAudioPlayback();
     }
     protected void IdleBehaviour() // Idle Behaviour. This is the behaviour that is on, when the gameObject is passive. I.e, enemies are not detected/nearby so AI is wandering or something like that. Could also be used as default behaviour.
     {
@@ -122,6 +127,8 @@ public class NPC2D : MonoBehaviour
     {
         if (target == null) { SetState(CurrentState.FindNearestEnemy); return; }
 
+        if (npcAudioPlayer.AccessAudioSource().isPlaying == false) npcAudioPlayer.NPC_PlayLoopingAudioClip(NPC_AudioPlayer.AudioType.Footsteps); // Playing footsteps audio clip, if we are moving.
+
         // Setting Animations, using angle, which then sets correct animation set in Sprite Animator.
         if ((targetAngle > 315 && targetAngle < 360) || (targetAngle > 0 && targetAngle < 45)) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.WalkingAnimationNorth);
         else if (targetAngle > 45 && targetAngle < 135) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.WalkingAnimationEast);
@@ -136,6 +143,7 @@ public class NPC2D : MonoBehaviour
 
         if (npcAgent.remainingDistance != 0 && npcAgent.remainingDistance < attackDistance) // Need to make sure 0 isn't a valid value, otherwise during the first frame when the value is temporarily set zero by NavMeshAgent, condition will be true.
         {
+            npcAudioPlayer.NPC_StopLoopingAudioPlayback();
             simpleSpriteAnimationController.KillCurrentAnimationCoroutine(); // Killing the animation coroutine, so the old one animation isn't hanging around after we switch states.
             SetState(CurrentState.AttackingEnemy);
         } 
@@ -170,11 +178,12 @@ public class NPC2D : MonoBehaviour
     }
     public void ReceiveDamage(int damage)
     {
+        npcAudioPlayer.NPC_PlaySingleRandomAudioClipFromArray(NPC_AudioPlayer.AudioType.OnBeingHit);
         Vector3 scrollingCombatTextPosition = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
         CombatText.Spawn(TextStyle.DamageEnemy, damage.ToString(), scrollingCombatTextPosition, transform);
-        health -= damage;
+        currentHealth -= damage;
 
-        if (health < 0 && !isDead) StartCoroutine(DeathSequence());
+        if (currentHealth < 0 && !isDead) StartCoroutine(DeathSequence());
     }
     public int SetDamageForChildren()
     {
@@ -190,6 +199,7 @@ public class NPC2D : MonoBehaviour
     {
         isDead = true;
         SetState(CurrentState.SuspendStateMachine);
+        npcAudioPlayer.NPC_PlaySingleRandomAudioClipFromArray(NPC_AudioPlayer.AudioType.OnDeath);
         simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.DeathAnimation);
         Debug.Log(gameObject.name + " has fallen in battle!");
         yield return new WaitForSeconds(1);
@@ -234,5 +244,9 @@ public class NPC2D : MonoBehaviour
     {
         if (gameObject.tag == "Blue") UI_ManagerBattleScene.uiManagerBattleScene.UpdatePlayerNPCTotalValueText(-npcDeployValue);
         else if (gameObject.tag == "Red") UI_ManagerBattleScene.uiManagerBattleScene.UpdateEnemyNPCTotalValueText(-npcDeployValue);
+    }
+    public void HealCharacterToFullHealth()
+    {
+        currentHealth = maxHealth;
     }
 }

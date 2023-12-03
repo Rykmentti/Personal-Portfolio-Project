@@ -5,7 +5,7 @@ using UnityEngine;
 public class SimpleSpriteAnimationController : MonoBehaviour
 {
     SpriteRenderer spriteRenderer;
-    [SerializeField] SpriteSet spriteSetSO; // ScriptableObject, which contains all the sprites for the NPC. Assigned in Editor
+    [SerializeField] NPC_SpriteSet spriteSetSO; // ScriptableObject, which contains all the sprites for the NPC. Assigned in Editor
     [SerializeField] CurrentState currentState;
     Coroutine currentAnimationCoroutine; // Using this to make sure only one animation coroutine is active at any point in time.
 
@@ -50,7 +50,7 @@ public class SimpleSpriteAnimationController : MonoBehaviour
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        SetState(CurrentState.IdleAnimationSouth);
+        //SetState(CurrentState.IdleAnimationSouth); // Hooboy did this give me trouble until I found it. Never set default state in the sprite controller itself!!! Always set them in the NPC scripts, which are using the sprite controller.
     }
 
     // Update is called once per frame

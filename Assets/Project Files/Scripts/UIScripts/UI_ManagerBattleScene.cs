@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class UI_ManagerBattleScene : MonoBehaviour
 {
     public static UI_ManagerBattleScene uiManagerBattleScene; //Always singular, might as well be static.
-    [SerializeField] CombatManager waveManager; // Assign in Editor
+    [SerializeField] WaveManager waveManager; // Assign in Editor
 
     [SerializeField] GameObject menuUI; // Assign in Editor
 
@@ -68,8 +68,6 @@ public class UI_ManagerBattleScene : MonoBehaviour
     void SpawnWaveAndUpdateWaveCounter()
     {
         waveManager.SpawnNumberedWave(waveNumber);
-        waveNumber++;
-        waveCounterText.text = "Wave: " + waveNumber.ToString();
     }
     public bool CheckIfEnoughMoneyToDeployNPC(int npcValue)
     {
@@ -102,5 +100,10 @@ public class UI_ManagerBattleScene : MonoBehaviour
     public void DeclareWaveOver()
     {
         Debug.Log("Wave is over!");
+    }
+    public void IncreaseWaveNumber()
+    {
+        waveNumber++;
+        waveCounterText.text = "Wave: " + waveNumber.ToString();
     }
 }

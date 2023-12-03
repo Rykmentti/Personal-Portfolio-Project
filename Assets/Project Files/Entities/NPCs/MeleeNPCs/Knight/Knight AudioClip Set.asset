@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f303433818f059d47beb676c937530ea, type: 3}
+  m_Name: Knight AudioClip Set
+  m_EditorClassIdentifier: 
+  footsteps:
+  - {fileID: 8300000, guid: 7c7af610e0a4e57478ce2d2d65cae80a, type: 3}
+  onDeath:
+  - {fileID: 8300000, guid: 2e64ecf4e5823dd4986fba1d6fc5da0a, type: 3}
+  - {fileID: 8300000, guid: 69b66b92bb3840346a22f5577e6a99ae, type: 3}
+  - {fileID: 8300000, guid: 4e3ca6f3e1ff23c4dacff925cae8d803, type: 3}
+  - {fileID: 8300000, guid: c0501ccd05fc48f4fbe69671ae053efe, type: 3}
+  OnBeingHit:
+  - {fileID: 8300000, guid: a4826daa3b84cb44b8e4c8b5a802a924, type: 3}
+  - {fileID: 8300000, guid: 521e81c35bf14454f9bbb2c6f6847b3e, type: 3}
+  - {fileID: 8300000, guid: f6eaace1e6cb54d458b11e7539614ec5, type: 3}
+  - {fileID: 8300000, guid: 71e68eed3a3ba2f46b3f8eee8449511d, type: 3}
+  - {fileID: 8300000, guid: 6ed5df385ecc97046a74f260cd651cdb, type: 3}
+  - {fileID: 8300000, guid: c8190eb35ac32b04197668465ce52d0f, type: 3}
+  - {fileID: 8300000, guid: e32cfd65a52d6de4eb13d05d109fb5ec, type: 3}
+  - {fileID: 8300000, guid: 7b240bddd68a2854782a52661c77796b, type: 3}
+  - {fileID: 8300000, guid: e4f39e5d09b14dc43b9bcc98a84a7b8b, type: 3}
+  - {fileID: 8300000, guid: 61d91fbf4fda81c48979d92d60a851d5, type: 3}
+  - {fileID: 8300000, guid: 57cbc2cd3a5fee544873c979fc781954, type: 3}
+  - {fileID: 8300000, guid: 6d35823f6cdb4d446b0bfd193109dca5, type: 3}
+  - {fileID: 8300000, guid: fca2e0267c382134c8853079bf22e916, type: 3}
+  - {fileID: 8300000, guid: bca8e5110bb8cdd44a0fb6197c402fe6, type: 3}
+  - {fileID: 8300000, guid: d4ee24369ea86a34a8862e24dfab9fcb, type: 3}
+  - {fileID: 8300000, guid: ce6c262f5ab2f644f86dddba4350e8c6, type: 3}
+  - {fileID: 8300000, guid: 780b41a139f142848bcf19013f689dbe, type: 3}

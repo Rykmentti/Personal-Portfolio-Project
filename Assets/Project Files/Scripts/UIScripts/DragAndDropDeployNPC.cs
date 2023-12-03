@@ -70,6 +70,8 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
             }
             UI_ManagerBattleScene.uiManagerBattleScene.UpdateMoneyLeftText(-deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue());
             GameObject npc = Instantiate(deployableNPC_Prefab, worldPosition, Quaternion.identity);
+            npc.GetComponent<NPC2D>().SetState(NPC2D.CurrentState.SuspendStateMachine);
+            WaveManager.waveManager.AddPlayerToList(npc);
             npc.tag = "Blue";
             Debug.Log("Deploying Player NPC and destroying preview sprite");
         }
@@ -89,6 +91,8 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
             }
             UI_ManagerBattleScene.uiManagerBattleScene.UpdateMoneyLeftText(-deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue());
             GameObject npc = Instantiate(deployableNPC_Prefab, worldPosition, Quaternion.identity);
+            npc.GetComponent<NPC2D>().SetState(NPC2D.CurrentState.SuspendStateMachine);
+            WaveManager.waveManager.AddPlayerToList(npc);
             npc.tag = "Blue";
             Debug.Log("Deploying Player NPC and destroying preview sprite");
         } 

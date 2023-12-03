@@ -14,6 +14,7 @@ public class DetectorScript2D : MonoBehaviour
     [SerializeField] int detectorRadius;
 
     [SerializeField] string selfIdentifierTag; // Identifier set in editor. Red or Blue for now.
+    [SerializeField] string enemyIdentifierTag; // Identifier set in editor. Red or Blue for now.
     [SerializeField] List<Transform> enemyTargetList = new List<Transform>(); 
     [SerializeField] Transform target; // Can be ally and an enemy?
 
@@ -34,16 +35,18 @@ public class DetectorScript2D : MonoBehaviour
         }
         detectorCollider.enabled = true;
 
-        selfIdentifierTag = transform.parent.gameObject.tag;
+        selfIdentifierTag = transform.parent.gameObject.tag; // Setting tags.
+        if (selfIdentifierTag == "Red") enemyIdentifierTag = "Blue";
+        else if (selfIdentifierTag == "Blue") enemyIdentifierTag = "Red";
     }
     void Update()
     {
         //Testing
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            target = FindNearestTarget();
-            Debug.Log("Nearest Target is: " + target.name + "!");
-        }
+        //if (Input.GetKeyDown(KeyCode.T))
+        //{
+        //    target = FindNearestTarget();
+        //    Debug.Log("Nearest Target is: " + target.name + "!");
+        //}
     }
     public Transform FindNearestTarget() // Find Nearest Target Routine
     {
@@ -76,18 +79,37 @@ public class DetectorScript2D : MonoBehaviour
     // We could disable colliders after we have detected enemies, or detect enemies at certain time intervals, if we want to optimize performance. 
     // No idea how heavy it is to constanly check for triggers.
     // Writing for myself, because I'm on Mobile Game Programming course, as a reminder.
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag(selfIdentifierTag) && !other.CompareTag("Untagged"))
+        if (other.CompareTag(enemyIdentifierTag))
         {
             enemyTargetList.Add(other.transform);
         }
     }
+
     void OnTriggerExit2D(Collider2D other)
     {
-        if (!other.CompareTag(selfIdentifierTag) && !other.CompareTag("Untagged"))
+        if (other.CompareTag(enemyIdentifierTag))
         {
             enemyTargetList.Remove(other.transform);
         }
     }
+
+    // For the scope of this project, doesn't make sense to create generic "Everyone else is an enemy but us" detector, because we have only two factions.
+
+    //void OnTriggerEnter2D(Collider2D other)
+    //{
+    //    if (!other.CompareTag(selfIdentifierTag) && !other.CompareTag("Untagged"))
+    //    {
+    //        enemyTargetList.Add(other.transform);
+    //    }
+    //}
+    //void OnTriggerExit2D(Collider2D other)
+    //{
+    //    if (!other.CompareTag(selfIdentifierTag) && !other.CompareTag("Untagged"))
+    //    {
+    //        enemyTargetList.Remove(other.transform);
+    //    }
+    //}
 }

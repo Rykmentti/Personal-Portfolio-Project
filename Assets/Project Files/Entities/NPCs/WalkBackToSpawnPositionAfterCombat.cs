@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using static UnityEngine.GraphicsBuffer;
 
 public class WalkBackToSpawnPositionAfterCombat : MonoBehaviour
 {
@@ -22,13 +21,13 @@ public class WalkBackToSpawnPositionAfterCombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!inCombat && CombatManager.combatManager.CheckForWaveStatus() == true) inCombat = true;
-        else if (inCombat && CombatManager.combatManager.CheckForWaveStatus() == false) DelayedWalkBack();
+        if (!inCombat && WaveManager.waveManager.CheckForWaveStatus() == true) inCombat = true;
+        else if (inCombat && WaveManager.waveManager.CheckForWaveStatus() == false) DelayedWalkBack();
 
         if (!inCombat && returningToSpawnPosition && navMeshAgent.remainingDistance <= 0.1f)
         {
             returningToSpawnPosition = false;
-            GetComponent<SimpleSpriteAnimationController>().SetState(SimpleSpriteAnimationController.CurrentState.IdleAnimationSouth);
+            GetComponent<SimpleSpriteAnimationController>().SetState(SimpleSpriteAnimationController.CurrentState.IdleAnimationEast);
         }
             
     }

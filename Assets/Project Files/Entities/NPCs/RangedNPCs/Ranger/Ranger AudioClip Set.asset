@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f303433818f059d47beb676c937530ea, type: 3}
+  m_Name: Ranger AudioClip Set
+  m_EditorClassIdentifier: 
+  footsteps:
+  - {fileID: 8300000, guid: 7c7af610e0a4e57478ce2d2d65cae80a, type: 3}
+  onDeath:
+  - {fileID: 8300000, guid: 2e64ecf4e5823dd4986fba1d6fc5da0a, type: 3}
+  - {fileID: 8300000, guid: 69b66b92bb3840346a22f5577e6a99ae, type: 3}
+  - {fileID: 8300000, guid: 4e3ca6f3e1ff23c4dacff925cae8d803, type: 3}
+  - {fileID: 8300000, guid: c0501ccd05fc48f4fbe69671ae053efe, type: 3}
+  OnBeingHit:
+  - {fileID: 8300000, guid: 825322be90bb96243bb1f8c03155ace0, type: 3}
+  - {fileID: 8300000, guid: fc59cd27337df3c4fa5b533424db58b7, type: 3}
+  - {fileID: 8300000, guid: 2aaab80528d3355439574ac8f0347ff1, type: 3}
+  - {fileID: 8300000, guid: dd45eb0463d79024f958616c8bed6e50, type: 3}
