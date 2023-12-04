@@ -18,21 +18,28 @@ public class UI_ManagerBattleScene : MonoBehaviour
     [SerializeField] Button quitButton; // Assign in Editor
     [SerializeField] Button restartButton; // Assign in Editor
     [SerializeField] Button resumeButton; // Assign in Editor
+    
 
     [SerializeField] Button knightInformationButton; // Assign in Editor
     [SerializeField] Button rangerInformationButton; // Assign in Editor
     [SerializeField] Button wizardInformationButton; // Assign in Editor
     [SerializeField] Button healerInformationButton; // Assign in Editor
+    [SerializeField] Button howToPlayInformationButton; // Assign in Editor
 
     [SerializeField] Button knightInformationCloseButton; // Assign in Editor
     [SerializeField] Button rangerInformationCloseButton; // Assign in Editor
     [SerializeField] Button wizardInformationCloseButton; // Assign in Editor
     [SerializeField] Button healerInformationCloseButton; // Assign in Editor
+    [SerializeField] Button howToPlayInformationCloseButton; // Assign in Editor
 
+    [SerializeField] GameObject howToPlayElements; // Assign in Editor
+
+    [SerializeField] GameObject winOrLoseInformationPanel; // Assign in Editor
     [SerializeField] GameObject knightInformationPanel; // Assign in Editor
     [SerializeField] GameObject rangerInformationPanel; // Assign in Editor
     [SerializeField] GameObject wizardInformationPanel; // Assign in Editor
     [SerializeField] GameObject healerInformationPanel; // Assign in Editor
+    [SerializeField] GameObject howToPlayInformationPanel; // Assign in Editor
 
     [SerializeField] TMP_Text waveCounterText; // Assign in Editor
     [SerializeField] TMP_Text moneyLeftText; // Assign in Editor
@@ -56,16 +63,18 @@ public class UI_ManagerBattleScene : MonoBehaviour
         resumeButton.onClick.AddListener(() => { CloseMenuAndPauseGame(); });
         restartButton.onClick.AddListener(() => { RestartGame(); });
         quitButton.onClick.AddListener(() => { QuitGame(); });
+        
+        knightInformationButton.onClick.AddListener(() => { EnableUI_Element(knightInformationPanel); });
+        rangerInformationButton.onClick.AddListener(() => { EnableUI_Element(rangerInformationPanel); });
+        wizardInformationButton.onClick.AddListener(() => { EnableUI_Element(wizardInformationPanel); });
+        healerInformationButton.onClick.AddListener(() => { EnableUI_Element(healerInformationPanel); });
+        howToPlayInformationButton.onClick.AddListener(() => { EnableUI_Element(howToPlayInformationPanel); });
 
-        knightInformationButton.onClick.AddListener(() => { OpenUI_Element(knightInformationPanel); });
-        rangerInformationButton.onClick.AddListener(() => { OpenUI_Element(rangerInformationPanel); });
-        wizardInformationButton.onClick.AddListener(() => { OpenUI_Element(wizardInformationPanel); });
-        healerInformationButton.onClick.AddListener(() => { OpenUI_Element(healerInformationPanel); });
-
-        knightInformationCloseButton.onClick.AddListener(() => { CloseUI_Element(knightInformationPanel); });
-        rangerInformationCloseButton.onClick.AddListener(() => { CloseUI_Element(rangerInformationPanel); });
-        wizardInformationCloseButton.onClick.AddListener(() => { CloseUI_Element(wizardInformationPanel); });
-        healerInformationCloseButton.onClick.AddListener(() => { CloseUI_Element(healerInformationPanel); });
+        knightInformationCloseButton.onClick.AddListener(() => { DisableUI_Element(knightInformationPanel); });
+        rangerInformationCloseButton.onClick.AddListener(() => { DisableUI_Element(rangerInformationPanel); });
+        wizardInformationCloseButton.onClick.AddListener(() => { DisableUI_Element(wizardInformationPanel); });
+        healerInformationCloseButton.onClick.AddListener(() => { DisableUI_Element(healerInformationPanel); });
+        howToPlayInformationCloseButton.onClick.AddListener(() => { DisableUI_Element(howToPlayInformationPanel); });
     }
 
     void Update()
@@ -147,12 +156,31 @@ public class UI_ManagerBattleScene : MonoBehaviour
         // When moving UI elements always remember to use RectTransform, instead of regular transform and anchoredPosition instead of transform.position.
         if (bottomUI_RectTransform.anchoredPosition.y <= 0) bottomUI_RectTransform.transform.position = new Vector3(bottomUI_RectTransform.transform.position.x, bottomUI_RectTransform.transform.position.y + 1f, bottomUI_RectTransform.transform.position.z);
     }
-    public void OpenUI_Element(GameObject uiElement)
+    public void EnableUI_Element(GameObject uiElement)
     {
         uiElement.SetActive(true);
     }
-    public void CloseUI_Element(GameObject uiElement)
+    public void DisableUI_Element(GameObject uiElement)
     {
         uiElement.SetActive(false);
+    }
+
+    public void DisableHowToPlayElements()
+    {
+        howToPlayElements.SetActive(false);
+    }
+
+    public void PlayerWins()
+    {
+        winOrLoseInformationPanel.SetActive(true);
+        winOrLoseInformationPanel.GetComponentInChildren<TMP_Text>().text = "You win!";
+        Debug.Log("Player wins!");
+    }
+
+    public void PlayerLoses()
+    {
+        winOrLoseInformationPanel.SetActive(true);
+        winOrLoseInformationPanel.GetComponentInChildren<TMP_Text>().text = "You lose!";
+        Debug.Log("Player loses!");
     }
 }

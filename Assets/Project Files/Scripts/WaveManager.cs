@@ -10,7 +10,7 @@ public class WaveManager : MonoBehaviour
     [SerializeField] GameObject enemyDeploymentZone;
 
     [SerializeField] float spawnInterval; // Assign in Editor
-    int waveNumber = 0;
+    int currentWaveNumber;
 
     public static WaveManager waveManager;
     [SerializeField] bool isWaveOnGoing;
@@ -31,6 +31,7 @@ public class WaveManager : MonoBehaviour
         playerNPCsLeft = playerNPCsLeft.Where(item => item != null).ToList(); // Removing null transform from playerNPCsLeft list.
 
         StartCoroutine(CheckIfWaveOver());
+        CheckForWinOrLoseCondition();
 
         if (isWaveOnGoing) UI_ManagerBattleScene.uiManagerBattleScene.MoveBottomUI_GraduallyDown();
         else UI_ManagerBattleScene.uiManagerBattleScene.MoveBottomUI_GraduallyUp();
@@ -38,10 +39,16 @@ public class WaveManager : MonoBehaviour
     public void SpawnNumberedWave(int waveNumber)
     {
         if (isWaveOnGoing == true) return; // If a wave is already ongoing, don't start a new one.
+        isWaveOnGoing = true;
+        currentWaveNumber = waveNumber;
         UI_ManagerBattleScene.uiManagerBattleScene.IncreaseWaveNumber();
         Coroutine spawningCoroutine;
 
-        if (waveNumber == 0) spawningCoroutine = StartCoroutine(SpawnWave(3, 2, 0));
+        if (waveNumber == 0)
+        {
+            spawningCoroutine = StartCoroutine(SpawnWave(3, 2, 0));
+            UI_ManagerBattleScene.uiManagerBattleScene.DisableHowToPlayElements();
+        }
         else if (waveNumber == 1) spawningCoroutine = StartCoroutine(SpawnWave(5, 3, 0));
         else if (waveNumber == 2) spawningCoroutine = StartCoroutine(SpawnWave(8, 2, 0));
         else if (waveNumber == 3) spawningCoroutine = StartCoroutine(SpawnWave(8, 5, 0));
@@ -59,9 +66,7 @@ public class WaveManager : MonoBehaviour
 
     IEnumerator SpawnWave(int meleeNPC_Amount, int rangedNPC_Amount, int casterAmount_NPC)
     {
-        isWaveOnGoing = true;
         Debug.Log("Wave has started!");
-
         playerDeploymentZone.SetActive(false);
         enemyDeploymentZone.SetActive(false);
 
@@ -123,9 +128,9 @@ public class WaveManager : MonoBehaviour
         if (enemiesLeft.All(enemy => enemy == null) && isWaveOnGoing == true)
         {
             int amountOfMoneyGained = 0;
-            if (waveNumber >= 0 || waveNumber <= 3) { amountOfMoneyGained = 1000; }
-            else if (waveNumber >= 4 || waveNumber <= 7) { amountOfMoneyGained = 1500; }
-            else if (waveNumber >= 8 || waveNumber <= 9) { amountOfMoneyGained = 2000; }
+            if (currentWaveNumber >= 0 || currentWaveNumber <= 3) { amountOfMoneyGained = 1000; }
+            else if (currentWaveNumber >= 4 || currentWaveNumber <= 7) { amountOfMoneyGained = 1500; }
+            else if (currentWaveNumber >= 8 || currentWaveNumber <= 9) { amountOfMoneyGained = 2000; }
 
             isWaveOnGoing = false;
             UI_ManagerBattleScene.uiManagerBattleScene.UpdateMoneyLeftText(amountOfMoneyGained);
@@ -149,5 +154,17 @@ public class WaveManager : MonoBehaviour
     public void AddPlayerToList(GameObject playerNPC)
     {
         playerNPCsLeft.Add(playerNPC);
+    }
+
+    void CheckForWinOrLoseCondition()
+    {
+        if (!isWaveOnGoing && currentWaveNumber > 9)
+        {
+            UI_ManagerBattleScene.uiManagerBattleScene.PlayerWins();
+        }
+        else if (isWaveOnGoing && playerNPCsLeft.Count == 0)
+        {
+            UI_ManagerBattleScene.uiManagerBattleScene.PlayerLoses();
+        }
     }
 }

@@ -242,8 +242,12 @@ public class NPC2D : MonoBehaviour
     //}
     void OnDestroy()
     {
-        if (gameObject.tag == "Blue") UI_ManagerBattleScene.uiManagerBattleScene.UpdatePlayerNPCTotalValueText(-npcDeployValue);
-        else if (gameObject.tag == "Red") UI_ManagerBattleScene.uiManagerBattleScene.UpdateEnemyNPCTotalValueText(-npcDeployValue);
+        if (gameObject.tag == "Blue") // If we are destroying a player unit, we need to update the UI to reflect the change.
+        {
+            UI_ManagerBattleScene.uiManagerBattleScene.UpdatePlayerNPCTotalValueText(-npcDeployValue);
+            UI_ManagerBattleScene.uiManagerBattleScene.UpdateMoneyLeftText(npcDeployValue / 2); // If we lose a unit, refund half it's cost to make the game beatable.
+        }
+        else if (gameObject.tag == "Red") UI_ManagerBattleScene.uiManagerBattleScene.UpdateEnemyNPCTotalValueText(-npcDeployValue); // If we are destroying an enemy unit, we need to update the UI to reflect the change.
     }
     public void HealCharacterToFullHealth()
     {
