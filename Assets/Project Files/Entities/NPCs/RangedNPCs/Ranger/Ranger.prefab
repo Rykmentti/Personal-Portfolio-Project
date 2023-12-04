@@ -161,7 +161,7 @@ MonoBehaviour:
   npcDeployValue: 100
   maxHealth: 75
   currentHealth: 0
-  damage: 8
+  damage: 15
   currentState: 0
   rangerArrow: {fileID: 8673954142898095713, guid: b760a13b8c5cf2f47a409864a3c92181, type: 3}
   projectileSpeed: 5

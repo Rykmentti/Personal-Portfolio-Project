@@ -11,12 +11,28 @@ public class UI_ManagerBattleScene : MonoBehaviour
     [SerializeField] WaveManager waveManager; // Assign in Editor
 
     [SerializeField] GameObject menuUI; // Assign in Editor
+    [SerializeField] RectTransform bottomUI_RectTransform; // Assign in Editor
 
     [SerializeField] Button startWaveButton; // Assign in Editor
     [SerializeField] Button menuButton; // Assign in Editor
     [SerializeField] Button quitButton; // Assign in Editor
     [SerializeField] Button restartButton; // Assign in Editor
     [SerializeField] Button resumeButton; // Assign in Editor
+
+    [SerializeField] Button knightInformationButton; // Assign in Editor
+    [SerializeField] Button rangerInformationButton; // Assign in Editor
+    [SerializeField] Button wizardInformationButton; // Assign in Editor
+    [SerializeField] Button healerInformationButton; // Assign in Editor
+
+    [SerializeField] Button knightInformationCloseButton; // Assign in Editor
+    [SerializeField] Button rangerInformationCloseButton; // Assign in Editor
+    [SerializeField] Button wizardInformationCloseButton; // Assign in Editor
+    [SerializeField] Button healerInformationCloseButton; // Assign in Editor
+
+    [SerializeField] GameObject knightInformationPanel; // Assign in Editor
+    [SerializeField] GameObject rangerInformationPanel; // Assign in Editor
+    [SerializeField] GameObject wizardInformationPanel; // Assign in Editor
+    [SerializeField] GameObject healerInformationPanel; // Assign in Editor
 
     [SerializeField] TMP_Text waveCounterText; // Assign in Editor
     [SerializeField] TMP_Text moneyLeftText; // Assign in Editor
@@ -40,6 +56,21 @@ public class UI_ManagerBattleScene : MonoBehaviour
         resumeButton.onClick.AddListener(() => { CloseMenuAndPauseGame(); });
         restartButton.onClick.AddListener(() => { RestartGame(); });
         quitButton.onClick.AddListener(() => { QuitGame(); });
+
+        knightInformationButton.onClick.AddListener(() => { OpenUI_Element(knightInformationPanel); });
+        rangerInformationButton.onClick.AddListener(() => { OpenUI_Element(rangerInformationPanel); });
+        wizardInformationButton.onClick.AddListener(() => { OpenUI_Element(wizardInformationPanel); });
+        healerInformationButton.onClick.AddListener(() => { OpenUI_Element(healerInformationPanel); });
+
+        knightInformationCloseButton.onClick.AddListener(() => { CloseUI_Element(knightInformationPanel); });
+        rangerInformationCloseButton.onClick.AddListener(() => { CloseUI_Element(rangerInformationPanel); });
+        wizardInformationCloseButton.onClick.AddListener(() => { CloseUI_Element(wizardInformationPanel); });
+        healerInformationCloseButton.onClick.AddListener(() => { CloseUI_Element(healerInformationPanel); });
+    }
+
+    void Update()
+    {
+        
     }
     void OpenMenuAndPauseGame()
     {
@@ -105,5 +136,23 @@ public class UI_ManagerBattleScene : MonoBehaviour
     {
         waveNumber++;
         waveCounterText.text = "Wave: " + waveNumber.ToString();
+    }
+    public void MoveBottomUI_GraduallyDown()
+    {
+        // When moving UI elements always remember to use RectTransform, instead of regular transform and anchoredPosition instead of transform.position.
+        if (bottomUI_RectTransform.anchoredPosition.y >= -120) bottomUI_RectTransform.transform.position = new Vector3(bottomUI_RectTransform.transform.position.x, bottomUI_RectTransform.transform.position.y - 1f, bottomUI_RectTransform.transform.position.z);
+    }
+    public void MoveBottomUI_GraduallyUp()
+    {
+        // When moving UI elements always remember to use RectTransform, instead of regular transform and anchoredPosition instead of transform.position.
+        if (bottomUI_RectTransform.anchoredPosition.y <= 0) bottomUI_RectTransform.transform.position = new Vector3(bottomUI_RectTransform.transform.position.x, bottomUI_RectTransform.transform.position.y + 1f, bottomUI_RectTransform.transform.position.z);
+    }
+    public void OpenUI_Element(GameObject uiElement)
+    {
+        uiElement.SetActive(true);
+    }
+    public void CloseUI_Element(GameObject uiElement)
+    {
+        uiElement.SetActive(false);
     }
 }

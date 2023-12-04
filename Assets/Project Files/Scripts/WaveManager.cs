@@ -6,6 +6,9 @@ using UnityEngine;
 
 public class WaveManager : MonoBehaviour
 {
+    [SerializeField] GameObject playerDeploymentZone;
+    [SerializeField] GameObject enemyDeploymentZone;
+
     [SerializeField] float spawnInterval; // Assign in Editor
     int waveNumber = 0;
 
@@ -28,6 +31,9 @@ public class WaveManager : MonoBehaviour
         playerNPCsLeft = playerNPCsLeft.Where(item => item != null).ToList(); // Removing null transform from playerNPCsLeft list.
 
         StartCoroutine(CheckIfWaveOver());
+
+        if (isWaveOnGoing) UI_ManagerBattleScene.uiManagerBattleScene.MoveBottomUI_GraduallyDown();
+        else UI_ManagerBattleScene.uiManagerBattleScene.MoveBottomUI_GraduallyUp();
     }
     public void SpawnNumberedWave(int waveNumber)
     {
@@ -55,6 +61,9 @@ public class WaveManager : MonoBehaviour
     {
         isWaveOnGoing = true;
         Debug.Log("Wave has started!");
+
+        playerDeploymentZone.SetActive(false);
+        enemyDeploymentZone.SetActive(false);
 
         enemiesLeft = new GameObject[meleeNPC_Amount + rangedNPC_Amount + casterAmount_NPC]; // Create new array for the amount of enemies in the wave.
 
@@ -121,6 +130,8 @@ public class WaveManager : MonoBehaviour
             isWaveOnGoing = false;
             UI_ManagerBattleScene.uiManagerBattleScene.UpdateMoneyLeftText(amountOfMoneyGained);
             UI_ManagerBattleScene.uiManagerBattleScene.DeclareWaveOver();
+            playerDeploymentZone.SetActive(true);
+            enemyDeploymentZone.SetActive(true);
 
             yield return new WaitForSeconds(1f);
             foreach (GameObject playerNPC in playerNPCsLeft)

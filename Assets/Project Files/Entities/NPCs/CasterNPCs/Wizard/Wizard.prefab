@@ -161,7 +161,7 @@ MonoBehaviour:
   npcDeployValue: 250
   maxHealth: 50
   currentHealth: 0
-  damage: 15
+  damage: 25
   currentState: 0
   defaultSpellProjectile: {fileID: 0}
   homingSpellProjectile: {fileID: 3380600678960153891, guid: 11be2987c0d268d4f9c178939d963a40, type: 3}
