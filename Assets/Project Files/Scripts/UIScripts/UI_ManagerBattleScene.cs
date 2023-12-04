@@ -101,7 +101,7 @@ public class UI_ManagerBattleScene : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #endif
-#if UNITY_ANDROID || UNITY_STANDALONE
+#if UNITY_ANDROID || UNITY_STANDALONE || UNITY_WEBGL
         Application.Quit();
 #endif
     }

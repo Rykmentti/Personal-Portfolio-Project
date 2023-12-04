@@ -24,7 +24,7 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
             Debug.Log("Deploying preview sprite");
         }
 #endif  // Testing with mouse on PC. Oh this actually still works on tablet, even though I'm not using touch controls because UnityEvents PointEventData is a generic type.
-#if UNITY_EDITOR || UNITY_STANDALONE
+#if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBGL
         CreateDeployablePreviewPrefab();
         isDragging = true;
         Debug.Log("Deploying preview sprite");
@@ -42,7 +42,7 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
             Debug.Log("Dragging preview sprite");
         }
 #endif  // Testing with mouse on PC. Oh this actually still works on tablet, even though I'm not using touch controls because UnityEvents PointEventData is a generic type.
-#if UNITY_EDITOR || UNITY_STANDALONE
+#if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBGL
         if (isDragging)
         {
             previewSpritePrefab.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10f));
@@ -76,7 +76,7 @@ public class DragAndDropDeployNPC : MonoBehaviour, IPointerDownHandler, IPointer
             Debug.Log("Deploying Player NPC and destroying preview sprite");
         }
 #endif  // Testing with mouse on PC. Oh this actually still works on tablet, even though I'm not using touch controls because UnityEvents PointEventData is a generic type.
-#if UNITY_EDITOR || UNITY_STANDALONE
+#if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBGL
         if (isDragging)
         {
             if (UI_ManagerBattleScene.uiManagerBattleScene.CheckIfEnoughMoneyToDeployNPC(deployableNPC_Prefab.GetComponent<NPC2D>().GetNPCDeployValue()) == false) { Destroy(previewSpritePrefab); return; }
