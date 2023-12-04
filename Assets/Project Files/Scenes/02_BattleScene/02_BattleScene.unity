@@ -16882,6 +16882,7 @@ MonoBehaviour:
   playerDeploymentZone: {fileID: 1109361680}
   enemyDeploymentZone: {fileID: 759576212}
   spawnInterval: 0.15
+  currentWaveNumber: 0
   isWaveOnGoing: 0
   enemiesLeft: []
   playerNPCsLeft: []
@@ -17111,8 +17112,8 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 90
-  orthographic: 1
+  field of view: 80
+  orthographic: 0
   orthographic size: 8
   m_Depth: -1
   m_CullingMask:
