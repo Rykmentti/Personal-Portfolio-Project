@@ -18,7 +18,8 @@ public class TitleScreenSceneAudioManager : MonoBehaviour
 
     IEnumerator StartBGM()
     {
-        yield return new WaitForSeconds(0.1f); //There will be a weird half second at the start, where sound will play at 0.01 volume and gradual volume increase does not occur... Adding a delay at the start, will fix it.
+        //yield return new WaitForSeconds(0.1f); //There will be a weird half second at the start, where sound will play at 0.01 volume and gradual volume increase does not occur... Adding a delay at the start, will fix it.
+        // ALWAYS PRELOAD MODERATE SIZE BGM AUDIOS!!! Otherwise they will create a small lag when they are first played!
         audioSource.Play();
 
         while (audioSource.volume < 1)
