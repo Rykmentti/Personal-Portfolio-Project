@@ -20450,7 +20450,7 @@ GameObject:
   - component: {fileID: 1411060077}
   - component: {fileID: 1411060076}
   m_Layer: 5
-  m_Name: HowToPlayInformationBackground
+  m_Name: HowToPlayInformationPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23281,7 +23281,6 @@ RectTransform:
   - {fileID: 862301243}
   - {fileID: 684711826}
   - {fileID: 1059572435}
-  - {fileID: 2146470301}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -25434,6 +25433,7 @@ RectTransform:
   - {fileID: 1959845443}
   - {fileID: 698285041}
   - {fileID: 98244664}
+  - {fileID: 2146470301}
   - {fileID: 1411060075}
   m_Father: {fileID: 1643212864}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26898,17 +26898,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146470300}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 908391076}
-  m_Father: {fileID: 1643212864}
+  m_Father: {fileID: 2014372683}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 105.5}
   m_SizeDelta: {x: 240, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2146470302
