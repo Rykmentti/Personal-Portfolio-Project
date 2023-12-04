@@ -18,9 +18,12 @@ public class NPC2D : MonoBehaviour
     protected NPC_AudioPlayer npcAudioPlayer;
     
     protected Transform target;
+    protected NPC2D targetNPC_Script;
     protected Vector3 targetDestination;
     protected float targetAngle;
     [SerializeField] protected float targetDistance;
+
+    protected float updateTimer = 0;
 
     // Setting battle related values in editor for now, for testing purposes.
     [SerializeField] protected bool globalCooldown;
@@ -68,6 +71,8 @@ public class NPC2D : MonoBehaviour
     // Update is called once per frame
     protected void Update() // Main State Machine Body.
     {
+        updateTimer += Time.deltaTime;
+
         if (target != null)
         {
             targetDistance = npcAgent.remainingDistance;
@@ -118,6 +123,7 @@ public class NPC2D : MonoBehaviour
         if (detectorScript.FindNearestTarget() == null) { SetState(CurrentState.Idle); return; }
 
         target = detectorScript.FindNearestTarget();
+        targetNPC_Script = target.GetComponent<NPC2D>();
         Debug.Log(gameObject.name + " has been assigned nearest target: " + target.name);
         SetState(CurrentState.MovingToAttack);
         Debug.Log(gameObject.name + " is moving to attack " + target.name + "!");
@@ -135,8 +141,9 @@ public class NPC2D : MonoBehaviour
         else if (targetAngle > 135 && targetAngle < 225) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.WalkingAnimationSouth);
         else if (targetAngle > 225 && targetAngle < 315) simpleSpriteAnimationController.SetState(SimpleSpriteAnimationController.CurrentState.WalkingAnimationWest);
 
-        if (targetDestination != target.position) // No need to do calculations again for an object that isn't moving.
-        {
+        if (targetDestination != target.position && updateTimer > 1f / 2f)
+        {   // No need to do calculations again for an object that isn't moving, also saving performance by limiting the amount of times we do the calculation to 2 times per second, instead of every frame.
+            updateTimer = 0f;
             targetDestination = target.position;
             npcAgent.SetDestination(target.position);
         }
@@ -153,8 +160,9 @@ public class NPC2D : MonoBehaviour
         if (target == null) { SetState(CurrentState.FindNearestEnemy); return; }
         npcAgent.stoppingDistance = attackDistance; // Need to set the attack distance here, to make sure attack range is consistent if we change the range for whatever reason.
 
-        if (targetDestination != target.position) // No need to do calculations again for an object that isn't moving.
-        {
+        if (targetDestination != target.position && updateTimer > 1f / 2f)
+        {   // No need to do calculations again for an object that isn't moving, also saving performance by limiting the amount of times we do the calculation to 2 times per second, instead of every frame.
+            updateTimer = 0f;
             targetDestination = target.position;
             npcAgent.SetDestination(target.position);
         }

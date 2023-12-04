@@ -12,6 +12,7 @@ public class CasterNPCProjectile : MonoBehaviour
     int damage;
     int speed;
     float timer;
+    float updateTimer;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,11 +26,14 @@ public class CasterNPCProjectile : MonoBehaviour
     {
         if (target == null) Destroy(gameObject);
 
+        updateTimer += Time.deltaTime;
+
         timer += Time.deltaTime;
         if (timer > 4) Destroy(gameObject); // Clean projectiles, if they miss.
 
-        if (target != null && targetDestination != target.position) // No need to do calculations again for an object that isn't moving.
-        {
+        if (target != null && targetDestination != target.position && updateTimer > 1f / 2f)
+        {   // No need to do calculations again for an object that isn't moving, also saving performance by limiting the amount of times we do the calculation to 2 times per second, instead of every frame.
+            updateTimer = 0;
             targetDestination = target.position;
             projectileAgent.SetDestination(target.position);
         }

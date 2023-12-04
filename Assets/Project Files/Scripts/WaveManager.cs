@@ -6,13 +6,13 @@ using UnityEngine;
 
 public class WaveManager : MonoBehaviour
 {
+    public static WaveManager waveManager; //Only in single scene, might as well be static.
+
     [SerializeField] GameObject playerDeploymentZone;
     [SerializeField] GameObject enemyDeploymentZone;
 
     [SerializeField] float spawnInterval; // Assign in Editor
-    int currentWaveNumber;
-
-    public static WaveManager waveManager;
+    [SerializeField] int currentWaveNumber = 0;
     [SerializeField] bool isWaveOnGoing;
     [SerializeField] GameObject[] enemiesLeft = new GameObject[0];
     [SerializeField] List<GameObject> playerNPCsLeft = new List<GameObject>();
@@ -40,7 +40,6 @@ public class WaveManager : MonoBehaviour
     {
         if (isWaveOnGoing == true) return; // If a wave is already ongoing, don't start a new one.
         isWaveOnGoing = true;
-        currentWaveNumber = waveNumber;
         UI_ManagerBattleScene.uiManagerBattleScene.IncreaseWaveNumber();
         Coroutine spawningCoroutine;
 
@@ -132,6 +131,7 @@ public class WaveManager : MonoBehaviour
             else if (currentWaveNumber >= 4 || currentWaveNumber <= 7) { amountOfMoneyGained = 1500; }
             else if (currentWaveNumber >= 8 || currentWaveNumber <= 9) { amountOfMoneyGained = 2000; }
 
+            currentWaveNumber++;
             isWaveOnGoing = false;
             UI_ManagerBattleScene.uiManagerBattleScene.UpdateMoneyLeftText(amountOfMoneyGained);
             UI_ManagerBattleScene.uiManagerBattleScene.DeclareWaveOver();

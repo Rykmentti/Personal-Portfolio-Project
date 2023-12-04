@@ -55,7 +55,8 @@ public class MeleeNPC : NPC2D
         yield return new WaitForSeconds(0.5f);
         if (target != null)
         {
-            target.GetComponent<NPC2D>().ReceiveDamage(damage);
+            //target.GetComponent<NPC2D>().ReceiveDamage(damage); 
+            targetNPC_Script.ReceiveDamage(damage); // Performance increased by half when I did this. I guess GetComponent is expensive.
             Debug.Log(gameObject.name + " dealt Damage to " + target.name + "!");
         }
     }

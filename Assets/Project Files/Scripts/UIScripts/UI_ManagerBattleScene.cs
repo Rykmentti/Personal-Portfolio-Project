@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class UI_ManagerBattleScene : MonoBehaviour
 {
-    public static UI_ManagerBattleScene uiManagerBattleScene; //Always singular, might as well be static.
+    public static UI_ManagerBattleScene uiManagerBattleScene; //Only in single scene, might as well be static.
     [SerializeField] WaveManager waveManager; // Assign in Editor
 
     [SerializeField] GameObject menuUI; // Assign in Editor
