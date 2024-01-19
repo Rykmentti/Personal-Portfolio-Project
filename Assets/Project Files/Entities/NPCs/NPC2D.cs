@@ -238,7 +238,7 @@ public class NPC2D : MonoBehaviour
     {
         return npcDeployValue;
     }
-    //void OnEnable() // Object fooling. I.e. If we have a pool of objects, we can use this to update the UI when the object is enabled.
+    //void OnEnable() // Object pooling. I.e. If we have a pool of objects, we can use this to update the UI when the object is enabled.
     //{
     //    if (gameObject.tag == "Blue") UI_Manager.uiManager.UpdatePlayerNPCTotalValueText(npcDeployValue);
     //    else if (gameObject.tag == "Red") UI_Manager.uiManager.UpdateEnemyNPCTotalValueText(npcDeployValue);
